@@ -1,0 +1,62 @@
+{
+  "name": "telegrave",
+  "source": "Comunicado Hapvida 'Implantação da especialidade no Dr. TIS: TELEGRAVE' (imagem 353x681, out/2026)",
+  "uncertain": [
+    "\"PO ou eletivo\" (3º momento): pode ser \"PO/eletivo\" ou \"pós-op\"",
+    "\"Siga Emergência + Internação\" (card SLA): leitura provável, não confirmada"
+  ],
+  "header": {
+    "kicker": "Comunicado importante",
+    "title": "Implantação da especialidade no Dr. TIS",
+    "tag": "TELEGRAVE",
+    "tagIcon": "monitor"
+  },
+  "blocks": [
+    { "type": "objective", "text": "Centralizar as discussões clínicas no Dr. TIS: **mais seguro, documentado e rastreável (LGPD)**." },
+    { "type": "section", "title": "QUANDO SOLICITAR?" },
+    {
+      "type": "steps",
+      "label": "MOMENTO",
+      "items": [
+        { "title": "NEGATIVA CONTRATUAL", "text": "Paciente com negativa por restrição contratual que teve ==mudança do quadro clínico==." },
+        { "title": "REDISCUSSÃO", "text": "Paciente **com senha de internação**, para otimizar conduta, exames ou mudar alocação." },
+        {
+          "title": "CONVERSÃO PARA CLÍNICA",
+          "bullets": [
+            "Paciente **cirúrgico** (PO ou eletivo) com intercorrência que exige internação clínica",
+            "**RN após 48h do parto** com necessidade de internação clínica"
+          ]
+        }
+      ]
+    },
+    { "type": "break" },
+    { "type": "section", "title": "COMO FUNCIONA" },
+    {
+      "type": "tiles",
+      "items": [
+        { "icon": "user", "label": "Nova fila", "title": "Telegrave Adulto" },
+        { "icon": "child", "label": "Nova fila", "title": "Telegrave Pediátrico" }
+      ]
+    },
+    {
+      "type": "cards",
+      "items": [
+        { "icon": "clock", "title": "SLA de 2 horas", "text": "Siga Emergência + Internação" },
+        { "icon": "bed", "title": "Internação", "text": "As solicitações seguem no **PSM**" },
+        { "icon": "send", "title": "Grupo no Telegram", "text": "Servirá **apenas** para orientação e contingência", "variant": "warn" }
+      ]
+    },
+    {
+      "type": "alert",
+      "title": "Priorizar no Telegram apenas",
+      "items": ["Fluxo abdome agudo", "IAM com supra de ST", "Instáveis (IOT / DVA)", "UTI prioridade 1"]
+    },
+    { "type": "bar", "icon": "calendar", "label": "Implantação", "text": "Em **onda única** a partir de **08/10/2026**" },
+    { "type": "bar", "icon": "hospital", "label": "Abrangência", "text": "**170 unidades**: hospitais e PAs" }
+  ],
+  "footer": {
+    "brand": "Hapvida",
+    "note": "Telegrave · Dr. TIS",
+    "disclaimer": "Releitura não oficial do comunicado original"
+  }
+}
