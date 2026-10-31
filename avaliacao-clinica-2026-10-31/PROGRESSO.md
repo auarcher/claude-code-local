@@ -11,9 +11,9 @@ Regra de fontes (Lucas, 31/10 ~12h): brasileira primeiro (SBH, FBG, CBC/CBCD, SO
 - [x] Pesquisa em fonte primária (7 temas) — 7/7 gravados em resultados/
 - [x] Agente extra de fontes brasileiras e de maior nome gravado (resultados/fontes-de-maior-nome.json, 40 afirmações)
 - [x] PR #3 mergeado pelo Lucas em 31/10 ~15h13 (até o commit 3d17479). O trabalho segue na mesma branch, refeita a partir do main; o que vier depois vai em PR novo.
-- [ ] Verificação adversarial (7 temas) — 1/7 gravada (asge-esge: 14/14 confirmadas)
-- [ ] Ajuste do texto com as fontes verificadas; tabela verificacao-diretrizes.md
-- [ ] Crítica clínica e de forma (reduzida a 1 agente por causa do orçamento)
+- [ ] Verificação adversarial (7 temas) — 6/7 gravadas, 74/74 afirmações confirmadas, nenhuma "Mudou"; falta brasil-diretrizes-bulas
+- [x] Texto ajustado a cada verificação (cinética da AST, FA quase normal, ACG 2021, Roma V dor tardia); tabela verificacao-diretrizes.md regenerada por gerar-tabela.py
+- [ ] Crítica clínica e de forma (1 agente Opus, workflow wf_11f70b67-fc9, em andamento) — resultados/critica.json
 - [ ] PDF final entregue
 
 
