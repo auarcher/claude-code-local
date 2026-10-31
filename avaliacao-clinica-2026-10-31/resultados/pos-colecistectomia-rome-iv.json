@@ -1,0 +1,183 @@
+{
+  "id": "pos-colecistectomia-rome-iv",
+  "tema": "Dor biliar pós-colecistectomia: Roma IV (e Roma V, 2026), disfunção do esfíncter de Oddi, cálculo residual/recorrente e coto do ducto cístico",
+  "claims": [
+    {
+      "afirmacao": "Roma IV foi substituído por Roma V (Gastroenterology, maio/2026). Em Roma V, o distúrbio biliar do esfíncter de Oddi (SOD, sphincter of Oddi disorder) exige os três: dor biliar típica; elevação de provas hepáticas e/ou dilatação biliar; ausência de cálculo no ducto ou de outra alteração estrutural.",
+      "sociedade": "Rome Foundation (Gastroenterology)",
+      "titulo": "Gallbladder and Sphincter of Oddi Disorders (Rome V) - Elmunzer BJ et al.",
+      "ano": "2026",
+      "link": "https://www.gastrojournal.org/article/S0016-5085(26)00124-1/fulltext",
+      "secao": "Biliary Sphincter of Oddi Disorder, Box 3 (Diagnostic Criteria for Biliary Sphincter of Oddi Disorder)",
+      "confianca": "alta",
+      "trecho": "Elevated liver tests and/or biliary dilation",
+      "observacao": "DOI 10.1053/j.gastro.2026.01.035; Gastroenterology 2026;170(6):1303-1317; publicação eletrônica em 17/02/2026 (PubMed 41713708). Mudanças em relação a Roma IV: o 'mas não ambos' virou 'e/ou'; os critérios de suporte foram eliminados; manometria e cintilografia hepatobiliar saíram dos critérios. O título pedido na tarefa (Cotton 2016) é a edição anterior."
+    },
+    {
+      "afirmacao": "Roma V define dor biliar típica como dor em epigástrio e/ou hipocôndrio direito com todos estes itens: início agudo, de 20 minutos a várias horas; episódica, com intervalos variáveis entre crises; forte o bastante para interromper atividades ou motivar atendimento agudo; sem relação com evacuação e sem alívio com supressão ácida ou mudança de posição. Achados de apoio: náusea/vômito, irradiação para o dorso e/ou escápula direita, dor pós-prandial, dor que acorda o paciente.",
+      "sociedade": "Rome Foundation (Gastroenterology)",
+      "titulo": "Gallbladder and Sphincter of Oddi Disorders (Rome V) - Elmunzer BJ et al.",
+      "ano": "2026",
+      "link": "https://www.gastrojournal.org/article/S0016-5085(26)00124-1/fulltext",
+      "secao": "Typical Biliary Pain, Box 1 (Definition of Typical Biliary Pain)",
+      "confianca": "alta",
+      "trecho": "Acute onset, lasting at least 20 minutes and up to several hours",
+      "observacao": "Roma IV pedia 30 minutos ou mais, dor não diária e quantificava 'não significativamente' como menos de 20%. Em Roma V, 'critérios' virou 'definição' e entrou o qualificador 'típica'."
+    },
+    {
+      "afirmacao": "Roma V lembra a classificação de Milwaukee modificada (tipo I: dor + enzimas acima de 1,1 vez o limite superior + ducto acima de 9 mm; tipo II: dor + um dos dois; tipo III: só dor) e diz que o tipo III foi abandonado após o EPISOD: esses pacientes provavelmente têm outro distúrbio da interação intestino-cérebro (DGBI) e devem ser tratados como tal. O termo SOD biliar passa a valer para dor biliar com evidência, ao menos transitória, de obstrução biliar.",
+      "sociedade": "Rome Foundation (Gastroenterology)",
+      "titulo": "Gallbladder and Sphincter of Oddi Disorders (Rome V) - Elmunzer BJ et al.",
+      "ano": "2026",
+      "link": "https://www.gastrojournal.org/article/S0016-5085(26)00124-1/fulltext",
+      "secao": "Biliary Sphincter of Oddi Disorder, Clinical Evaluation (Milwaukee classification; EPISOD)",
+      "confianca": "alta",
+      "trecho": "SOD III was abandoned because it does not reflect a primary sphincter disorder",
+      "observacao": "Roma V também afirma que a subtipagem em SOD não se correlaciona bem com o desfecho."
+    },
+    {
+      "afirmacao": "Roma IV (2016): critério E1b de distúrbio funcional do esfíncter de Oddi biliar = critérios de dor biliar + enzimas hepáticas elevadas OU ducto dilatado (mas não ambos) + ausência de cálculo no ducto ou de outra alteração estrutural. Apoio: amilase/lipase normais, manometria anormal, cintilografia hepatobiliar. A classificação de Milwaukee foi chamada de ultrapassada e deveria ser abandonada: o antigo tipo I seria em geral estenose orgânica, e o antigo tipo II passou a se chamar distúrbio funcional suspeito do esfíncter biliar.",
+      "sociedade": "Rome Foundation (Gastroenterology)",
+      "titulo": "Rome IV. Gallbladder and Sphincter of Oddi Disorders - Cotton PB et al.",
+      "ano": "2016",
+      "link": "https://www.gastrojournal.org/article/S0016-5085(16)00224-9/fulltext",
+      "secao": "Functional Biliary Sphincter Disorder, Diagnostic Criteria E1b e Changes Since Rome III",
+      "confianca": "alta",
+      "trecho": "Elevated liver enzymes or dilated bile duct, but not both",
+      "observacao": "DOI 10.1053/j.gastro.2016.02.033 (PubMed 27144629). Na tarefa o critério aparece como 'E1c'; no texto aberto ele é o E1b (o E1a é o distúrbio funcional da vesícula). Edição superada por Roma V (2026). O PubMed não lista errata, só um comentário."
+    },
+    {
+      "afirmacao": "Para Roma IV, o primeiro passo na dor pós-colecistectomia é excluir causa orgânica: cálculo retido ou vesícula parcial, complicação pós-operatória, pancreatite, esteatose, úlcera péptica e outras. Ultrassom ou TC podem ser o início, mas colangiorressonância (CPRM) e ecoendoscopia (EUS) dão informação mais completa; a EUS é o melhor exame para afastar cálculo no ducto e doença da papila. A CPRE deve ficar para quem precisa de manometria ou terapia endoscópica, como quem tem forte evidência objetiva de obstrução biliar.",
+      "sociedade": "Rome Foundation (Gastroenterology)",
+      "titulo": "Rome IV. Gallbladder and Sphincter of Oddi Disorders - Cotton PB et al.",
+      "ano": "2016",
+      "link": "https://www.gastrojournal.org/article/S0016-5085(16)00224-9/fulltext",
+      "secao": "Functional Biliary Sphincter Disorder: Exclusion of Organic Disease; ERCP and sphincter of Oddi manometry",
+      "confianca": "alta",
+      "trecho": "The first task in patients with post-cholecystectomy pain is to exclude organic causes.",
+      "observacao": "Roma IV ainda observa que as enzimas hepáticas têm pico nas crises de dor e podem indicar obstrução por espasmo ou passagem de cálculo."
+    },
+    {
+      "afirmacao": "Ensaio EPISOD (randomizado, com controle sham, 214 pacientes com dor pós-colecistectomia sem alteração relevante de imagem ou laboratório): sucesso em 37% com sham contra 23% com esfincterotomia (diferença ajustada de -15,6%; p = 0,01). A manometria não previu o desfecho, nenhum subgrupo se beneficiou e houve pancreatite em 11% (esfincterotomia) e 15% (sham). Os autores concluem que o resultado não apoia CPRE com esfincterotomia nesses pacientes.",
+      "sociedade": "JAMA (ensaio NIDDK; NCT00688662)",
+      "titulo": "Effect of endoscopic sphincterotomy for suspected sphincter of Oddi dysfunction on pain-related disability following cholecystectomy: the EPISOD randomized clinical trial - Cotton PB et al.",
+      "ano": "2014",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/24867013/",
+      "secao": "Resumo: Results e Conclusions and Relevance",
+      "confianca": "alta",
+      "trecho": "These findings do not support ERCP and sphincterotomy for these patients.",
+      "observacao": "DOI 10.1001/jama.2014.5220; JAMA 2014;311(20):2101-9; PMC4428324. Desfecho: menos de 6 dias de incapacidade por dor nos 90 dias anteriores, aos meses 9 e 12, sem opioide nem nova intervenção esfincteriana. O PubMed não lista errata (há um comentário de 2019)."
+    },
+    {
+      "afirmacao": "Roma V alerta que provas hepáticas alteradas podem vir de processo independente, como fígado esteatótico, e que o laudo de ducto dilatado é difícil de interpretar. Cita estudo populacional por ressonância com limite superior do colédoco após colecistectomia de 13 mm (abaixo de 65 anos) e 14 mm (acima de 65 anos), contra os 9 mm usados historicamente.",
+      "sociedade": "Rome Foundation (Gastroenterology)",
+      "titulo": "Gallbladder and Sphincter of Oddi Disorders (Rome V) - Elmunzer BJ et al.",
+      "ano": "2026",
+      "link": "https://www.gastrojournal.org/article/S0016-5085(26)00124-1/fulltext",
+      "secao": "Biliary Sphincter of Oddi Disorder: bile duct diameter (Beyer et al., Gut 2023) e Figure 5 (avaliação)",
+      "confianca": "alta",
+      "trecho": "this upper limit of normal increases to 13 mm and 14 mm",
+      "observacao": "Sem colecistectomia: 8 mm (abaixo de 65 anos) e 11 mm (acima de 65 anos). Roma V diz que esse novo limite ainda precisa de validação prospectiva."
+    },
+    {
+      "afirmacao": "Roma V: a esfincterotomia alivia a dor em mais de 90% no antigo tipo I, mas a evidência no antigo tipo II é fraca (estudos retrospectivos e abertos). A maioria dos pacientes encaminhados por suspeita de SOD provavelmente tem outro DGBI e pode se beneficiar mais de neuromodulação ou antiespasmódico do que de terapia esfincteriana. Testes não invasivos (cintilografia, ultrassom estimulado) não devem guiar decisão, e a manometria foi praticamente abandonada.",
+      "sociedade": "Rome Foundation (Gastroenterology)",
+      "titulo": "Gallbladder and Sphincter of Oddi Disorders (Rome V) - Elmunzer BJ et al.",
+      "ano": "2026",
+      "link": "https://www.gastrojournal.org/article/S0016-5085(26)00124-1/fulltext",
+      "secao": "Biliary Sphincter of Oddi Disorder: Clinical Evaluation e Treatment",
+      "confianca": "alta",
+      "trecho": "most patients who have traditionally been referred for suspected SOD likely have another DGBI",
+      "observacao": "Com dor atípica, Roma V manda pesar o grau de obstrução contra os fatores de confusão: CPRE se justifica com obstrução estática importante (icterícia e dilatação) sem causa aparente, e não com dor atípica e dilatação em usuário crônico de opioide."
+    },
+    {
+      "afirmacao": "ASGE 2019, para evitar CPRE diagnóstica: a CPRE direta só se indica com critério de alto risco (cálculo no colédoco ao ultrassom ou na imagem seccional; bilirrubina total acima de 4 mg/dL com colédoco dilatado; colangite ascendente). Provas hepáticas alteradas, idade acima de 55 anos ou colédoco dilatado definem risco intermediário (10-50%), que deve seguir para EUS, CPRM, colangiografia ou ultrassom intraoperatório. A CPRE tem eventos adversos maiores em 6-15%.",
+      "sociedade": "ASGE (American Society for Gastrointestinal Endoscopy)",
+      "titulo": "ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis - Buxbaum JL et al.",
+      "ano": "2019",
+      "link": "https://www.asge.org/docs/default-source/guidelines/asge-guideline-on-the-role-of-endoscopy-in-the-evaluation-and-management-of-choledocholithiasis-2019-june-gie.pdf",
+      "secao": "Recomendação 6 (critérios de alto e intermediário risco; Table 15); Introduction",
+      "confianca": "alta",
+      "trecho": "In order to minimize the risk of diagnostic ERCP",
+      "observacao": "DOI 10.1016/j.gie.2018.10.001; GIE 2019;89(6):1075-1105.e15 (PubMed 30979521; texto completo aberto também no PMC8594622). Para dilatação, o texto usa mais de 6 mm com vesícula e 8 mm após colecistectomia. A estratificação foi pensada sobretudo para quem tem vesícula; aplicá-la à paciente colecistectomizada é uma extrapolação."
+    },
+    {
+      "afirmacao": "No risco intermediário, a ASGE sugere EUS ou CPRM (recomendação condicional, evidência baixa) e deixa a escolha para preferência do paciente, experiência local e disponibilidade. Na metanálise de comparação direta citada (Meeralam 2017), a sensibilidade foi 0,97 com EUS e 0,87 com CPRM, com especificidade parecida (0,90 e 0,92). Nos estudos de maior discrepância, as CPRM falso-negativas eram cálculos pequenos (cerca de 6 mm), e Kondo et al. propõem EUS após CPRM negativa. Perfuração por EUS diagnóstica: 0,02-0,07%.",
+      "sociedade": "ASGE (American Society for Gastrointestinal Endoscopy)",
+      "titulo": "ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis - Buxbaum JL et al.; Meeralam Y et al., Gastrointest Endosc 2017",
+      "ano": "2019",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8594622/",
+      "secao": "Question 1 (EUS versus MRCP), Summary of the evidence e Discussion",
+      "confianca": "alta",
+      "trecho": "the false-negative MRCPs were for small stones",
+      "observacao": "Metanálise: Meeralam Y, Al-Shammari K, Yaghoobi M. GIE 2017;86(6):986-993, DOI 10.1016/j.gie.2017.06.009 (PubMed 28645544), 5 estudos e 272 pacientes. Nas versões abertas (PMC e PDF da ASGE) o sinal antes de '6 mm' não aparece; não dá para afirmar se é menor que 6 mm ou até 6 mm."
+    },
+    {
+      "afirmacao": "ESGE 2019 recomenda EUS ou CPRM quando a suspeita clínica persiste mas o ultrassom não mostra cálculo (recomendação forte, evidência moderada) e registra que a EUS é mais sensível, sobretudo para cálculos pequenos. Sem diagnóstico morfológico de cálculo, a CPRE imediata só vale para colangite. Em quem já tirou a vesícula, a CPRE com retirada do cálculo é o tratamento primário e definitivo.",
+      "sociedade": "ESGE (European Society of Gastrointestinal Endoscopy)",
+      "titulo": "Endoscopic management of common bile duct stones: ESGE guideline - Manes G et al.",
+      "ano": "2019",
+      "link": "https://www.thieme-connect.com/products/ejournals/html/10.1055/a-0862-0346",
+      "secao": "4.2 Role of EUS and MRCP; 4.3 Algorithm (Fig. 1); 7 Endoscopic CBDS management and surgery",
+      "confianca": "alta",
+      "trecho": "ERCP should be performed immediately only in patients with a clinical picture of cholangitis",
+      "observacao": "DOI 10.1055/a-0862-0346; Endoscopy 2019;51(5):472-491 (PubMed 30943551). Análises de decisão citadas preferem EUS com probabilidade de 40-91%, porque a CPRE pode ser feita na mesma sessão; o próprio texto ressalva custo e logística locais."
+    },
+    {
+      "afirmacao": "Cálculo do colédoco anos após a colecistectomia é um quadro reconhecido. Na série clássica de cálculo primário do colédoco, o critério incluía pelo menos 2 anos sem sintomas após a cirurgia e ausência de coto cístico longo ou estenose; o intervalo médio até o diagnóstico foi de 12 anos (30 pacientes, idade média 66 anos), e a colangite aguda foi apresentação frequente.",
+      "sociedade": "Annals of Surgery (artigo primário)",
+      "titulo": "Primary common duct stones - Saharia PC, Zuidema GD, Cameron JL",
+      "ano": "1977",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/857748/",
+      "secao": "Resumo",
+      "confianca": "media",
+      "trecho": "at least a two year symptom free interval following cholecystectomy",
+      "observacao": "DOI 10.1097/00000658-197705000-00013. Série antiga e pequena. Não localizei estudo populacional com DOI que dê a incidência anual de coledocolitíase anos após a colecistectomia. Wu 2007 (HBPD Int, PubMed 18086630, sem DOI no PubMed) relata intervalo médio de 8,23 anos (2 a 28) em 61 pacientes com cálculo primário e colecistectomia prévia."
+    },
+    {
+      "afirmacao": "Cálculo no coto do ducto cístico ou na vesícula remanescente causa dor pós-colecistectomia que pode aparecer anos depois. Em série prospectiva de 60 pacientes operados para completar a colecistectomia, a mediana entre a cirurgia inicial e a reoperação foi de 66 meses (2 a 384), e 93,3% se apresentaram com dor. Em outra série, o cálculo no remanescente foi de 4,19% após colecistectomia laparoscópica subtotal contra 0,02% após a convencional, com a CPRM descrita como exame de escolha.",
+      "sociedade": "JSLS; Annals of the Royal College of Surgeons of England (artigos primários)",
+      "titulo": "Completion Cholecystectomy for Symptomatic Cystic Duct Stump Calculi - Kumar S et al. (2025); Laparoscopic management of remnant cystic duct calculi - Palanivelu C et al. (2009)",
+      "ano": "2025",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40547491/",
+      "secao": "Resumos (Results/Conclusions)",
+      "confianca": "media",
+      "trecho": "Magnetic resonance cholangiopancreaticography is the imaging modality of choice",
+      "observacao": "Kumar 2025: DOI 10.4293/JSLS.2025.00034 (73% das cirurgias iniciais foram abertas). Palanivelu: DOI 10.1308/003588409X358980, PubMed 18990269 (https://pubmed.ncbi.nlm.nih.gov/18990269/); o trecho citado é dele. Séries de um só centro, na Índia, com risco de viés de seleção."
+    },
+    {
+      "afirmacao": "Em estudo prospectivo antigo, a colangiografia por ressonância teve sensibilidade de 57% e especificidade de 100% para cálculo biliar contra CPRE ou EUS; 55% dos cálculos mediam menos de 6 mm, e os autores concluíram que esses cálculos ainda eram perdidos com o equipamento padrão da época.",
+      "sociedade": "Gut (artigo primário)",
+      "titulo": "Use of magnetic resonance cholangiography in the diagnosis of choledocholithiasis: prospective comparison with a reference imaging method - Zidi SH et al.",
+      "ano": "1999",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/9862837/",
+      "secao": "Resumo (Results/Conclusions)",
+      "confianca": "baixa",
+      "trecho": "Stones smaller than 6 mm are still often missed by MRC",
+      "observacao": "DOI 10.1136/gut.44.1.118. Tecnologia de 1999, com sequência 2D: não estima a sensibilidade atual da CPRM. Serve só para mostrar que o tamanho do cálculo limita o método. Não localizei metanálise recente que estratifique a sensibilidade da CPRM por cálculos menores que 5-6 mm."
+    }
+  ],
+  "aplicacao_ao_caso": "1) Roma V (2026, que substitui Roma IV) não permite diagnosticar distúrbio do esfíncter de Oddi agora. Faltam dois critérios: a dor precisa ser episódica, e este é o primeiro episódio descrito; e a ausência de cálculo ou de alteração estrutural ainda não foi demonstrada. A paciente tem elevação de provas hepáticas, mas USG e TC são pouco sensíveis para cálculo pequeno, e Roma IV e Roma V pedem CPRM e/ou EUS antes de pensar em SOD.\n2) Antes de pensar em hepatite, a hipótese estrutural a afastar é cálculo do colédoco (primário ou recorrente) ou cálculo no coto cístico. Nove anos após a colecistectomia é um intervalo compatível: na série de Saharia o intervalo médio foi de 12 anos, e nas séries de coto a mediana foi de 66 meses, chegando a 384.\n3) Bilirrubina normal não tira a paciente da faixa de risco. Pela ASGE 2019, provas hepáticas alteradas isoladas já definem risco intermediário (10-50%), com EUS ou CPRM indicadas. Os critérios de alto risco (cálculo na imagem, bilirrubina acima de 4 mg/dL com dilatação, colangite) não estão presentes, então a CPRE direta não se indica. A estratificação foi validada sobretudo com vesícula in situ, e aplicá-la aqui é extrapolação.\n4) CPRM está correta como próximo exame, o que coincide com o plano do cirurgião. Se vier negativa e houver nova crise de dor com pico de enzimas, ESGE e ASGE apoiam a EUS: na comparação direta ela foi mais sensível, e as CPRM falso-negativas eram de cálculos pequenos (cerca de 6 mm).\n5) A esteatose grau I pode explicar parte da alteração enzimática (Roma V cita fígado esteatótico como fator de confusão). Elevação aguda ligada a uma crise de dor, porém, é o padrão que Roma IV associa a obstrução transitória ou passagem de cálculo.\n6) CPRE empírica ou esfincterotomia não tem respaldo. Não há cálculo na imagem, nem colangite clínica definida (afebril, anictérica), nem dilatação. O EPISOD mostrou esfincterotomia pior que sham na dor pós-colecistectomia sem achados objetivos, com pancreatite em 11-15%; Roma IV e V reservam a CPRE para obstrução objetiva e documentada.\n7) Se CPRM e EUS forem negativas e as crises de dor com enzimas alteradas se repetirem, a paciente passaria a preencher os critérios de Roma V para SOD biliar (e/ou). Ainda assim, Roma V diz que a evidência para esfincterotomia nesse perfil (antigo tipo II) é fraca, e a decisão seria eletiva, em centro de referência.\n8) Esses documentos não tratam do momento do exame (internação ou ambulatório), da leucocitose nem do antibiótico; essas questões dependem de outras diretrizes (por exemplo, Tóquio para colangite).",
+  "lacunas": "1) Não localizei estudo populacional com DOI que dê a incidência anual de coledocolitíase recorrente ou residual anos após a colecistectomia. Usei a série de Saharia 1977 (com DOI) e citei Wu 2007 sem DOI no PubMed; o resumo de congresso do AJG 2017 (Spataro et al.), que fala em apresentação até 3 anos após a cirurgia, não foi usado por ser só resumo. 2) Não localizei metanálise recente que estratifique a sensibilidade da CPRM e da EUS especificamente para cálculos menores que 5 mm; o dado sobre cerca de 6 mm vem da discussão da ASGE 2019, e nas versões abertas o sinal de desigualdade antes de '6 mm' não aparece. 3) Figura 5 de Roma V (algoritmo da SOD biliar): só a legenda foi lida, não o conteúdo da imagem. 4) O seguimento de longo prazo do EPISOD, citado por Roma V, não foi aberto. 5) O ESGE previa revisar a diretriz em 2023; não achei versão nova (busca no PubMed 2022-2026 só trouxe o consenso EAES 2022 sobre manejo e documentos locais), e a página de diretrizes do ESGE não carregou o conteúdo. 6) A tarefa pedia Roma IV 'E1c'; no texto oficial é E1b, e a edição em vigor é Roma V (2026). 7) As séries de coto cístico são de um só centro, com viés de seleção.",
+  "edicao_mais_recente_confirmada": "Rome Foundation: edição em vigor é Roma V, Elmunzer BJ et al., Gastroenterology 2026;170(6):1303-1317, publicação eletrônica em 17/02/2026, DOI 10.1053/j.gastro.2026.01.035 (PubMed 41713708), sem errata no registro do PubMed consultado em 31/10/2026. Ela substitui Roma IV (Cotton PB et al., Gastroenterology 2016, DOI 10.1053/j.gastro.2016.02.033, PubMed 27144629, sem errata, só um comentário). EPISOD: JAMA 2014;311(20):2101-9, DOI 10.1001/jama.2014.5220, sem errata (só um comentário de 2019). ASGE: diretriz de coledocolitíase de 2019 (GIE 89(6):1075-1105.e15, DOI 10.1016/j.gie.2018.10.001); não encontrei versão mais nova da ASGE sobre o tema até 31/10/2026. ESGE: diretriz de cálculos do colédoco de 2019 (Endoscopy 51(5):472-491, DOI 10.1055/a-0862-0346), com revisão prevista para 2023; não localizei atualização publicada até 31/10/2026.",
+  "links_abertos": [
+    "https://www.gastrojournal.org/article/S0016-5085(26)00124-1/fulltext",
+    "https://www.gastrojournal.org/article/S0016-5085(16)00224-9/fulltext",
+    "https://pubmed.ncbi.nlm.nih.gov/41713708/",
+    "https://pubmed.ncbi.nlm.nih.gov/27144629/",
+    "https://pubmed.ncbi.nlm.nih.gov/24867013/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8594622/",
+    "https://www.asge.org/docs/default-source/guidelines/asge-guideline-on-the-role-of-endoscopy-in-the-evaluation-and-management-of-choledocholithiasis-2019-june-gie.pdf",
+    "https://pubmed.ncbi.nlm.nih.gov/30979521/",
+    "https://www.thieme-connect.com/products/ejournals/html/10.1055/a-0862-0346",
+    "https://pubmed.ncbi.nlm.nih.gov/30943551/",
+    "https://pubmed.ncbi.nlm.nih.gov/28645544/",
+    "https://pubmed.ncbi.nlm.nih.gov/857748/",
+    "https://pubmed.ncbi.nlm.nih.gov/18086630/",
+    "https://pubmed.ncbi.nlm.nih.gov/40547491/",
+    "https://pubmed.ncbi.nlm.nih.gov/18990269/",
+    "https://pubmed.ncbi.nlm.nih.gov/9862837/",
+    "https://pubmed.ncbi.nlm.nih.gov/37056091/",
+    "https://pubmed.ncbi.nlm.nih.gov/21816699/"
+  ]
+}

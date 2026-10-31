@@ -1,0 +1,178 @@
+{
+  "id": "tg18-colangite-antibiotico",
+  "tema": "Colangite aguda: critérios diagnósticos, gravidade e antibiótico (Tokyo Guidelines 2018 e atualizações)",
+  "claims": [
+    {
+      "afirmacao": "Critérios diagnósticos TG18 (Tokyo Guidelines 2018, idênticos aos TG13) para colangite aguda: A = inflamação sistêmica (A-1 febre >38 °C e/ou calafrios; A-2 leucócitos <4.000 ou >10.000/µL ou PCR (proteína C reativa) ≥1 mg/dL); B = colestase (B-1 icterícia, bilirrubina total ≥2 mg/dL; B-2 FA (fosfatase alcalina), GGT, AST ou ALT >1,5 vez o limite superior da normalidade); C = imagem (C-1 dilatação biliar; C-2 causa visível: estenose, cálculo, prótese).",
+      "sociedade": "Tokyo Guidelines Revision Committee / Japanese Society of Hepato-Biliary-Pancreatic Surgery (JSHBPS), publicado no JHBPS",
+      "titulo": "Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis (with videos). Kiriyama S et al. J Hepatobiliary Pancreat Sci 2018;25(1):17-30. DOI 10.1002/jhbp.512",
+      "ano": "2018",
+      "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.512",
+      "secao": "Tabela 2 (TG18/TG13 diagnostic criteria for acute cholangitis) e quadro de limiares (Thresholds); recomendação Q2: Recommendation 1, level D",
+      "trecho": "A-1 Fever BT >38°C",
+      "confianca": "alta",
+      "observacao": "Limiar de 1,5 vez o limite superior do próprio laboratório definido no estudo de derivação TG13 (Kiriyama 2012, PMC3429782, Tabela 5). TG18 recomenda manter os critérios TG13 sem modificação."
+    },
+    {
+      "afirmacao": "Diagnóstico suspeito = 1 item de A + 1 item de B ou de C; diagnóstico definitivo = 1 item de A + 1 de B + 1 de C. Inflamação sistêmica (A) é obrigatória.",
+      "sociedade": "Tokyo Guidelines Revision Committee / Japanese Society of Hepato-Biliary-Pancreatic Surgery (JSHBPS), publicado no JHBPS",
+      "titulo": "Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis (with videos). Kiriyama S et al. J Hepatobiliary Pancreat Sci 2018;25(1):17-30. DOI 10.1002/jhbp.512",
+      "ano": "2018",
+      "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.512",
+      "secao": "Tabela 2 e texto 'Systemic inflammation (must be present)'",
+      "trecho": "Suspected diagnosis: one item in A + one item in either B or C",
+      "confianca": "alta",
+      "observacao": "No caso: A-2 (leucocitose) + B-2 (AST, ALT, GGT elevadas) sem C-1/C-2 em USG e TC = diagnóstico apenas suspeito, não definitivo."
+    },
+    {
+      "afirmacao": "Gravidade TG18/TG13: Grau III = disfunção de qualquer órgão (dopamina ≥5 µg/kg/min ou qualquer dose de noradrenalina; alteração de consciência; PaO2/FiO2 <300; oligúria ou creatinina >2,0 mg/dL; RNI (razão normalizada internacional) >1,5; plaquetas <100.000/mm³). Grau II = dois quaisquer entre leucócitos >12.000 ou <4.000/mm³, febre ≥39 °C, idade ≥75 anos, bilirrubina total ≥5 mg/dL, albumina <0,7 × limite inferior. Grau I = não preenche II nem III.",
+      "sociedade": "Tokyo Guidelines Revision Committee / Japanese Society of Hepato-Biliary-Pancreatic Surgery (JSHBPS), publicado no JHBPS",
+      "titulo": "Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis (with videos). Kiriyama S et al. J Hepatobiliary Pancreat Sci 2018;25(1):17-30. DOI 10.1002/jhbp.512",
+      "ano": "2018",
+      "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.512",
+      "secao": "Tabela 4 (TG18/TG13 severity assessment criteria for acute cholangitis); Recommendation 1, level D",
+      "trecho": "“Grade II” acute cholangitis is associated with any two of the following conditions",
+      "confianca": "alta",
+      "observacao": "No caso: nenhum critério de Grau III; para Grau II só leucócitos >12.000 (1 de 5). Albumina não dosada: se <0,7 × limite inferior, passaria a Grau II."
+    },
+    {
+      "afirmacao": "A tríade de Charcot (febre, icterícia, dor) teve sensibilidade de 26,4% e especificidade de 95,9% para colangite aguda em 1.432 casos de doença biliar suspeita (padrão-ouro: bile purulenta, remissão após drenagem ou remissão só com antibiótico). O TG18 cita ainda 21,2% em coorte multicêntrica posterior.",
+      "sociedade": "Tokyo Guidelines Revision Committee (estudo de derivação dos critérios TG13, adotados no TG18)",
+      "titulo": "New diagnostic criteria and severity assessment of acute cholangitis in revised Tokyo Guidelines. Kiriyama S et al. J Hepatobiliary Pancreat Sci 2012;19(5):548-56. DOI 10.1007/s00534-012-0537-3",
+      "ano": "2012",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3429782/",
+      "secao": "Resultados, Tabela 3 (Charcot's triad x TG07 x TG13); o TG18 (jhbp.512, Q1, level D) retoma 26,4% e 21,2%",
+      "trecho": "The sensitivity of Charcot’s triad was only 26.4 %",
+      "confianca": "alta",
+      "observacao": "O resumo informa especificidade de 95,6% e a Tabela 3 informa 95,9% (discrepância interna do artigo). O valor 21,2% vem do TG18 citando Kiriyama 2017 (DOI 10.1002/jhbp.458); o número não aparece no resumo de 2017 que abri."
+    },
+    {
+      "afirmacao": "O próprio TG18 reconhece como limitação a baixa taxa de diagnóstico em casos leves, sem resposta inflamatória sistêmica ou sem causa identificável na imagem; no Grau I, os critérios diagnosticaram só 83,6% dos casos clinicamente diagnosticados, com taxa menor quando a causa era desconhecida.",
+      "sociedade": "Tokyo Guidelines Revision Committee / Japanese Society of Hepato-Biliary-Pancreatic Surgery (JSHBPS), publicado no JHBPS",
+      "titulo": "Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis (with videos). Kiriyama S et al. J Hepatobiliary Pancreat Sci 2018;25(1):17-30. DOI 10.1002/jhbp.512",
+      "ano": "2018",
+      "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.512",
+      "secao": "Diagnostic criteria for acute cholangitis, Q2 e subseção 'Systemic inflammation'",
+      "trecho": "the potential inability to diagnose mild cases",
+      "confianca": "alta",
+      "observacao": "O TG18 também lembra que a icterícia só aparece em 60 a 70% dos casos e que o item B pode ser preenchido sem icterícia, pela elevação de FA, GGT, AST ou ALT."
+    },
+    {
+      "afirmacao": "Imagem: na metanálise citada pelo TG18, a USG abdominal teve sensibilidade de 42% para colédoco dilatado e de 38% para cálculos da via biliar (especificidade 96 a 100%); a sensibilidade da TC para cálculo de colédoco vai de 25 a 90%. Colangiorressonância (RM/CPRM) é recomendada quando USG ou TC não dão diagnóstico definitivo (Recommendation 2, level C).",
+      "sociedade": "Tokyo Guidelines Revision Committee / Japanese Society of Hepato-Biliary-Pancreatic Surgery (JSHBPS), publicado no JHBPS",
+      "titulo": "Tokyo Guidelines 2018: diagnostic criteria and severity grading of acute cholangitis (with videos). Kiriyama S et al. J Hepatobiliary Pancreat Sci 2018;25(1):17-30. DOI 10.1002/jhbp.512",
+      "ano": "2018",
+      "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.512",
+      "secao": "Imaging findings; Q3 (Recommendation 1, level D) e Q5 (Recommendation 2, level C)",
+      "trecho": "abdominal ultrasound has high specificity but insufficient sensitivity",
+      "confianca": "alta",
+      "observacao": "USG e TC sem dilatação nem cálculo não excluem coledocolitíase nem cálculo já eliminado. Isso apoia a colangiorressonância no caso."
+    },
+    {
+      "afirmacao": "Para colangite comunitária Grau I, o TG18 lista como opção empírica ceftriaxona ou cefotaxima (± metronidazol), além de cefazolina, cefuroxima e cefotiam (conforme antibiograma local), cefmetazol, cefoxitina, flomoxefe, cefoperazona/sulbactam, ertapeném ou fluoroquinolona. Ampicilina/sulbactam não é recomendada se a resistência local passar de 20%. Para Grau II a ceftriaxona também aparece; no Grau III só cefalosporinas antipseudomonas.",
+      "sociedade": "Tokyo Guidelines Revision Committee / Japanese Society of Hepato-Biliary-Pancreatic Surgery (JSHBPS), publicado no JHBPS",
+      "titulo": "Tokyo Guidelines 2018: antimicrobial therapy for acute cholangitis and cholecystitis. Gomi H et al. J Hepatobiliary Pancreat Sci 2018;25(1):3-16. DOI 10.1002/jhbp.518",
+      "ano": "2018",
+      "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.518",
+      "secao": "Tabela 3 (agentes por gravidade, infecção comunitária x relacionada à assistência), endossada do TG13",
+      "trecho": "Ceftriaxone, or Cefotaxime ± Metronidazole",
+      "confianca": "alta",
+      "observacao": "Notas da Tabela 3: metronidazol (ou outro anaerobicida) só se houver anastomose bilioentérica; fluoroquinolona recomendada se a sensibilidade for conhecida ou houver alergia a betalactâmico. Sem anastomose no caso: metronidazol dispensável."
+    },
+    {
+      "afirmacao": "O TG18 coloca ceftriaxona e cefotaxima na lista de agentes com alta prevalência de resistência entre enterobactérias, por disseminação global de ESBL (betalactamase de espectro estendido). A escolha deve considerar o antibiograma local, com descalonamento após cultura.",
+      "sociedade": "Tokyo Guidelines Revision Committee / Japanese Society of Hepato-Biliary-Pancreatic Surgery (JSHBPS), publicado no JHBPS",
+      "titulo": "Tokyo Guidelines 2018: antimicrobial therapy for acute cholangitis and cholecystitis. Gomi H et al. J Hepatobiliary Pancreat Sci 2018;25(1):3-16. DOI 10.1002/jhbp.518",
+      "ano": "2018",
+      "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.518",
+      "secao": "Tabela 4 (Antimicrobial agents with high prevalence of resistance among Enterobacteriaceae), nota a",
+      "trecho": "This resistance indicates global spread of extended-spectrum β-lactamase (ESBL)-producing Enterobacteriaceae",
+      "confianca": "alta",
+      "observacao": "Não contradiz a Tabela 3: a ceftriaxona continua sendo opção para os Graus I e II, mas depende da epidemiologia local."
+    },
+    {
+      "afirmacao": "Duração: depois de controlada a fonte, 4 a 7 dias de antibiótico para colangite (Recommendation 1, level C). Com bacteremia por cocos Gram-positivos (Enterococcus, Streptococcus), mínimo de 2 semanas. Se persistirem cálculo residual ou obstrução, manter até a resolução anatômica; se houver abscesso hepático, até a resolução clínica, laboratorial e radiológica.",
+      "sociedade": "Tokyo Guidelines Revision Committee / Japanese Society of Hepato-Biliary-Pancreatic Surgery (JSHBPS), publicado no JHBPS",
+      "titulo": "Tokyo Guidelines 2018: antimicrobial therapy for acute cholangitis and cholecystitis. Gomi H et al. J Hepatobiliary Pancreat Sci 2018;25(1):3-16. DOI 10.1002/jhbp.518",
+      "ano": "2018",
+      "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.518",
+      "secao": "Clinical question sobre duração; Tabela 5 (Recommended duration of antimicrobial therapy)",
+      "trecho": "recommended for the duration of 4 to 7 days",
+      "confianca": "alta",
+      "observacao": "A obstrução que se resolve sozinha (cálculo eliminado espontaneamente) e a ausência de obstrução documentada não são tratadas explicitamente: não localizado no texto aberto. Contar a passagem espontânea como 'fonte controlada' é extrapolação."
+    },
+    {
+      "afirmacao": "Momento: o antibiótico deve começar assim que houver suspeita de infecção biliar; no choque séptico, em até 1 hora; nos demais pacientes, podem-se gastar até 6 horas em exames diagnósticos antes de iniciá-lo.",
+      "sociedade": "Tokyo Guidelines Revision Committee / Japanese Society of Hepato-Biliary-Pancreatic Surgery (JSHBPS), publicado no JHBPS",
+      "titulo": "Tokyo Guidelines 2018: antimicrobial therapy for acute cholangitis and cholecystitis. Gomi H et al. J Hepatobiliary Pancreat Sci 2018;25(1):3-16. DOI 10.1002/jhbp.518",
+      "ano": "2018",
+      "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.518",
+      "secao": "Clinical questions (seção sobre culturas e momento do início da terapia)",
+      "trecho": "therapy should be initiated as soon as the diagnosis of biliary infection is suspected",
+      "confianca": "alta",
+      "observacao": "Apoia o início empírico com diagnóstico apenas suspeito. O fluxograma TG18 (jhbp.509) recomenda colher hemocultura antes do antibiótico, se ainda não colhida."
+    },
+    {
+      "afirmacao": "Na colangite, a drenagem da via biliar obstruída (controle da fonte) é o pilar do tratamento. O papel do antibiótico é permitir que a drenagem seja eletiva em vez de emergencial.",
+      "sociedade": "Tokyo Guidelines Revision Committee / Japanese Society of Hepato-Biliary-Pancreatic Surgery (JSHBPS), publicado no JHBPS",
+      "titulo": "Tokyo Guidelines 2018: antimicrobial therapy for acute cholangitis and cholecystitis. Gomi H et al. J Hepatobiliary Pancreat Sci 2018;25(1):3-16. DOI 10.1002/jhbp.518",
+      "ano": "2018",
+      "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.518",
+      "secao": "Introduction, 'Role of antimicrobial therapy'; seção de agentes para infecção comunitária",
+      "trecho": "source control (i.e. drainage) is an essential part of management",
+      "confianca": "alta",
+      "observacao": "A lógica da duração no TG18 pressupõe obstrução e drenagem. Sem obstrução documentada, a diretriz não dá regra própria (ver lacunas)."
+    },
+    {
+      "afirmacao": "Colangite Grau I: na maioria dos casos o tratamento inicial com antibiótico basta e não há necessidade de drenagem; considerar drenagem se não houver resposta. Critério de transferência: Grau I com cálculo no colédoco ou sem resposta em 24 h deve ser conduzido como Grau II (drenagem precoce).",
+      "sociedade": "Tokyo Guidelines Revision Committee / Japanese Society of Hepato-Biliary-Pancreatic Surgery (JSHBPS), publicado no JHBPS",
+      "titulo": "Tokyo Guidelines 2018: initial management of acute biliary infection and flowchart for acute cholangitis. Miura F et al. J Hepatobiliary Pancreat Sci 2018;25(1):31-40. DOI 10.1002/jhbp.509",
+      "ano": "2018",
+      "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.509",
+      "secao": "Flowchart for the management of acute cholangitis, Grade I; tabela Transfer criteria",
+      "trecho": "most patients do not require biliary drainage",
+      "confianca": "alta",
+      "observacao": "No caso: sem cálculo visível em USG e TC e assintomática na reavaliação, não há indicação de drenagem pelo TG18. Se houver piora clínica ou laboratorial, ou se a colangiorressonância mostrar cálculo, aplica-se a conduta do Grau II."
+    },
+    {
+      "afirmacao": "Pacientes que toleram dieta oral podem passar para antibiótico oral conforme a sensibilidade: amoxicilina/clavulanato, cefalexina (± metronidazol) ou fluoroquinolona (ciprofloxacino, levofloxacino, moxifloxacino).",
+      "sociedade": "Tokyo Guidelines Revision Committee / Japanese Society of Hepato-Biliary-Pancreatic Surgery (JSHBPS), publicado no JHBPS",
+      "titulo": "Tokyo Guidelines 2018: antimicrobial therapy for acute cholangitis and cholecystitis. Gomi H et al. J Hepatobiliary Pancreat Sci 2018;25(1):3-16. DOI 10.1002/jhbp.518",
+      "ano": "2018",
+      "link": "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.518",
+      "secao": "Conversion to oral antimicrobial agents; Tabela 6",
+      "trecho": "who can tolerate oral feeding may be treated with oral therapy",
+      "confianca": "alta",
+      "observacao": "A paciente já aceita dieta oral; se a equipe mantiver antibiótico na alta, a via oral tem respaldo no TG18."
+    },
+    {
+      "afirmacao": "A edição vigente das Tokyo Guidelines continua sendo a TG18. A página oficial da JSHBPS (Sociedade Japonesa de Cirurgia Hepatobiliopancreática) lista a TG18 com atualização de 07/12/2018. Não localizei TG24, TG25 ou TG26 publicada no PubMed nem na web até 31/10/2026, e artigos de 2026 ainda tratam a TG18 como referência atual.",
+      "sociedade": "Japanese Society of Hepato-Biliary-Pancreatic Surgery (JSHBPS)",
+      "titulo": "Tokyo Guidelines 2018 (TG18) – página oficial da JSHBPS",
+      "ano": "2018",
+      "link": "https://www.jshbps.jp/modules/en/index.php?content_id=47",
+      "secao": "Página 'Tokyo Guidelines 2018 (TG18)', cabeçalho de atualização e lista de textos completos",
+      "trecho": "Update: December 7, 2018",
+      "confianca": "media",
+      "observacao": "Conclusão baseada em ausência de achado (busca por título no PubMed e na web). Um artigo de outubro de 2026 (J Clin Med, DOI 10.3390/jcm15207842, via PubMed) chama a TG18 de 'current reference standard'. Existe uma carta-resposta sobre o capítulo de antibióticos (JHBPS 2018;25(6):E6, DOI 10.1002/jhbp.560), mas o conteúdo não estava acessível; não encontrei errata."
+    }
+  ],
+  "aplicacao_ao_caso": "1) Critérios TG18: A-1 não (afebril); A-2 sim (leucócitos 18.840 em D0 e 14.550 em D1, ambos >10.000; PCR não dosada). B-1 não (bilirrubina total 0,80, abaixo de 2). B-2 sim (AST 292-299, ALT 188-281 e GGT 389-401, todas >1,5 vez qualquer limite superior usual; FA 118 provavelmente não). C-1 e C-2 não (sem dilatação nem causa em USG e TC). Resultado: diagnóstico SUSPEITO de colangite (A + B), não definitivo.\n2) A leucocitose é o único item A. Com 6 h de dor, ela pode ser reacional à dor ou ao estresse, e a queda para 14.550 é compatível com evolução espontânea ou com resposta à dose única de ceftriaxona: o TG18 não permite distinguir. Dosar PCR ajudaria a sustentar ou enfraquecer o item A.\n3) Gravidade, se for colangite: nenhum critério de Grau III (RNI 1,00, plaquetas 346.000, creatinina 0,93, Glasgow 15, sem vasopressor). Para Grau II, só leucócitos >12.000 (1 de 5 critérios; idade 50, afebril, bilirrubina total <5). Albumina não dosada: classificar como Grau I exige albumina ≥0,7 × limite inferior. Sugere-se dosá-la no controle das 15:30.\n4) A tríade de Charcot está ausente (só dor), mas sua sensibilidade é de cerca de 26%: a ausência não exclui colangite. O TG18 também diz que a icterícia falta em 30 a 40% dos casos, e o item B pode ser preenchido sem hiperbilirrubinemia. Isso relativiza o argumento de 'baixa probabilidade porque a bilirrubina está normal'.\n5) Imagem: USG (sensibilidade de 38% para cálculo) e TC (25 a 90%) negativas não excluem cálculo no colédoco nem cálculo já eliminado. O TG18 recomenda colangiorressonância quando USG e TC não dão diagnóstico definitivo, o que dá respaldo à colangiorressonância prevista, idealmente sem grande atraso.\n6) Antibiótico: a ceftriaxona 2 g está entre as opções do TG18 para colangite comunitária Grau I e II, com a ressalva de que o próprio TG18 a lista entre agentes com alta resistência por ESBL (o antibiograma local importa). Metronidazol é desnecessário (sem anastomose bilioentérica).\n7) Duração: a regra do TG18 é de 4 a 7 dias APÓS controle da fonte, mantendo enquanto houver obstrução residual. Para obstrução que se resolve sozinha ou nunca documentada, o TG18 não dá regra explícita; tratar a passagem espontânea como 'fonte controlada' (curso curto, eventualmente oral, já que ela aceita dieta) é extrapolação razoável, não recomendação textual. A conduta do cirurgião de manter antibiótico com seguimento ambulatorial é compatível com o TG18 se a equipe adotar a hipótese de colangite leve.\n8) Pelo fluxograma do Grau I, não há indicação de drenagem com a paciente assintomática e sem cálculo visível. Seria preciso reavaliar (conduta de Grau II, ou seja, drenagem ou CPRE (colangiopancreatografia retrógrada endoscópica) precoce) se houver febre, aumento de bilirrubina, nova dor, ausência de resposta em 24 h ou cálculo na colangiorressonância.\n9) No controle das 15:30, transaminases e GGT em queda com bilirrubina estável favorecem a alta conforme o plano. Hemocultura, se desejada, terá rendimento menor depois da ceftriaxona já administrada (o TG18 recomenda colhê-la antes).",
+  "lacunas": "- O TG18 não traz recomendação explícita sobre antibiótico (indicação ou duração) quando a colangite é apenas 'suspeita' e não há obstrução documentada em imagem, nem quando a obstrução se resolve espontaneamente: não localizado.\n- PCR e albumina não foram dosadas no caso. Os limites de referência do laboratório local (necessários para o critério de >1,5 vez o limite superior) não foram informados; assumi faixas usuais.\n- O conteúdo da carta 'Response to Re: Tokyo Guidelines 2018: antimicrobial therapy' (DOI 10.1002/jhbp.560) não estava disponível; não verifiquei se ela gerou correção. Não encontrei errata formal dos capítulos TG18 consultados.\n- O WebFetch direto ao Wiley retornou 403; o texto dos capítulos TG18 (acesso livre) foi lido pela extração do Parallel web_fetch nas URLs oficiais do Wiley, por trechos, não pelo PDF completo.\n- O valor de 21,2% de sensibilidade da tríade de Charcot vem da citação do TG18 (ref. 17, Kiriyama 2017, DOI 10.1002/jhbp.458); o resumo de 2017 que abri não traz o número.\n- A conclusão sobre inexistência de edição posterior à TG18 se apoia em ausência de achado (busca por título no PubMed e busca na web) e em artigos de 2026 que citam a TG18 como vigente. A página de diretrizes da JSHBPS (cat_id=4) não retornou conteúdo listável.\n- Não pesquisei diretrizes não japonesas (ASGE, ESGE, IDSA/SIS, WSES) sobre colangite: estão fora deste tema e são cobertas por outros temas da avaliação.",
+  "edicao_mais_recente_confirmada": "Tokyo Guidelines 2018 (TG18), J Hepatobiliary Pancreat Sci 2018;25(1). Capítulos: critérios diagnósticos e gravidade da colangite (Kiriyama et al., p. 17-30, DOI 10.1002/jhbp.512), antibioticoterapia (Gomi et al., p. 3-16, DOI 10.1002/jhbp.518) e manejo inicial e fluxograma (Miura et al., p. 31-40, DOI 10.1002/jhbp.509), publicados online entre setembro de 2017 e janeiro de 2018. Os critérios diagnósticos e de gravidade são os do TG13 (Kiriyama 2012/2013), adotados sem modificação. A página oficial da JSHBPS mantém a TG18 como versão vigente (atualização de 07/12/2018). Até 31/10/2026 não localizei edição posterior (TG24, TG25 ou TG26) no PubMed nem na web, e artigos de 2026 ainda chamam a TG18 de padrão atual. Existe carta-resposta de 2018 ao capítulo de antibióticos (DOI 10.1002/jhbp.560), de conteúdo não acessado; não encontrei errata.",
+  "links_abertos": [
+    "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.512",
+    "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.518",
+    "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.509",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3429782/",
+    "https://www.jshbps.jp/modules/en/index.php?content_id=47",
+    "https://www.jshbps.jp/modules/en/index.php?cat_id=4",
+    "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.560",
+    "https://pubmed.ncbi.nlm.nih.gov/29032610/",
+    "https://pubmed.ncbi.nlm.nih.gov/29090866/",
+    "https://pubmed.ncbi.nlm.nih.gov/28941329/",
+    "https://pubmed.ncbi.nlm.nih.gov/22825491/",
+    "https://pubmed.ncbi.nlm.nih.gov/28419764/",
+    "https://pubmed.ncbi.nlm.nih.gov/42941358/"
+  ]
+}

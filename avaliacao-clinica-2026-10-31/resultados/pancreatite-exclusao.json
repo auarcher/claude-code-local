@@ -1,0 +1,177 @@
+{
+  "id": "pancreatite-exclusao",
+  "tema": "Exclusão de pancreatite aguda e significado de ALT alta na dor com irradiação dorsal",
+  "claims": [
+    {
+      "afirmacao": "Pela Classificação de Atlanta revisada, o diagnóstico de pancreatite aguda exige 2 de 3: dor típica (epigástrica, persistente, muitas vezes irradiada ao dorso), lipase ou amilase >= 3x o limite superior do normal (LSN) e achados característicos de imagem (TC contrastada, menos comumente RM ou USG). Se a dor sugere fortemente pancreatite mas a enzima está < 3x LSN (por exemplo, apresentação tardia), a imagem é exigida para confirmar. O início da doença é definido pela hora de início da dor, não pela admissão.",
+      "sociedade": "Acute Pancreatitis Classification Working Group (consenso internacional, publicado no Gut)",
+      "titulo": "Classification of acute pancreatitis - 2012: revision of the Atlanta classification and definitions by international consensus (Banks et al.)",
+      "ano": "2013 (online 25/10/2012); Gut 62(1):102-111; DOI 10.1136/gutjnl-2012-302779",
+      "link": "https://gut.bmj.com/content/62/1/102",
+      "secao": "Revised definitions and classification - Definition of diagnosis of acute pancreatitis; Definition of onset of acute pancreatitis",
+      "confianca": "alta",
+      "trecho": "The diagnosis of acute pancreatitis requires two of the following three features",
+      "observacao": "Texto lido pelo extrator web (acesso direto deu 403). Também diz que, com dor e enzimas típicas, a TC contrastada em geral não é necessária para o diagnóstico na admissão."
+    },
+    {
+      "afirmacao": "A ACG mantém os mesmos 2 de 3 critérios (lipase e/ou amilase > 3x LSN) e sugere não fazer TC de rotina na admissão para estimar gravidade. Reserva a TC para quando o diagnóstico é incerto ou quando não há melhora em 48-72 h de internação e hidratação.",
+      "sociedade": "American College of Gastroenterology (ACG)",
+      "titulo": "American College of Gastroenterology Guidelines: Management of Acute Pancreatitis (Tenner et al.)",
+      "ano": "2024 (online 07/11/2023); Am J Gastroenterol 119(3):419-437; DOI 10.14309/ajg.0000000000002645",
+      "link": "https://journals.lww.com/ajg/fulltext/2024/03000/american_college_of_gastroenterology_guidelines_.14.aspx",
+      "secao": "DIAGNOSIS - Key concept 1 e Summary of evidence",
+      "confianca": "alta",
+      "trecho": "reserved for patients in whom the diagnosis is unclear",
+      "observacao": "Conferido também no texto integral do PMC (PMC13221274). A TC contrastada tem sensibilidade e especificidade > 90% para o diagnóstico, segundo o mesmo texto."
+    },
+    {
+      "afirmacao": "A ACG 2024 prefere a lipase à amilase: a amilase pode estar normal na admissão em até um quinto dos pacientes e volta ao normal mais rápido, enquanto a lipase é mais específica e fica elevada por mais tempo. Pede julgamento clínico ao interpretar o limiar de 3-5x LSN. Sem dor compatível, enzima elevada não prediz pancreatite.",
+      "sociedade": "American College of Gastroenterology (ACG)",
+      "titulo": "American College of Gastroenterology Guidelines: Management of Acute Pancreatitis (Tenner et al.)",
+      "ano": "2024; DOI 10.14309/ajg.0000000000002645",
+      "link": "https://journals.lww.com/ajg/fulltext/2024/03000/american_college_of_gastroenterology_guidelines_.14.aspx",
+      "secao": "DIAGNOSIS - Summary of evidence",
+      "confianca": "alta",
+      "trecho": "serum amylase alone cannot be used reliably for the diagnosis of AP",
+      "observacao": "A ACG não dá cinética da lipase em horas, só a da amilase (sobe em poucas horas e normaliza em 3-5 dias). Diz também que, com o diagnóstico já feito, não há motivo para seguir amilase ou lipase em série."
+    },
+    {
+      "afirmacao": "No corpo do texto da ACG 2024 não há limiar de ALT como indicador de etiologia biliar. Para a etiologia, ela sugere USG abdominal em toda pancreatite aguda e repetir o exame se o primeiro for inconclusivo (recomendação condicional, evidência de qualidade muito baixa).",
+      "sociedade": "American College of Gastroenterology (ACG)",
+      "titulo": "American College of Gastroenterology Guidelines: Management of Acute Pancreatitis (Tenner et al.)",
+      "ano": "2024; DOI 10.14309/ajg.0000000000002645",
+      "link": "https://journals.lww.com/ajg/fulltext/2024/03000/american_college_of_gastroenterology_guidelines_.14.aspx",
+      "secao": "ETIOLOGY OF AP - Recommendation 1",
+      "confianca": "media",
+      "trecho": "We suggest transabdominal ultrasound in patients with AP to evaluate for biliary pancreatitis",
+      "observacao": "Afirmação negativa: busquei ALT, alanine, aminotransferase, transaminase e liver no texto integral do PMC sem achar limiar. As tabelas não vieram na extração e não foram verificadas. A única menção é que pacientes com pancreatite idiopática e provas hepáticas alteradas no 1º dia podem se beneficiar mais da colecistectomia."
+    },
+    {
+      "afirmacao": "Metanálise clássica: a ALT foi o melhor marcador laboratorial para separar pancreatite biliar da não biliar. Com ALT >= 150 UI/L (cerca de 3x), a probabilidade de etiologia biliar é de 95% (valor preditivo positivo, VPP), sempre na presença de pancreatite aguda. A AST é quase tão útil; bilirrubina total e fosfatase alcalina não ajudam.",
+      "sociedade": "Tenner S, Dubner H, Steinberg W (Am J Gastroenterol)",
+      "titulo": "Predicting gallstone pancreatitis with laboratory parameters: a meta-analysis",
+      "ano": "1994; Am J Gastroenterol 89(10):1863-6; PMID 7942684",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/7942684/",
+      "secao": "Resumo - Results e Conclusions",
+      "confianca": "alta",
+      "trecho": "in the presence of acute pancreatitis has a positive predictive value of 95%",
+      "observacao": "Li só o resumo; o PubMed não mostra DOI e não abri o texto completo. A sensibilidade não aparece no resumo. O VPP vale para quem já tem pancreatite aguda e não se transfere para quem não tem."
+    },
+    {
+      "afirmacao": "Revisão no J Clin Pathol: ALT > 150 UI/L prediz pancreatite biliar (VPP 95%, citando Tenner 1994), mas só metade dos pacientes com pancreatite biliar chega com ALT alta. Ou seja, a ALT alta é específica e pouco sensível. A mesma revisão diz que a lipase fica elevada por até 8 a 14 dias.",
+      "sociedade": "Matull WR, Pereira SP, O'Donohue JW (J Clin Pathol)",
+      "titulo": "Biochemical markers of acute pancreatitis",
+      "ano": "2006; J Clin Pathol 59(4):340-4; DOI 10.1136/jcp.2002.002923",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1860356/",
+      "secao": "Establishing aetiology; Establishing the diagnosis - lipase",
+      "confianca": "media",
+      "trecho": "only half the patients with gallstone induced acute pancreatitis",
+      "observacao": "É revisão narrativa, não estudo primário. Não dá o tempo de subida nem o pico da lipase em horas."
+    },
+    {
+      "afirmacao": "Diretriz internacional IAP 2025: ALT > 150 U/L nas primeiras 48 h após o início dos sintomas tem VPP > 85% para pancreatite biliar.",
+      "sociedade": "International Association of Pancreatology, com American Pancreatic Association, European Pancreatic Club, Indian Pancreas Club e Japan Pancreas Society",
+      "titulo": "International Association of Pancreatology Revised Guidelines on Acute Pancreatitis 2025",
+      "ano": "2025 (PubMed 10/07/2025); Pancreatology 25(6):770-814; DOI 10.1016/j.pan.2025.04.020",
+      "link": "https://doi.org/10.1016/j.pan.2025.04.020",
+      "secao": "I. Diagnosis and etiology of acute pancreatitis (Q1-Q2, Remarks)",
+      "confianca": "alta",
+      "trecho": "has a positive predictive value > 85 % to diagnose gallstone-induced pancreatitis",
+      "observacao": "Atualiza o número de Tenner (95%) para > 85% e acrescenta a janela de 48 h. Assim como o de Tenner, o VPP vale para pacientes com pancreatite aguda."
+    },
+    {
+      "afirmacao": "IAP 2025: mantém os 2 de 3 critérios (lipase ou amilase > 3x LSN) e avisa que valores < 3x LSN não excluem pancreatite e que valores > 3x podem ter causa não pancreática. A TC inicial fica para incerteza diagnóstica ou falha do tratamento conservador. Para avaliar gravidade, o momento ideal é pelo menos 72-96 h após o início dos sintomas.",
+      "sociedade": "International Association of Pancreatology e sociedades parceiras",
+      "titulo": "International Association of Pancreatology Revised Guidelines on Acute Pancreatitis 2025",
+      "ano": "2025; DOI 10.1016/j.pan.2025.04.020",
+      "link": "https://doi.org/10.1016/j.pan.2025.04.020",
+      "secao": "Recommendation 1 (diagnóstico, Remarks) e Recommendation 7 (indicação e momento da TC inicial)",
+      "confianca": "alta",
+      "trecho": "Concentrations <3 times the upper limit of normal does not rule out AP",
+      "observacao": "Recomendação 1: forte, evidência de baixa qualidade. Recomendação 7: forte, qualidade moderada. O texto também diz que as enzimas caem em 3-5 dias e que a lipase pode ficar elevada por mais tempo que a amilase."
+    },
+    {
+      "afirmacao": "Diretriz ibero-latino-americana 2026: a lipase sobe cerca de 4 h após o início dos sintomas, tem pico em 24 h e fica elevada por 8-14 dias. A amilase sobe em 6 h, tem pico em 48 h e dura 5-7 dias. No contexto clínico adequado, os testes séricos e urinários têm sensibilidade de cerca de 70% e especificidade de cerca de 90%.",
+      "sociedade": "AEG-AESPANC-OPGE-SIED-SPG (diretriz ibero-latino-americana iLATAM-AP, publicada no UEG Journal)",
+      "titulo": "AEG-AESPANC-OPGE-SIED-SPG Ibero-Latin American Guidelines on Acute Pancreatitis (iLATAM-AP)",
+      "ano": "2026 (30/05/2026); United European Gastroenterol J 14(5):e70190; DOI 10.1002/ueg2.70190",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13240590/",
+      "secao": "3.1.2 Q2 - Remarks (diagnóstico e papel da imagem)",
+      "confianca": "alta",
+      "trecho": "Lipase increases approximately 4 h after symptom onset, peaks at 24 h",
+      "observacao": "A diretriz cita revisões (refs 25-26), que não abri; não é dado cinético primário. A mesma diretriz mantém os 2 de 3 critérios (recomendação forte, qualidade moderada)."
+    },
+    {
+      "afirmacao": "iLATAM-AP 2026: sexo feminino, idade > 58 anos e ALT > 3x (>= 150 U/L) sugerem etiologia biliar. Um segundo USG somado à ALT elevada sobe a acurácia para 87%. Para estadiar gravidade, prefere-se TC contrastada pelo menos 72 h após o início da dor.",
+      "sociedade": "AEG-AESPANC-OPGE-SIED-SPG (iLATAM-AP)",
+      "titulo": "AEG-AESPANC-OPGE-SIED-SPG Ibero-Latin American Guidelines on Acute Pancreatitis (iLATAM-AP)",
+      "ano": "2026; DOI 10.1002/ueg2.70190",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13240590/",
+      "secao": "3.1.3 Q3 - Remarks (etiologia); 3.1.2 Q2 - Remarks (momento da TC)",
+      "confianca": "alta",
+      "trecho": "elevation over three times (≥ 150 U/L) suggests a biliary etiology",
+      "observacao": "O contexto também é de pancreatite aguda já diagnosticada. Na América Latina, a etiologia biliar responde por 50-83% dos casos, segundo o mesmo texto."
+    },
+    {
+      "afirmacao": "Estudo prospectivo com 253 pacientes com dor abdominal aguda (32 com pancreatite confirmada por TC ou USG): nas amostras dos dias 0-1 após o início dos sintomas, a lipase estava elevada em 100% e a amilase em 95%. A acurácia de ambas caiu muito nos dias 2-3 e 4-5.",
+      "sociedade": "Keim V et al. (Pancreas)",
+      "titulo": "A comparison of lipase and amylase in the diagnosis of acute pancreatitis in patients with abdominal pain",
+      "ano": "1998; Pancreas 16(1):45-9; DOI 10.1097/00006676-199801000-00008",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/9436862/",
+      "secao": "Resumo",
+      "confianca": "alta",
+      "trecho": "lipase was elevated in 100% and amylase in 95%",
+      "observacao": "Amostra pequena (n=32 com pancreatite) e sem estratificação por hora; o resumo não diz quantas amostras foram colhidas antes de 6 h."
+    },
+    {
+      "afirmacao": "Coorte hospitalar com 320 pancreatites confirmadas por imagem: na primeira dosagem no pronto-socorro, só 2,9% tinham lipase normal, contra 18,8% com amilase normal. No ponto de corte de 208 U/L (normal < 190), a lipase teve sensibilidade de 90,3% e especificidade de 93%.",
+      "sociedade": "Smith RC, Southwell-Keely J, Chesher D (ANZ J Surg)",
+      "titulo": "Should serum pancreatic lipase replace serum amylase as a biomarker of acute pancreatitis?",
+      "ano": "2005; ANZ J Surg 75(6):399-404; DOI 10.1111/j.1445-2197.2005.03391.x",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/15943725/",
+      "secao": "Resumo - Results",
+      "confianca": "alta",
+      "trecho": "only 2.9% did not have elevated serum pancreatic lipase",
+      "observacao": "Estudo retrospectivo e sem informação do tempo desde o início da dor; o resumo não traz o valor preditivo negativo."
+    },
+    {
+      "afirmacao": "Revisão Cochrane de acurácia diagnóstica (10 estudos, 5.056 participantes): lipase > 3x LSN teve sensibilidade de 0,79 (IC 95% 0,54-0,92) e especificidade de 0,89. Com prevalência de 22,6%, 7 de cada 100 testes negativos eram pancreatite. Para lipase acima do normal na admissão (2 estudos, 453 pacientes), a sensibilidade foi de 0,96, com IC 0,00-1,00 e probabilidade pós-teste negativo de 1,3%. O desempenho piora com o passar do tempo.",
+      "sociedade": "Cochrane (Rompianesi G et al.)",
+      "titulo": "Serum amylase and lipase and urinary trypsinogen and amylase for diagnosis of acute pancreatitis",
+      "ano": "2017 (21/04/2017); Cochrane Database Syst Rev CD012010.pub2; DOI 10.1002/14651858.CD012010.pub2",
+      "link": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD012010.pub2/full",
+      "secao": "Abstract - Main results e Authors' conclusions; tabela de resultados (lipase > normal, > 2x e > 3x na admissão)",
+      "confianca": "alta",
+      "trecho": "The diagnostic performance of these tests decreases even further with the progression of time",
+      "observacao": "Risco de viés alto ou incerto em todos os estudos, e o IC da lipase > normal é muito amplo. Os autores recomendam limiar baixo para tratar como pancreatite se a clínica sugerir, mesmo com testes normais. Não confirmei na página se é a versão mais recente; o PubMed não mostra versão posterior."
+    },
+    {
+      "afirmacao": "No modelo pós-CPRE (colangiopancreatografia retrógrada endoscópica), em que a hora da agressão ao pâncreas é conhecida: lipase > 3-4x LSN medida 2-4 h após o exame teve sensibilidade combinada de 92% (especificidade de 81%) para pancreatite pós-CPRE. Lipase < 3x LSN nesse intervalo ajuda a afastar o diagnóstico. Isso apoia que a lipase já sobe nas primeiras horas após a lesão pancreática.",
+      "sociedade": "Goyal H et al. (Endoscopy International Open)",
+      "titulo": "Early prediction of post-ERCP pancreatitis by post-procedure amylase and lipase levels: A systematic review and meta-analysis",
+      "ano": "2022; Endosc Int Open 10(7):E952-E970; DOI 10.1055/a-1793-9508",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9286773/",
+      "secao": "Results (Groups 1-2) e Table 2; Conclusions",
+      "confianca": "media",
+      "trecho": "had the highest pooled sensitivity (92 %) for PEP",
+      "observacao": "Extrapolação de outro mecanismo (lesão iatrogênica); não é pancreatite espontânea. Foram 18 estudos e 11.790 CPREs."
+    }
+  ],
+  "aplicacao_ao_caso": "1) Critérios de Atlanta, ACG 2024, IAP 2025 e iLATAM 2026 (2 de 3). A dor está preenchida: epigástrica, com irradiação dorsal bilateral. A lipase de 52,6 não preenche: o limite superior do normal (LSN) do laboratório não foi informado, mas para 52,6 chegar a 3x o LSN teria de ser <= 17,5 U/L, o que é implausível. A imagem também não preenche: TC em 31/10 com pâncreas de morfologia preservada e ducto pancreático sem dilatação. Resultado: 1 de 3, ou seja, pancreatite aguda não diagnosticada por nenhuma das quatro referências.\n2) Tempo da lipase. A iLATAM diz que a lipase sobe cerca de 4 h após a dor e tem pico em 24 h. No modelo pós-CPRE, já está > 3x LSN em 2-4 h (sensibilidade de 92%). Keim achou lipase elevada em 100% no dia 0-1, e Smith só 2,9% de lipase normal na primeira dosagem.\n3) Ressalva importante: a coleta de 30/10 ocorreu entre 18:00 e 23:59, isto é, entre 0 e 6 h do início da dor; '~6 h' é o teto, não o valor exato. Se foi colhida antes de 4 h, pode ter antecedido a subida. A lipase não foi repetida em 31/10, e a IAP lembra que valores < 3x LSN não excluem pancreatite sozinhos.\n4) Por isso a TC normal é o dado que desempata e reforça a baixa probabilidade. Inferência minha, não recomendação de diretriz: a lipase fica elevada por 8-14 dias, então incluir uma lipase no controle das 15:30 fecha a questão com custo mínimo. Se vier normal ou < 3x LSN, com TC normal e paciente assintomática comendo, pancreatite fica praticamente afastada.\n5) A TC precoce é defensável pela incerteza diagnóstica (ACG e IAP). Para gravidade ela não serviria antes de 72-96 h, mas isso não se aplica aqui, já que não houve pancreatite. O laudo não diz se a TC foi contrastada nem descreve a gordura peripancreática.\n6) Significado da ALT. Os VPP de 95% (Tenner 1994) e > 85% (IAP 2025, ALT > 150 U/L em até 48 h) foram derivados em pacientes COM pancreatite aguda. Eles predizem a etiologia biliar da pancreatite; não diagnosticam pancreatite nem coledocolitíase em quem não tem pancreatite. Aqui o número não se transfere diretamente.\n7) O que se aproveita é o princípio: ALT >= 3x é marcador específico, mas pouco sensível (só metade das pancreatites biliares tem ALT alta, segundo Matull), de agressão biliar aguda. Isso mantém a hipótese de cálculo que migrou pelo colédoco, mesmo com bilirrubina normal e vias biliares sem dilatação. A colangiorressonância programada é coerente com isso; a interpretação da cinética das transaminases na passagem de cálculo é de outro tema e não foi verificada aqui.\n8) A leucocitose de 18.840 não é critério de pancreatite em nenhuma diretriz lida.\n9) Atenção ao relógio: se hoje é 31/10 (data do sistema), as 15:30 ficam cerca de 21,5 h após o início da dor, e não 45 h como diz o enunciado. Nos dois cenários a lipase ainda estaria na janela de elevação, e a ALT ficaria dentro da janela de 48 h da IAP.",
+  "lacunas": "(a) Não sei o LSN da lipase do laboratório nem a hora exata da coleta de 30/10 (entre 0 e 6 h do início da dor). (b) Não localizei estudo primário com curva horária da lipase em pancreatite espontânea. Os números em horas (subida em ~4 h, pico em 24 h, 8-14 dias) vêm da iLATAM 2026, que cita revisões que não abri, e do modelo pós-CPRE, que é extrapolação. Tietz e Shuey (Clin Chem 1993) e Ismail e Bhayana (Clin Biochem 2017) são revisões; vi só os metadados no PubMed. (c) Não há número direto de 'segurança' de uma lipase normal em ~6 h; isso é inferência a partir de sensibilidades de 96-100% na admissão, com IC amplos e alto risco de viés (Cochrane). (d) Tenner 1994: li só o resumo, sem DOI no PubMed; a sensibilidade da ALT não foi localizada. (e) ACG 2024: a ausência de limiar de ALT vale para o corpo do texto; as tabelas não vieram na extração. Não localizei errata. (f) Atlanta: o site do Gut deu 403 no acesso direto (li pelo extrator); não verifiquei a página de correções. (g) Cochrane: o WebFetch deu 403 e não confirmei na página o status 'versão mais recente'; o PubMed não mostra pub3. (h) O laudo da TC não informa contraste nem gordura peripancreática. (i) Há discrepância de horário: as 15:30 de 31/10 dão ~21,5 h do início, não ~45 h.",
+  "edicao_mais_recente_confirmada": "Atlanta revisada (Banks et al., Gut 2013;62(1):102-111; online 25/10/2012): é a classificação vigente. Não localizei revisão formal posterior, e a IAP 2025 e a iLATAM 2026 mantêm os mesmos 2 de 3 critérios. ACG (Tenner et al., Am J Gastroenterol 2024;119(3):419-437; online 07/11/2023): é a edição listada na página de diretrizes da ACG (gi.org, 'March 2024'); não localizei edição posterior nem errata. IAP/APA/EPC/IPC/JPS 2025 (Pancreatology 2025;25(6):770-814): é a diretriz internacional mais recente e revisa a IAP/APA 2013. iLATAM-AP (UEG Journal 2026;14(5):e70190; 30/05/2026): é a diretriz regional mais recente localizada até 31/10/2026. Cochrane CD012010.pub2 (21/04/2017): sem versão posterior no PubMed. Tenner 1994 é artigo original; o achado foi atualizado pela IAP 2025 (VPP > 85% em até 48 h).",
+  "links_abertos": [
+    "https://gut.bmj.com/content/62/1/102",
+    "https://journals.lww.com/ajg/fulltext/2024/03000/american_college_of_gastroenterology_guidelines_.14.aspx",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC13221274/ (texto integral via PubMed/PMC)",
+    "https://gi.org/guidelines/",
+    "https://pubmed.ncbi.nlm.nih.gov/7942684/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC1860356/",
+    "https://doi.org/10.1016/j.pan.2025.04.020",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC13240590/",
+    "https://pubmed.ncbi.nlm.nih.gov/9436862/",
+    "https://pubmed.ncbi.nlm.nih.gov/15943725/",
+    "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD012010.pub2/full",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC9286773/"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+ "id": "asge-esge-coledocolitiase",
+ "verificacoes": [
+  {
+   "afirmacao": "ASGE 2019, alto risco (>50%): cálculo na USG ou em imagem seccional, colangite ascendente, ou BT >4 mg/dL junto com colédoco dilatado; vai direto à CPRE. Dilatação: >6 mm sem colecistectomia e 8 mm em colecistectomizado.",
+   "veredito": "Confirmado",
+   "link_conferido": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8594622/",
+   "observacao": "Tabela 15 e texto da revisão abrangente conferem. O limiar pós-colecistectomia aparece mesmo sem sinal: \"8 mm in those who have undergone cholecystectomy\". Também conferido: em 2010, BT 1,8-4 com dilatação ou BT >4 isolada já eram alto risco; em 2019 passou a exigir as duas coisas, e a pancreatite biliar saiu do risco intermediário. O painel pede validação prospectiva. Publicação: Gastrointest Endosc 2019;89(6):1075-1105.e15, online em 9 abr 2019 (PubMed 30979521, DOI 10.1016/j.gie.2018.10.001)."
+  },
+  {
+   "afirmacao": "ASGE 2019, risco intermediário (10% a 50%): testes hepáticos alterados, idade >55 anos ou colédoco dilatado, seguir com EUS, CPRM, colangiografia ou USG intraoperatória. Baixo risco (<10%): nenhum preditor, colecistectomia com ou sem colangiografia.",
+   "veredito": "Confirmado",
+   "link_conferido": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8594622/",
+   "observacao": "Tabela 15 confere: basta um preditor intermediário. A diretriz não dá limiar numérico para 'abnormal liver biochemical tests'. Há uma discrepância interna: a Tabela 15 diz colecistectomia 'with/without IOC' para o baixo risco, e a Tabela 17 diz 'without IOC'. Não achei outro ajuste para colecistectomizados além do limiar de dilatação."
+  },
+  {
+   "afirmacao": "ASGE 2019, pergunta 1 (GRADE): no risco intermediário, EUS ou CPRM, conforme preferência, experiência local e recursos (condicional, evidência baixa). Sensibilidade EUS 0,97 vs CPRM 0,87; especificidade 0,90 vs 0,92. Certeza moderada para CPRM e baixa para EUS.",
+   "veredito": "Confirmado",
+   "link_conferido": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8594622/",
+   "observacao": "Recomendação, força e certeza (baixa para EUS, moderada para CPRM) conferem. Os números batem com o resumo primário de Meeralam 2017 (PubMed 28645544, DOI 10.1016/j.gie.2017.06.009). Ressalvas: (1) na Discussão, a própria ASGE escreve especificidades '.97 vs .92', uma inconsistência interna; (2) os falsos-negativos da CPRM aparecem como cálculos de '6 mm in diameter' (o sinal '<' parece ter se perdido); (3) a ESGE cita a mesma meta-análise como 97% vs 90% de sensibilidade e 87% vs 92% de especificidade. Os valores de sensibilidade da CPRM e de especificidade da EUS não batem com o resumo primário (0,87 e 0,90) e parecem trocados no texto da ESGE. Use os números da ASGE/Meeralam. Sobre EUS após CPRM negativa, a ASGE diz que pode não ser necessária sem suspeita clínica forte e persistente."
+  },
+  {
+   "afirmacao": "A diretriz ASGE 2019 de coledocolitíase segue vigente; a lista 'In Progress' só tem code status periendoscópico (estimada 2026); não há atualização nem substituição.",
+   "veredito": "Confirmado",
+   "link_conferido": "https://www.asge.org/home/resources/publications/guidelines",
+   "observacao": "Cópia da página de 16 out 2026: a diretriz de 2019 está listada em Biliary and Pancreatic Endoscopy e em GRADE Guidelines. 'In Progress' traz só a diretriz de code status (estimada 2026). A página específica (https://www.asge.org/home/resources/publications/guidelines/asge-guideline-on-the-role-of-endoscopy-in-the-evaluation-and-management-of-choledocholithiasis) é datada de 1 jul 2019. A ASGE tem uma diretriz separada sobre colangite (2021, PubMed 34023065), que não substitui a de coledocolitíase. No PubMed (2019 a 31/10/2026) não achei nova diretriz ASGE de coledocolitíase."
+  },
+  {
+   "afirmacao": "ESGE 2019: testes hepáticos e USG como passos iniciais, e a combinação define a probabilidade (forte, moderada); EUS ou CPRM se a suspeita persistir sem cálculo na USG (forte, moderada); oferecer extração de todo cálculo a paciente apto (forte, baixa).",
+   "veredito": "Confirmado",
+   "link_conferido": "https://www.esge.com/assets/downloads/pdfs/guidelines/2019_a_0862_0346.pdf",
+   "observacao": "As três recomendações, com força e qualidade, conferem no PDF da ESGE e no resumo do PubMed 30943551 (Endoscopy 2019;51(5):472-491, epub 3 abr 2019, DOI 10.1055/a-0862-0346)."
+  },
+  {
+   "afirmacao": "ESGE 2019, Fig. 1: baixa probabilidade = testes hepáticos e USG normais; intermediária = testes alterados e/ou colédoco dilatado, seguir com EUS ou CPRM; alta = colangite ou cálculo na USG, seguir com CPRE ou exploração cirúrgica. Sem diagnóstico por imagem, CPRE imediata só se houver colangite.",
+   "veredito": "Confirmado",
+   "link_conferido": "https://www.esge.com/assets/downloads/pdfs/guidelines/2019_a_0862_0346.pdf",
+   "observacao": "Seção 4.3 e Fig. 1 conferem. A entrada do fluxograma é 'Symptomatic gallstone disease'. Não há limiar numérico de bilirrubina nem de diâmetro do colédoco. Alta probabilidade leva a CPRE pré-operatória ou a colecistectomia com exploração do colédoco."
+  },
+  {
+   "afirmacao": "ESGE 2019: em cálculo de colédoco com colecistectomia prévia, a CPRE com limpeza da via biliar é o tratamento primário e definitivo; não há algoritmo diagnóstico próprio para colecistectomizados.",
+   "veredito": "Confirmado",
+   "link_conferido": "https://www.esge.com/assets/downloads/pdfs/guidelines/2019_a_0862_0346.pdf",
+   "observacao": "A seção 7 traz a frase \"primary and definitive treatment in patients with CBDSs and previous cholecystectomy\". Também não achei algoritmo diagnóstico para colecistectomizados, o que é coerente com o fluxograma partir de doença calculosa sintomática. Mas isso é ausência no texto aberto, não frase da ESGE. Não abri o Appendix 1s (tópico 6.4)."
+  },
+  {
+   "afirmacao": "A página de diretrizes da ESGE (out 2026) ainda lista a diretriz de cálculos de colédoco de 2019; a mais recente da seção HPB é a de estenoses biliares (3 set 2026); a revisão prevista para 2023 não saiu.",
+   "veredito": "Confirmado",
+   "link_conferido": "https://www.esge.com/guidelines",
+   "observacao": "Página lida em 31 out 2026. A seção HPB/duodenal lista 'Endoscopic management of common bile duct stones' (Endoscopy 2019;51(05):472-491). A mais recente é 'Biliary stricture management' (3 set 2026, DOI 10.1055/a-2921-6492), que não trata de cálculos. O PDF de 2019 diz que seria 'considered for review in 2023, or sooner', e não há versão nova listada nem no PubMed."
+  },
+  {
+   "afirmacao": "ESGE 2019: TC multidetector com sensibilidade de 78% e especificidade de 96%, pior em cálculos <5 mm (56,5% vs 81,2%) ou de densidade parecida com a bile; cálculo com testes hepáticos normais em 5,4% (29/541) e com USG e testes normais em 6,4% (7/109).",
+   "veredito": "Confirmado",
+   "link_conferido": "https://www.esge.com/assets/downloads/pdfs/guidelines/2019_a_0862_0346.pdf",
+   "observacao": "Seção 4 confere. A ref. 27 é Anderson 2008 (Radiology, TC em fase portal, retrospectivo); a ref. 36 é Qiu 2015 (BMC Gastroenterol, retrospectivo). Na série de 541 casos, idade >55 e presença de dor se associaram de forma independente a testes normais. A ESGE cita a sensibilidade da USG como 73% (IC 44-95%), mas a Cochrane dá IC 0,44-0,90 (provável erro de transcrição da ESGE). Os artigos primários não foram abertos."
+  },
+  {
+   "afirmacao": "Cochrane (Gurusamy 2015): num único estudo (262 participantes), bilirrubina >22,23 µmol/L (cerca de 1,3 mg/dL) com sensibilidade de 0,84 e especificidade de 0,91; FA >125 UI/L com sensibilidade de 0,92; sensibilidade resumida da USG de 0,73; todos os estudos de baixa qualidade.",
+   "veredito": "Confirmado",
+   "link_conferido": "https://pubmed.ncbi.nlm.nih.gov/25719223/",
+   "observacao": "Valores conferem. A conversão também: 22,23 / 17,1 = 1,30 mg/dL. Faltou dizer que a especificidade da FA foi de 0,79 e que, nesse mesmo estudo, a USG teve sensibilidade de só 0,32. A busca no PubMed (2015-2026) não achou versão mais nova da CD011548. Para o caso, a FA da paciente (118) também ficou abaixo do corte de 125 (ver erros)."
+  },
+  {
+   "afirmacao": "GallRiks, citado pela ESGE: dos 3.969 com cálculo na colangiografia intraoperatória, 594 ficaram com o cálculo; complicações em 25,3% vs 12,7% após remoção (OR 0,44); 5,9% mesmo com cálculos <4 mm; a ESGE conclui por extrair seja qual for o tamanho.",
+   "veredito": "Confirmado",
+   "link_conferido": "https://www.esge.com/assets/downloads/pdfs/guidelines/2019_a_0862_0346.pdf",
+   "observacao": "A seção 3.2 confere (OR 0,44, IC 0,35-0,55; abaixo de 4 mm, 5,9% vs 8,9% nos maiores, OR 0,52). O seguimento foi de 0 a 4 anos. A ref. 14 é Möller 2014, JAMA Surg, e o artigo primário não foi aberto. A ESGE lembra que Collins documentou passagem espontânea em 24 de 46 pacientes."
+  },
+  {
+   "afirmacao": "Collins 2004: colangiografia intraoperatória em 962 colecistectomias; 46 com falha de enchimento, 12 normais em 48 h e 12 em 6 semanas; coledocolitíase real em 3,4%, e mais de 1/3 eliminou o cálculo em 6 semanas; passagem não dependeu de número, tamanho ou diâmetro.",
+   "veredito": "Confirmado",
+   "link_conferido": "https://pubmed.ncbi.nlm.nih.gov/14685097/",
+   "observacao": "Confere com o resumo (Ann Surg 2004;239(1):28-33). Detalhe: a colangiografia foi tentada em 997 e feita em 962 (96%), e 22 (2,2%) ainda tinham cálculo em 6 semanas. Eram cálculos clinicamente silenciosos, em quem ia operar; extrapolar é indireto."
+  },
+  {
+   "afirmacao": "Frossard 2000: 92 pacientes com cálculo na EUS, 12 sem cálculo na CPRE seguinte; migração de cerca de 21% em até 1 mês; tamanho como único preditor independente.",
+   "veredito": "Confirmado",
+   "link_conferido": "https://pubmed.ncbi.nlm.nih.gov/10650260/",
+   "observacao": "Confere com o resumo (Gastrointest Endosc 2000;51(2):175-9). Ter vesícula se associou a mais migração só na análise univariada, e a associação some com a correção para múltiplos testes."
+  },
+  {
+   "afirmacao": "Suarez 2016: 173 internados; critérios ASGE (2010) com acurácia de 63%; repetir os exames não melhorou (62,7%); queda dos testes não previu a passagem espontânea; 31,4% dos de baixo ou intermediário risco tinham cálculo.",
+   "veredito": "Confirmado",
+   "link_conferido": "https://pubmed.ncbi.nlm.nih.gov/26895915/",
+   "observacao": "Confere com o resumo (Surg Endosc 2016;30(10):4613-8; sensibilidade 54,9%, especificidade 68,6%). A ASGE 2019 cita esse estudo como ref. 93 (Tabelas 12 e 13). É estudo de um só centro e retrospectivo."
+  }
+ ],
+ "erros_na_aplicacao_ao_caso": "1) Item 8b: o 'pico enzimático em horas' não está demonstrado. Entre a 1ª e a 2ª coleta a AST ficou estável (292 para 299) e a ALT subiu (188 para 281); não há queda documentada, então não se sabe se já houve pico. Também não há 'dor súbita' no relato, só o horário de início. Esse item não sustenta 'causa biliar pelo menos tão provável quanto hepatite'. O argumento biliar melhor apoiado é a leucocitose neutrofílica (ver acréscimo TG18), junto com GGT de cerca de 400 e o antecedente biliar.\n2) Item 5: faltou a FA de 118 U/L (D1), que fica abaixo do corte de 125 U/L em que a Cochrane achou sensibilidade de 0,92. Bilirrubina <1,3 mg/dL e FA <125 deixam os dois marcadores estudados na Cochrane abaixo do corte. Isso baixa a probabilidade, mas não exclui cálculo: é um único estudo de baixa qualidade, e a ESGE cita 5% a 6% de cálculos com testes normais. A Cochrane não avaliou transaminases nem GGT, então esses números não apoiam a frase sobre 'transaminases e GGT altas'.\n3) Item 7b: a ASGE põe em alto risco a 'clinical ascending cholangitis'. O critério TG18 de colangite 'suspeita' (A-2 + B-2) não equivale automaticamente a colangite clínica. Mesmo se fosse colangite, seria grau I: só um critério de grau II (leucócitos >12.000), sem febre ≥39 °C, idade <75 anos, BT <5. Para grau leve, a ESGE manda drenagem eletiva, não imediata. A frase 'com indicação de CPRE' precisa dessa ressalva.\n4) Conta do resumo do caso (o pesquisador herdou, mas não usou): 'controle ~45 h após o início da dor' só vale se hoje fosse 01/11. Com a data de hoje (31/10), das 18:00 de 30/10 às 15:30 de 31/10 são 21,5 h. A coleta 'D1' saiu poucas horas depois da primeira, provavelmente com menos de 15 h de intervalo, então o rótulo 'D1' não quer dizer 24 h. A comparação entre as coletas cobre um intervalo curto, e o controle das 15:30 será a terceira coleta.\n5) Item 3: a recomendação forte da ESGE de EUS ou CPRM foi redigida para suspeita clínica persistente sem cálculo na USG, e o fluxograma parte de doença calculosa sintomática com vesícula. Aplicar isso a colecistectomizada é extrapolação. As lacunas reconhecem isso, mas o item 3 apresenta a conclusão como direta.\n6) Item 4 (menor): o texto da ASGE diz '8 mm', sem '>'. E, como os laudos não dão o diâmetro, a 'via não dilatada' vem da leitura do radiologista, não da aplicação do limiar da ASGE.\n7) Conferido e certo: item 5b (Mohamed 2023, PubMed 37269372: >1000 UI/L em 7,8%, >500 em 33,1%; só 3 estudos, n = 1.328, heterogeneidade alta) e item 7, já que a paciente preenche colangite 'suspeita' pela TG18 (leucócitos >10.000 + AST, ALT ou GGT >1,5 vez o normal).",
+ "atualizacoes_encontradas": "Nenhuma edição nova das diretrizes citadas até 31/10/2026. A ASGE de coledocolitíase (2019) segue listada sem substituta (https://www.asge.org/home/resources/publications/guidelines), e a ESGE de cálculos de colédoco (2019) também (https://www.esge.com/guidelines). A Cochrane CD011548 não tem versão posterior a 2015 no PubMed. Documentos relacionados que NÃO substituem as citadas: (a) ASGE guideline on the management of cholangitis, Gastrointest Endosc 2021;94(2):207-221.e14, DOI 10.1016/j.gie.2020.12.032 (https://pubmed.ncbi.nlm.nih.gov/34023065/); (b) EAES rapid guideline 2022 sobre manejo de cálculos de colédoco com vesícula in situ, que não se aplica a colecistectomizada (https://pubmed.ncbi.nlm.nih.gov/36229556/); (c) TG18 continua a edição vigente para colangite (https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.512); no PubMed não achei TG mais nova; (d) estudos de validação, que não são diretrizes: meta-análise Kwok 2025 (https://pubmed.ncbi.nlm.nih.gov/40569779/) e Kwok 2026 no ANZ J Surg (https://pubmed.ncbi.nlm.nih.gov/42399207/).",
+ "acrescimos": "1) TG18 (Kiriyama 2018, DOI 10.1002/jhbp.512; https://onlinelibrary.wiley.com/doi/full/10.1002/jhbp.512), limiares conferidos. A-2: leucócitos <4.000 ou >10.000, ou PCR ≥1 mg/dL. B-2: FA, GGT, AST ou ALT >1,5 vez o normal. Suspeita = 1 item de A + 1 de B ou C. A tabela também diz que na hepatite aguda \"marked systematic inflammatory response is observed infrequently\". Logo, leucócitos de 18.840 com 79% de segmentados pesam contra hepatite viral e a favor de causa biliar. Sem febre e com os leucócitos caindo, a gravidade seria no máximo grau I.\n2) ESGE 2019, momento da drenagem pela TG18: grave o quanto antes (até 12 h se houver choque), moderada em 48-72 h, leve eletiva (forte, evidência baixa) (https://pubmed.ncbi.nlm.nih.gov/30943551/).\n3) ASGE 2021, colangite (https://pubmed.ncbi.nlm.nih.gov/34023065/): sugere drenagem endoscópica em vez de percutânea, descompressão em até 48 h, e esfincterotomia com retirada do cálculo junto da drenagem se o paciente estiver estável.\n4) Desempenho das estratificações. Meta-análise de 31 estudos (Kwok 2025, World J Surg, DOI 10.1002/wjs.12684; https://pubmed.ncbi.nlm.nih.gov/40569779/): para separar baixo risco de 'mais que baixo', a ASGE 2019 teve sensibilidade de 95% e especificidade de 11%, e a ESGE de 84% e 15%. A força das diretrizes está em excluir no baixo risco. Cair no intermediário é pouco específico e não diz se a probabilidade fica perto de 10% ou de 50%. Nas coortes da Tabela 12 da ASGE, 31% a 35% dos pacientes de risco intermediário tinham cálculo.\n5) Tranter 2003 (https://pubmed.ncbi.nlm.nih.gov/12831489/, DOI 10.1308/003588403321661325): estima que cerca de 73% dos cálculos de colédoco passaram sozinhos antes da cirurgia, e os 4 pacientes com colangite tinham cálculo na operação. É evidência indireta, de pacientes com vesícula.\n6) Meeralam 2017, resumo primário (https://pubmed.ncbi.nlm.nih.gov/28645544/): EUS com sensibilidade de 0,97 e especificidade de 0,90; CPRM com 0,87 e 0,92. Os números da ASGE são os corretos, e os da ESGE parecem trocados.\n7) Na série da ESGE (ref. 35), idade >55 anos e presença de dor se associaram a testes hepáticos normais em quem tinha cálculo. Isso reforça que testes normalizando não excluem cálculo (https://www.esge.com/assets/downloads/pdfs/guidelines/2019_a_0862_0346.pdf)."
+}
