@@ -1,5 +1,5 @@
 # Monta verificacao-diretrizes.md a partir de resultados/<tema>.json e resultados/<tema>-verificado.json
-import json, glob, os, re, sys
+import json, glob, os, re, sys, difflib
 DIR = os.path.dirname(os.path.abspath(__file__))
 HOJE = '2026-10-31'
 def esc(t):
@@ -22,9 +22,9 @@ for ft in temas:
         key = esc(c['afirmacao'])[:80]
         vx = vmap.get(key)
         if vx is None and v:
-            # casamento aproximado: maior prefixo comum
-            best = max(v['verificacoes'], key=lambda x: len(os.path.commonprefix([esc(x['afirmacao']), esc(c['afirmacao'])])), default=None)
-            if best and len(os.path.commonprefix([esc(best['afirmacao']), esc(c['afirmacao'])])) > 40:
+            # casamento aproximado por similaridade de texto
+            best = max(v['verificacoes'], key=lambda x: difflib.SequenceMatcher(None, esc(x['afirmacao'])[:200], esc(c['afirmacao'])[:200]).ratio(), default=None)
+            if best and difflib.SequenceMatcher(None, esc(best['afirmacao'])[:200], esc(c['afirmacao'])[:200]).ratio() > 0.45:
                 vx = best
         ver = vx['veredito'] if vx else 'pendente'
         tot[ver] = tot.get(ver, 0) + 1
