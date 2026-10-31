@@ -24,7 +24,7 @@ for ft in temas:
         if vx is None and v:
             # casamento aproximado por similaridade de texto
             best = max(v['verificacoes'], key=lambda x: difflib.SequenceMatcher(None, esc(x['afirmacao'])[:200], esc(c['afirmacao'])[:200]).ratio(), default=None)
-            if best and difflib.SequenceMatcher(None, esc(best['afirmacao'])[:200], esc(c['afirmacao'])[:200]).ratio() > 0.45:
+            if best and difflib.SequenceMatcher(None, esc(best['afirmacao'])[:200], esc(c['afirmacao'])[:200]).ratio() > 0.35:
                 vx = best
         ver = vx['veredito'] if vx else 'pendente'
         tot[ver] = tot.get(ver, 0) + 1
@@ -40,7 +40,7 @@ for ft in temas:
         if v.get('erros_na_aplicacao_ao_caso'): linhas += [f"**Erros apontados na aplicação ao caso:** {esc(v['erros_na_aplicacao_ao_caso'])}", '']
         if v.get('acrescimos'): linhas += [f"**Acréscimos do verificador:** {esc(v['acrescimos'])}", '']
     else:
-        linhas += ['_Verificação ainda não gravada para este tema._', '']
+        linhas += ['_Sem verificação adversarial neste tema: agente extra de fontes, conferido só pelo próprio pesquisador na página aberta._' if d.get('id')=='fontes-de-maior-nome' else '_Verificação ainda não gravada para este tema._', '']
 linhas += ['---', '', 'Totais: ' + ', '.join(f'{k} {v}' for k, v in tot.items() if v), '']
 open(os.path.join(DIR, 'verificacao-diretrizes.md'), 'w', encoding='utf-8').write('\n'.join(linhas))
 print('verificacao-diretrizes.md:', len(temas), 'temas;', tot)

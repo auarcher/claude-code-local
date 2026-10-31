@@ -1,0 +1,83 @@
+ 
+ Avaliação clínica 31 de outubro de 2026 
+ Cálculo de colédoco que migrou. Hepatite, improvável . O controle das 15h30 decide . 
+ Mulher de 50 anos, colecistectomizada há 9 anos. Dor biliar súbita, transaminases que dispararam em horas com GGT dez vezes o limite, bilirrubina normal e via biliar fina na tomografia: é o retrato do cálculo que atravessou a papila. A leucocitose que cai após uma dose de ceftriaxona fecha colangite leve, já resolvendo. Falta provar que não ficou cálculo para trás. 
+ Bilirrubina total 0,8 Dosada uma vez, até 6 h após a dor Cedo demais para excluir obstrução: a bilirrubina sobe mais devagar que as transaminases e não foi repetida em D1. 
+ ALT (TGP) 281 Subiu de 188 em um dia Hepatocelular (índice R acima de 5 em D1), cerca de 7 vezes o limite habitual de 40 U/L. AST estável em 292 e 299: a liberação seguia até perto de D1; a queda às 15h30 marca o fim. 
+ Leucócitos 14,5 mil Caiu de 18,8 mil em 24 h Inflamação sistêmica que responde. Com enzimas hepáticas altas, preenche "colangite suspeita" de Tóquio 2018, grau leve; Charcot falta em 3 de 4 colangites. 
+ O que o quadro tem, e o que não tem 
+ A favor do cálculo que migrou tem 
+ [desenho] Dor epigástrica súbita, para o dorso, que cede em horas: dor biliar típica 
+ [desenho] AST acima da ALT nas primeiras horas, ALT na frente no dia seguinte: lesão abrupta, como na obstrução 
+ [desenho] GGT dez vezes o limite com fosfatase alcalina quase normal: a FA demora dias 
+ [desenho] Leucocitose neutrofílica que cai com a desobstrução 
+ Contra hepatite aguda não tem 
+ [desenho] Pródromo de febre, mal-estar e náusea, típico da hepatite A 
+ [desenho] Icterícia: atinge mais de 70% dos adultos com hepatite A 
+ [desenho] ALT subindo por dias à frente da AST; aqui a AST liderou desde as primeiras horas 
+ [desenho] Fármaco: a dipirona veio depois da dor; pela bula, sua lesão leva dias a meses 
+ [desenho] Leucocitose marcada, rara na hepatite aguda (Tóquio 2018) 
+ Pancreatite saiu do mapa: lipase 52,6 nas primeiras 6 h e pâncreas normal na TC de D1; a lipase das 15h30 fecha. Hepatites B e C não reagentes nos testes rápidos; falta o anti-HAV IgM, que o Ministério da Saúde põe em toda sorologia de hepatite. 
+ Dor epigástrica e transaminases altas, pós-colecistectomia 1 / 4 
+ 2 · Por que cálculo Avaliação clínica 
+ O cálculo passou. A tomografia chegou tarde para vê-lo. 
+ A sequência explica cada exame. O cálculo entala na papila, a pressão na via biliar sobe de repente e o fígado libera transaminases em horas, não em dias. Quando o cálculo atravessa, o colédoco volta ao calibre normal antes da tomografia e a bilirrubina nem chega a subir. Fica o rastro: GGT alta e leucócitos caindo. 
+ [desenho]
+ O que o desenho não mostra: um segundo cálculo pode ter ficado no colédoco sem dilatá-lo; só colangiorressonância ou ecoendoscopia respondem. 
+ [desenho]
+ Cálculo que migrou 
+ Encaixa em tudo 
+ Obstrução de horas: transaminases sobem e caem rápido, e a bilirrubina só sobe se a obstrução dura. Leucócitos caem ao desobstruir. 
+ Dor Súbita, cólica, para o dorso, cede em horas. 
+ Enzimas Sobem em horas, hepatocelulares no início e colestáticas depois (ACG 2021); um terço passa de 500. 
+ Tempo Nove anos de cirurgia: após 3 anos, cálculo de colédoco é a causa mais comum de dor tardia (Roma V). 
+ Próximo passo Colangiorressonância ou ecoendoscopia; CPRE só com cálculo visto. 
+ [desenho]
+ Hepatite aguda 
+ Não encaixa na dor nem nos números 
+ Lesão difusa e lenta. Começa com febre, mal-estar e náusea; a dor, quando existe, é desconforto, não cólica. Transaminases chegam a 25 a 100 vezes o normal (Guia de Vigilância do Ministério da Saúde); icterícia em dias. 
+ Dor Surda, sem irradiação, após o pródromo. 
+ Enzimas Sobem por dias e caem cerca de 10% ao dia; bilirrubina sobe junto. 
+ Imagem Fígado normal ou aumentado; via biliar fina. 
+ Próximo passo Anti-HAV IgM agora; anti-HBc, HCV-RNA, anti-HEV e autoimunidade se subir. 
+ Dor epigástrica e transaminases altas, pós-colecistectomia 2 / 4 
+ 3 · O controle das 15h30 Avaliação clínica 
+ Às 15h30, a AST em queda diz que a agressão parou. 
+ A coleta cai cerca de 21 horas após a dor. A AST tem meia-vida de 17 horas e a ALT, de 47: se a obstrução cessou em D0, a AST já vem em queda e a ALT pode estar estável, perto do pico. As duas subindo juntas não cabem no cálculo que passou. E a queda não prova colédoco limpo: melhora dos testes não previu passagem do cálculo nos estudos. A colangiorressonância fica de pé nos dois cenários. 
+ AST caiu, ALT estável 
+ A obstrução cessou. Dá para desospitalizar. 
+ Relação AST/ALT abaixo de 1, bilirrubina normal, sem dor nem febre: agressão resolvida; cálculo residual ainda não afastado. 
+ Imagem Colangiorressonância com data curta e marcada: cálculo que fica complica o dobro; em colecistectomizada, a CPRE é o tratamento definitivo. 
+ Antibiótico Tóquio 2018: 4 a 7 dias após o controle da fonte, com troca para via oral em quem come. Contar a passagem espontânea como fonte controlada é extrapolação. Decisão do médico assistente. 
+ Retorno Febre, icterícia, colúria ou dor de novo: voltar no mesmo dia. 
+ As duas subiram 
+ Obstrução persiste, ou não é cálculo. 
+ AST e ALT ainda em subida franca, ou bilirrubina agora alta: o colédoco segue obstruído, contínuo ou intermitente. 
+ Imagem Colangiorressonância ou ecoendoscopia antes da alta. CPRE só se mostrar cálculo. 
+ Antibiótico Manter: colangite com fonte não controlada. Sem resposta em 24 h ou cálculo visto, Tóquio trata como grau II: drenagem precoce. 
+ Via fina Se a bilirrubina seguir normal e a imagem vier limpa: anti-HAV IgM e revisar fármacos; hepatite volta à lista. 
+ Se repetir Nova crise biliar com enzimas altas e imagem limpa: distúrbio do esfíncter de Oddi (Roma V, 2026), conduta eletiva em centro de referência. CPRE empírica não tem respaldo. 
+ D0, até 6 h AST 292, ALT 188: AST na frente, lesão em curso. Bilirrubina 0,8, lipase 52,6. 
+ D1, manhã AST 299, ALT 281: AST estável, ALT ainda sobe; a liberação não tinha parado em D0. Leucócitos de 18,8 para 14,5 mil. 
+ 15h30 Esperado se passou: AST abaixo de 299 (perto de 220 se parou de manhã); ALT estável perto de 281; AST/ALT abaixo de 1. 
+ Estimativa pelas meias-vidas (AASLD) e por séries de obstrução aguda, em que as enzimas normalizam em até 10 dias; na hepatite viral caem só cerca de 10% ao dia. A hora da coleta de D1 muda a conta. A bula da ceftriaxona lista aumento de enzimas hepáticas como reação comum: uma subida discreta, sozinha, não fecha nada. 
+ Dor epigástrica e transaminases altas, pós-colecistectomia 3 / 4 
+ 4 · Em aberto Avaliação clínica 
+ Em aberto: provar que não sobrou cálculo. 
+ O diagnóstico mais provável está firme. As diretrizes pedem imagem da via biliar sem CPRE: ultrassom e tomografia perdem boa parte dos cálculos pequenos. 
+ Dúvidas ao médico 
+ 1 Valores de referência do laboratório para ALT, AST e GGT. Os múltiplos daqui usam 40 U/L. 
+ 2 Hora da coleta de D1. Define quanto a AST deveria ter caído até as 15h30. 
+ 3 Dipirona, chás ou suplementos nas semanas antes da dor? "HEV" foi lido como hidratação venosa. 
+ 4 Ceftriaxona: dose única ou mantida? Tóquio prevê 4 a 7 dias após controle da fonte. 
+ 5 Diâmetro do colédoco nos laudos. ASGE: dilatado acima de 8 mm em colecistectomizada; Roma V: normal até 13 mm. 
+ Passos 
+ 1 Coleta das 15h30 com bilirrubina total e frações, FA, GGT, PCR, albumina e anti-HAV IgM, além de AST e ALT; lipase se couber. 
+ 2 AST caiu e ALT estável: alta com colangiorressonância marcada, orientação de retorno e definição do antibiótico. 
+ 3 As duas subiram: colangiorressonância ou ecoendoscopia antes da alta, discutir com cirurgia e endoscopia; CPRE só com cálculo visto. 
+ O que acrescentar à coleta das 15h30 
+ Decide Bilirrubina total e frações Nunca foi repetida; é o item que as diretrizes pesam. 
+ Completa o quadro FA e GGT PCR e albumina Anti-HAV IgM FA e GGT: a colestase ainda cresce? PCR e albumina: critérios de Tóquio 2018. Anti-HAV IgM: a sorologia que falta. Lipase, se couber: a primeira pode ter sido colhida antes de subir. 
+ Por que bilirrubina normal não exclui cálculo Na ASGE de 2019, que o Ministério da Saúde adota via CONITEC, bilirrubina acima de 4 mg/dL só pesa junto com colédoco dilatado. Testes hepáticos alterados, sozinhos, já põem a paciente na faixa intermediária, cuja resposta é colangiorressonância ou ecoendoscopia, não CPRE direta. 
+ Fontes lidas em 31 de outubro de 2026. Brasil: Ministério da Saúde, Guia de Vigilância em Saúde (6ª ed., 2024), PCDT de hepatite C (2026) e Manual de Diagnóstico das Hepatites Virais (2018) · CONITEC 471/2019, CPRE na coledocolitíase · SBH, Manual de Doenças Colestáticas (2019) e Guia 2026 · bulas aprovadas pela ANVISA: ceftriaxona (out/2026) e dipirona (2025-2026). Sem diretriz brasileira de coledocolitíase, colangite ou transaminases agudas (SBH, FBG, CBC, CBCD, SOBED). Internacionais, edição vigente conferida: ASGE 2019 · ESGE 2019 · Tokyo 2018 · ACG 2017 e revisão Gastroenterology 2026 · AASLD 2008 e NACB 2000 (cinética das enzimas) · metanálise Mohamed 2023 · Roma V 2026 · Atlanta 2013, ACG 2024, IAP 2025 e ibero-latino-americana 2026 · ACG 2021 e EASL 2019 (fármacos) · EASL 2018 e 2025 · CDC 2026. Item a item em verificacao-diretrizes.md. Sem dado de paciente; decisão clínica do médico assistente. 
+ Dor epigástrica e transaminases altas, pós-colecistectomia 4 / 4 

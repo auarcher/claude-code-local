@@ -1,0 +1,231 @@
+{
+  "achados": [
+    {
+      "gravidade": "alta",
+      "tipo": "erro clinico",
+      "pagina": "1",
+      "trecho": "A leucocitose que cai após uma dose de ceftriaxona fecha colangite leve, já resolvendo.",
+      "problema": "Tóquio 2018 só dá colangite SUSPEITA (A-2 leucócitos + B-2 enzimas, sem critério C de imagem); 'fecha' diz o contrário. A queda dos leucócitos pode ser espontânea (leucocitose reacional à dor nas primeiras 6 h), e o TG18 não permite atribuí-la à ceftriaxona. Pior: se fosse colangite clínica, a ASGE 2019 põe em ALTO risco e indica CPRE direta, o que contradiz a pág. 4 (risco intermediário, colangiorressonância). 'Grau leve' depende da albumina, não dosada. O mesmo exagero aparece no desenho da pág. 2 ('bile infectada' → trocar por 'inflamação') e em 'Inflamação sistêmica que responde'.",
+      "correcao": "Leucocitose: colangite só suspeita por Tóquio 2018 (sem imagem); já em queda.",
+      "fonte": "tg18-colangite-antibiotico.json claim 2 e aplicação 2 (só suspeito; queda não distingue antibiótico de evolução espontânea); asge-esge-coledocolitiase-verificado.json erros 3 (suspeita TG18 não equivale a colangite clínica da ASGE); tg18-colangite-antibiotico-verificado.json acréscimo 2 (VPP de A+B perto de 2% em pronto-socorro)"
+    },
+    {
+      "gravidade": "alta",
+      "tipo": "logica",
+      "pagina": "3",
+      "trecho": "A obstrução cessou. Dá para desospitalizar.",
+      "problema": "AST em queda não prova que a obstrução cessou: na obstrução as transaminases normalizam em até 10 dias mesmo com a obstrução mantida (NACB/AASLD), caíram com o cálculo ainda no colédoco (Anciaux 1986) e a queda não previu passagem (Suarez 2016, citado pela ASGE). O próprio parágrafo diz que a queda não prova colédoco limpo. E 'Dá para desospitalizar' decide a alta pelo médico.",
+      "correcao": "Agressão em queda. Alta é opção do médico.",
+      "fonte": "fontes-de-maior-nome.json claim 31 (NACB 2000: normalizam em até 10 dias mesmo se a obstrução persiste); transaminases-obstrucao-biliar-verificado.json, Anciaux 1986 Confirmado; asge-esge-coledocolitiase-verificado.json, Suarez 2016 Confirmado"
+    },
+    {
+      "gravidade": "alta",
+      "tipo": "aritmetica",
+      "pagina": "1",
+      "trecho": "AST acima da ALT nas primeiras horas, ALT na frente no dia seguinte: lesão abrupta, como na obstrução",
+      "problema": "Em D1 a AST (299) ainda está acima da ALT (281): a ALT não passou à frente. A coluna ao lado diz o oposto ('a AST liderou desde as primeiras horas'). E AST antes da ALT também é o padrão da lesão isquêmica e tóxica; não é específico de obstrução.",
+      "correcao": "AST acima da ALT cedo, ALT quase igual em D1: lesão abrupta (obstrução, isquemia)",
+      "fonte": "transaminases-obstrucao-biliar-verificado.json, claim Giannini 2005 Confirmado (na lesão isquêmica ou tóxica a AST também tem pico antes da ALT) e erros 2"
+    },
+    {
+      "gravidade": "alta",
+      "tipo": "fonte fraca",
+      "pagina": "4",
+      "trecho": "Na ASGE de 2019, que o Ministério da Saúde adota via CONITEC",
+      "problema": "Atribuição errada. O Relatório CONITEC 471/2019 reproduz a ASGE de 2010 (em que bilirrubina acima de 4 isolada já era alto risco, o oposto da frase) e trata de CPRE pré-cirúrgica em quem NÃO foi colecistectomizado. É avaliação de tecnologia, não diretriz, e não se aplica à paciente.",
+      "correcao": "Na ASGE de 2019 (a CONITEC 471 usa a de 2010)",
+      "fonte": "brasil-diretrizes-bulas.json claims 2 e 3 (CONITEC usa ASGE 2010; só pacientes sem colecistectomia); fontes-de-maior-nome.json claim 23 (não se aplica diretamente à colecistectomizada)"
+    },
+    {
+      "gravidade": "alta",
+      "tipo": "privacidade",
+      "pagina": "1",
+      "trecho": "Avaliação clínica 31 de outubro de 2026",
+      "problema": "A data do cabeçalho é a de D1 (o controle das 15h30 é hoje), então revela a data do atendimento; com idade, sexo, cirurgia há 9 anos e dor às 18h de D0, identifica a paciente no serviço. Contradiz o 'Sem dado de paciente' da pág. 4. Repete-se em 'Fontes lidas em 31 de outubro de 2026' (trocar por 'out/2026').",
+      "correcao": "Avaliação clínica",
+      "fonte": ""
+    },
+    {
+      "gravidade": "media",
+      "tipo": "logica",
+      "pagina": "1",
+      "trecho": "Cálculo de colédoco que migrou.",
+      "problema": "A capa afirma como fato o que o resto do PDF trata como hipótese mais provável (a pág. 2 admite cálculo residual; a pág. 3 diz que a queda não prova colédoco limpo). 'O controle das 15h30 decide' também exagera: a colangiorressonância vale nos dois cenários e repetir exames não melhorou a acurácia; o controle orienta onde e quando fazer a imagem.",
+      "correcao": "Provável cálculo que migrou.",
+      "fonte": "asge-esge-coledocolitiase-verificado.json, Suarez 2016 Confirmado (repetir exames: 62,7%, sem ganho); transaminases-obstrucao-biliar-verificado.json acréscimo 8 (Adams 2015)"
+    },
+    {
+      "gravidade": "media",
+      "tipo": "logica",
+      "pagina": "2",
+      "trecho": "O cálculo passou. A tomografia chegou tarde para vê-lo.",
+      "problema": "O título afirma passagem não provada e atribui a TC negativa ao atraso, mas a TC perde cálculo de colédoco de qualquer forma (TG18: 25 a 90%; ESGE: 78%, e 56,5% abaixo de 5 mm), e calibre normal não afasta cálculo. 'Encaixa em tudo', na mesma página, repete o exagero (não explica GGT de 401 em até 6 h).",
+      "correcao": "O mais provável: o cálculo passou antes da tomografia.",
+      "fonte": "tg18-colangite-antibiotico-verificado.json claim 6 (TC 25-90%); asge-esge-coledocolitiase-verificado.json, claim da TC multidetector Confirmado (78%; 56,5% abaixo de 5 mm)"
+    },
+    {
+      "gravidade": "media",
+      "tipo": "logica",
+      "pagina": "3",
+      "trecho": "Às 15h30, a AST em queda diz que a agressão parou.",
+      "problema": "O título dá como resultado um exame que ainda não saiu; no cenário 'as duas subiram' ele fica falso. Na capa, 'a queda às 15h30 marca o fim' tem o mesmo problema (trocar por 'uma queda às 15h30 marcaria o fim').",
+      "correcao": "Se a AST cair às 15h30, a liberação parou.",
+      "fonte": ""
+    },
+    {
+      "gravidade": "media",
+      "tipo": "logica",
+      "pagina": "3",
+      "trecho": "se a obstrução cessou em D0, a AST já vem em queda",
+      "problema": "Contradiz a linha do tempo da mesma página e a capa: AST de 292 para 299 mostra liberação até perto da coleta de D1 (sem nova liberação, cairia para cerca de 200). A premissa da projeção (perto de 220 às 15h30) é 'cessou na manhã de D1'.",
+      "correcao": "se a obstrução cessou em D1, a AST já vem em queda",
+      "fonte": "transaminases-obstrucao-biliar-verificado.json erros 2 (292 x 0,5^(7/17) = cerca de 220; AST estável indica liberação contínua até perto de D1)"
+    },
+    {
+      "gravidade": "media",
+      "tipo": "erro clinico",
+      "pagina": "2",
+      "trecho": "Não encaixa na dor nem nos números",
+      "problema": "Os números cabem numa hepatite no início: ALT perto de 7x e subindo (188 para 281) está no piso da hepatite A sintomática (5 a 15x), e o Guia de Vigilância ressalva que os valores podem ser menores que 25 a 100x. O que pesa contra hepatite é a clínica (dor súbita, leucocitose neutrofílica, AST na frente cedo), não a magnitude.",
+      "correcao": "Não cabe na dor nem na leucocitose",
+      "fonte": "hepatite-aguda-diferencial-verificado.json claim 2 Confirmado (hepatite A: 5-15x) e hepatite-aguda-diferencial.json aplicação 1 (a magnitude sozinha não exclui hepatite viral); fontes-de-maior-nome.json claim 13 (valores podem ser mais baixos)"
+    },
+    {
+      "gravidade": "media",
+      "tipo": "erro clinico",
+      "pagina": "1",
+      "trecho": "Hepatites B e C não reagentes nos testes rápidos; falta o anti-HAV IgM, que o Ministério da Saúde põe em toda sorologia de hepatite.",
+      "problema": "O que não tem precisa ser dito sem rodeio: anti-HCV, inclusive o rápido, leva 8 a 12 semanas para positivar e não exclui hepatite C aguda; o PCDT 2026 diz que o exame da fase aguda é o HCV-RNA. Teste rápido é só investigação inicial. 'Toda sorologia' generaliza: o Manual Técnico fala do pedido genérico.",
+      "correcao": "HBsAg e anti-HCV rápidos não reagentes; anti-HCV não exclui fase aguda. Falta anti-HAV IgM (Ministério da Saúde).",
+      "fonte": "fontes-de-maior-nome.json claims 16 e 19 (Guia 2024; PCDT hepatite C 2026); hepatite-aguda-diferencial-verificado.json claim 5 Confirmado (janela do anti-HCV 33-129 dias; teste rápido só para investigação inicial)"
+    },
+    {
+      "gravidade": "media",
+      "tipo": "logica",
+      "pagina": "1",
+      "trecho": "Fármaco: a dipirona veio depois da dor; pela bula, sua lesão leva dias a meses",
+      "problema": "Afirma ausência de exposição que o PDF não sabe: a Dúvida 3 da pág. 4 pergunta por dipirona, chás e suplementos nas semanas antes. A ceftriaxona também veio antes da coleta de D1 e deveria constar como exposição.",
+      "correcao": "Fármaco: nenhum conhecido antes da dor (Dúvida 3); dipirona leva dias a meses",
+      "fonte": "hepatite-aguda-diferencial-verificado.json erros 11 (ceftriaxona antes de D1 é exposição); fontes-de-maior-nome.json claims 2 (SBH 2019: perguntar fármacos até 6 semanas antes) e 27 (bula da dipirona)"
+    },
+    {
+      "gravidade": "media",
+      "tipo": "erro clinico",
+      "pagina": "1",
+      "trecho": "GGT dez vezes o limite com fosfatase alcalina quase normal: a FA demora dias",
+      "problema": "GGT de 401 já em até 6 h é alta cedo demais para um evento de horas (em quem chega até 6 h, a GGT sobe cerca de 4x nas 10 h seguintes) e sugere colestase anterior: crises silenciosas, cálculo antigo ou outra causa. GGT também é inespecífica (ACG 2017; mediana de 196 na lesão por dipirona). Falta pedir exame antigo e perguntar por álcool.",
+      "correcao": "GGT dez vezes o limite já em até 6 h (colestase prévia?), FA quase normal",
+      "fonte": "transaminases-obstrucao-biliar-verificado.json erros 8a e acréscimo 3 (Sharara 2010); hepatite-aguda-diferencial-verificado.json claim 1 (GGT inespecífica, ACG 2017) e erros 7"
+    },
+    {
+      "gravidade": "media",
+      "tipo": "voz",
+      "pagina": "3",
+      "trecho": "Manter: colangite com fonte não controlada.",
+      "problema": "Conduta decidida e colangite dada como certa. Pelo TG18 é só suspeita, e o TG18 não tem regra de antibiótico para colangite suspeita sem obstrução documentada. Marcar como opção do médico, como já foi feito no outro cenário.",
+      "correcao": "Opção: manter (colangite suspeita).",
+      "fonte": "tg18-colangite-antibiotico.json lacunas (sem recomendação para colangite só suspeita) e claim 2"
+    },
+    {
+      "gravidade": "media",
+      "tipo": "voz",
+      "pagina": "4",
+      "trecho": "Passos",
+      "problema": "Conduta: a lista decide pelo médico ('alta com colangiorressonância marcada', 'colangiorressonância antes da alta'). O kit pede evidência e cenários; sugestão de conduta precisa vir marcada como proposta. Vale também para 'Dá para desospitalizar' (pág. 3).",
+      "correcao": "Opções",
+      "fonte": ""
+    },
+    {
+      "gravidade": "media",
+      "tipo": "fonte fraca",
+      "pagina": "4",
+      "trecho": "Item a item em verificacao-diretrizes.md.",
+      "problema": "A tabela tem 63 de 137 afirmações 'pendente': faltam as verificações adversariais de brasil-diretrizes-bulas e fontes-de-maior-nome. Ficam sem confirmação justamente as fontes brasileiras e de cinética que o PDF cita: Guia de Vigilância (25 a 100x), anti-HAV do MS, bulas de ceftriaxona e dipirona, AASLD (17 e 47 h), NACB (10% ao dia, 10 dias) e CONITEC, esta já com erro.",
+      "correcao": "Fontes brasileiras: verificação pendente.",
+      "fonte": "verificacao-diretrizes.md (Totais: Confirmado 74, pendente 63); PROGRESSO.md (falta brasil-diretrizes-bulas)"
+    },
+    {
+      "gravidade": "media",
+      "tipo": "logica",
+      "pagina": "1",
+      "trecho": "Caiu de 18,8 mil em 24 h",
+      "problema": "Cronologia: D0 foi colhido até 6 h após a dor (antes da meia-noite) e D1 de manhã, intervalo de cerca de 8 a 15 h, não 24 h. 'Subiu de 188 em um dia' tem o mesmo erro. Importa porque a velocidade da queda é argumento do texto.",
+      "correcao": "Caiu de 18,8 mil até D1",
+      "fonte": "asge-esge-coledocolitiase-verificado.json erros 4 (coleta D1 provavelmente com menos de 15 h de intervalo)"
+    },
+    {
+      "gravidade": "media",
+      "tipo": "erro clinico",
+      "pagina": "3",
+      "trecho": "Tóquio trata como grau II: drenagem precoce.",
+      "problema": "Tabela 5 do TG18: no grau I com cálculo no colédoco ou sem resposta em 24 h, a conduta de grau II 'should be considered'. Não é reclassificação automática.",
+      "correcao": "Tóquio manda considerar drenagem precoce.",
+      "fonte": "tg18-colangite-antibiotico-verificado.json claim 12 Confirmado, com a ressalva 'considerar'"
+    },
+    {
+      "gravidade": "baixa",
+      "tipo": "aritmetica",
+      "pagina": "3",
+      "trecho": "ALT estável perto de 281",
+      "problema": "Pela meia-vida de 47 h, cerca de 8 h após a manhã de D1 a ALT cairia para perto de 250 (281 x 0,5^(8/47)); o pesquisador projetou 240 a 260. AST perto de 216 e AST/ALT perto de 0,86 conferem.",
+      "correcao": "ALT perto de 250",
+      "fonte": "transaminases-obstrucao-biliar.json aplicação 5 (ALT de 240 a 260 a 21,5 h) e -verificado erros 6 (ALT cerca de 248)"
+    },
+    {
+      "gravidade": "baixa",
+      "tipo": "logica",
+      "pagina": "1",
+      "trecho": "Pancreatite saiu do mapa: lipase 52,6 nas primeiras 6 h e pâncreas normal na TC de D1; a lipase das 15h30 fecha.",
+      "problema": "Contradiz a pág. 4 ('a primeira pode ter sido colhida antes de subir'). A lipase das 15h30 só afasta se vier normal ou até 2x o limite; entre 1 e 3x é dado novo, não exclusão (IAP 2025: abaixo de 3x não exclui). TC normal não afasta pancreatite leve.",
+      "correcao": "Pancreatite improvável: lipase 52,6 até 6 h e pâncreas normal na TC de D1; lipase normal às 15h30 afasta.",
+      "fonte": "pancreatite-exclusao-verificado.json claim 8 (IAP 2025) e acréscimo 1 (Cochrane: lipase acima de 2x, sensibilidade 0,96)"
+    },
+    {
+      "gravidade": "baixa",
+      "tipo": "fonte fraca",
+      "pagina": "3",
+      "trecho": "por séries de obstrução aguda, em que as enzimas normalizam em até 10 dias",
+      "problema": "Pela regra do Lucas, séries antigas e pequenas não sustentam frase do PDF. O dado está no NACB 2000 (revisado pela AASLD), que traz ainda o ponto que importa: normalizam mesmo se a obstrução persiste.",
+      "correcao": "pelo NACB: na obstrução, normalizam em até 10 dias mesmo se persiste",
+      "fonte": "fontes-de-maior-nome.json claim 31"
+    },
+    {
+      "gravidade": "baixa",
+      "tipo": "cara de IA",
+      "pagina": "4",
+      "trecho": "O diagnóstico mais provável está firme.",
+      "problema": "Frase de efeito com tom de certeza, que briga com 'o controle das 15h30 decide' e com o título da própria página.",
+      "correcao": "Cálculo segue o mais provável.",
+      "fonte": ""
+    },
+    {
+      "gravidade": "baixa",
+      "tipo": "fonte fraca",
+      "pagina": "4",
+      "trecho": "Roma V: normal até 13 mm.",
+      "problema": "Roma V cita um estudo populacional por ressonância (13 mm abaixo de 65 anos) e diz que precisa de validação; o limite histórico lembrado é 9 mm. Do jeito que está, parece critério da Roma V. Na pág. 3, 'em centro de referência' também não está no texto da Roma V.",
+      "correcao": "Roma V: 13 mm, a validar.",
+      "fonte": "pos-colecistectomia-rome-iv-verificado.json claim 7 e erros 6"
+    },
+    {
+      "gravidade": "baixa",
+      "tipo": "fonte fraca",
+      "pagina": "4",
+      "trecho": "As diretrizes pedem imagem da via biliar sem CPRE",
+      "problema": "Regra do Lucas: fonte brasileira primeiro. O Manual da SBH (2019) já diz que a colangiorressonância é a opção segura e mais sensível, a ecoendoscopia é alternativa e a CPRE fica para dúvida ou desobstrução.",
+      "correcao": "SBH e ASGE pedem imagem da via biliar sem CPRE",
+      "fonte": "fontes-de-maior-nome.json claim 3 (SBH 2019, cap. 1)"
+    },
+    {
+      "gravidade": "baixa",
+      "tipo": "sigla",
+      "pagina": "4",
+      "trecho": "\"HEV\" foi lido como hidratação venosa.",
+      "problema": "Na pág. 2, 'anti-HEV' é hepatite E; aqui 'HEV' é prescrição de hidratação. A mesma sigla com dois sentidos confunde, e não fica claro o que se pergunta ao médico.",
+      "correcao": "\"HEV\" no prontuário = hidratação?",
+      "fonte": ""
+    }
+  ],
+  "diagnostico_mais_provavel_concorda": true,
+  "comentario_geral": "Bom: estrutura de briefing clara, cálculos de meia-vida e índice R certos, imagem pela ASGE/ESGE (risco intermediário, colangiorressonância ou ecoendoscopia, CPRE só com cálculo) correta, e o antibiótico de 4 a 7 dias está marcado como extrapolação. Concordo que evento biliar por cálculo é o mais provável, mas 'migrou' não está provado e a GGT de 401 em até 6 h sugere colestase anterior. Na hierarquia: (1) a capa e os títulos devem dizer 'provável' e condicionar o resultado das 15h30; (2) a página 3 deve abrir com 'colangiorressonância nos dois cenários; o controle define onde e quando', porque queda das transaminases não prova desobstrução (NACB); (3) colangite só suspeita em todo o texto, para não colidir com o risco intermediário da ASGE; (4) corrigir o erro factual AST/ALT em D1 e a atribuição à CONITEC; (5) tirar a data do cabeçalho; (6) rodar a verificação adversarial das fontes brasileiras antes de entregar. Conduta deve vir como 'Opções', decisão do médico."
+}
