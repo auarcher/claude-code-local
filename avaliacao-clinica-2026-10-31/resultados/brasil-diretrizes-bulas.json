@@ -1,0 +1,170 @@
+{
+ "id": "brasil-diretrizes-bulas",
+ "tema": "Fontes brasileiras: diretrizes nacionais sobre coledocolitíase/colangite/transaminases e bulas ANVISA (ceftriaxona, dipirona)",
+ "claims": [
+  {
+   "afirmacao": "Não foi localizada diretriz ou consenso brasileiro vigente (SOBED, CBC, CBCD, FBG, SBH) nem PCDT do Ministério da Saúde sobre diagnóstico de coledocolitíase, manejo de colangite aguda ou abordagem de transaminases elevadas agudas. O documento federal mais próximo é um relatório de incorporação da CONITEC (ver a afirmação seguinte).",
+   "sociedade": "SOBED / CBC / CBCD / FBG / SBH / Ministério da Saúde",
+   "titulo": "Busca negativa (PubMed, sites das sociedades, gov.br/conitec)",
+   "ano": "2026",
+   "link": "https://www.gov.br/conitec/pt-br/midias/relatorios/2019/relatorio_colangiopancreatografia_endoscopica_retrograda_coledocolitiase_final_471_2019.pdf/@@display-file/file",
+   "secao": "Não se aplica",
+   "trecho": "",
+   "confianca": "baixa",
+   "observacao": "não localizado. Busca no PubMed (79 resultados para coledocolitíase/colangite/enzimas + Brasil + consenso/diretriz) e buscas na web sem documento nacional sobre o tema. Resultado negativo, não prova de inexistência."
+  },
+  {
+   "afirmacao": "A CONITEC recomendou e o Ministério da Saúde incorporou ao SUS a CPRE (colangiopancreatografia retrógrada endoscópica) pré-cirúrgica para coledocolitíase de alto risco em pacientes SEM colecistectomia prévia. O documento não trata do paciente já colecistectomizado e não é diretriz clínica.",
+   "sociedade": "Ministério da Saúde / CONITEC",
+   "titulo": "Relatório de Recomendação nº 471: CPRE pré-cirúrgica no tratamento de coledocolitíase",
+   "ano": "2019",
+   "link": "https://www.gov.br/conitec/pt-br/midias/relatorios/2019/relatorio_colangiopancreatografia_endoscopica_retrograda_coledocolitiase_final_471_2019.pdf/@@display-file/file",
+   "secao": "Recomendação final (Registro de Deliberação nº 460/2019) e Decisão (Portaria SCTIE nº 39, de 24/07/2019)",
+   "trecho": "coledocolitíase sem colecistectomia prévia",
+   "confianca": "alta",
+   "observacao": "Avaliação de tecnologia (eficácia, custo e impacto orçamentário), não protocolo de diagnóstico. Não procurei revisão posterior do relatório."
+  },
+  {
+   "afirmacao": "O relatório da CONITEC adota a estratificação de risco da ASGE na versão de 2010. Alto risco: cálculo no colédoco à ultrassonografia, colangite clínica ou bilirrubina total > 4 mg/dL, ou dois fatores fortes (colédoco > 6 mm mais bilirrubina de 1,8 a 4). Risco intermediário: ecoendoscopia ou CPRM (colangiopancreatografia por ressonância). Ou seja, o Brasil federal segue o critério americano, não um critério próprio.",
+   "sociedade": "Ministério da Saúde / CONITEC (citando ASGE 2010)",
+   "titulo": "Relatório de Recomendação nº 471: seção 2.1, aspectos clínicos e epidemiológicos",
+   "ano": "2019",
+   "link": "https://www.gov.br/conitec/pt-br/midias/relatorios/2019/relatorio_colangiopancreatografia_endoscopica_retrograda_coledocolitiase_final_471_2019.pdf/@@display-file/file",
+   "secao": "2.1 Aspectos clínicos e epidemiológicos; Figura 1 (adaptada de ASGE, Gastrointest Endosc 2010)",
+   "trecho": "baixo (<10%), intermediário (10-50%) e alto risco para coledocolitíase (>50%)",
+   "confianca": "alta",
+   "observacao": "O relatório (jul/2019) ainda reproduz os critérios de 2010, embora a ASGE os tenha revisado em 2019 (afirmação seguinte). É uma defasagem de versão, não uma discordância de conteúdo."
+  },
+  {
+   "afirmacao": "ASGE 2019 (versão atual dos critérios): alto risco = colangite, cálculo em qualquer imagem ou bilirrubina total > 4 mg/dL com via biliar dilatada (> 8 mm em colecistectomizados). Risco intermediário = provas hepáticas alteradas, idade > 55 anos ou via dilatada. No risco intermediário, sugere ecoendoscopia ou CPRM (recomendação condicional, evidência de baixa qualidade).",
+   "sociedade": "ASGE (American Society for Gastrointestinal Endoscopy)",
+   "titulo": "ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis (Gastrointest Endosc 2019;89:1075-1105; DOI 10.1016/j.gie.2018.10.001)",
+   "ano": "2019",
+   "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8594622/",
+   "secao": "Question 1 (EUS vs MRCP, risco intermediário) e seção sobre preditores clínicos (critérios revisados)",
+   "trecho": "abnormal liver biochemical tests, age >55 years, or bile duct dilation",
+   "confianca": "alta",
+   "observacao": "Texto integral lido pelo MCP do PubMed (PMC8594622). Critérios feitos sobretudo para colelitíase com vesícula; o limiar de 8 mm pós-colecistectomia é o único ajuste explícito para esse grupo. Busca no PubMed não mostrou edição mais nova da ASGE sobre o tema."
+  },
+  {
+   "afirmacao": "ESGE 2019: provas hepáticas e ultrassonografia são os passos iniciais na suspeita de coledocolitíase. Recomenda ecoendoscopia ou CPRM quando a suspeita clínica persiste sem cálculo demonstrado à ultrassonografia (recomendação forte, evidência moderada). A colangite tem drenagem conforme a gravidade pelo Tokyo 2018: leve, eletiva.",
+   "sociedade": "ESGE (European Society of Gastrointestinal Endoscopy)",
+   "titulo": "Endoscopic management of common bile duct stones: ESGE guideline (Endoscopy 2019;51:472-491; DOI 10.1055/a-0862-0346)",
+   "ano": "2019",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/30943551/",
+   "secao": "Recomendações do resumo (diagnóstico; momento da drenagem biliar)",
+   "trecho": "persistent clinical suspicion but insufficient evidence of stones on abdominal ultrasonography",
+   "confianca": "alta",
+   "observacao": "Lido pelo MCP do PubMed (resumo com as recomendações e seus graus); texto integral não aberto. Não achei atualização da ESGE sobre o tema até 2026 (o documento ESGE de 2025 trata de treinamento em colangioscopia)."
+  },
+  {
+   "afirmacao": "O único consenso de sociedade brasileira localizado na área biliar endoscópica é o da SOBED sobre colangiopancreatoscopia (2026, Delphi, 18 especialistas). Trata de estenoses indeterminadas, cálculos complexos, CEP, pancreatoscopia, pós-transplante e profilaxia antibiótica. Não aborda a suspeita de coledocolitíase nem a escolha entre CPRM e ecoendoscopia. Para colangioscopia, sugere dose única pré-procedimento de cefalosporina de 3ª geração ou fluoroquinolona.",
+   "sociedade": "SOBED (Sociedade Brasileira de Endoscopia Digestiva)",
+   "titulo": "First Brazilian Consensus on Cholangiopancreatoscopy by the Brazilian Society of Digestive Endoscopy (Arq Gastroenterol 2026;62:e25057; DOI 10.1590/S0004-2803.24612025-057)",
+   "ano": "2026",
+   "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12788766/",
+   "secao": "Métodos (seis tópicos) e Antibiotic prophylaxis recommendation (nível III; concordância de 100%)",
+   "trecho": "a single pre-procedural dose of a third-generation cephalosporin or fluoroquinolone is suggested",
+   "confianca": "alta",
+   "observacao": "Publicado em 09/01/2026. Primeira edição. Relevância indireta para o caso: só se houver CPRE com colangioscopia."
+  },
+  {
+   "afirmacao": "SBH, Guia Brasileiro de Diagnóstico e Manejo das Doenças Hepáticas Colestáticas 2026: recomenda ultrassonografia como imagem inicial na colestase, para separar causa intra de extra-hepática. Recomenda CPRM na colestase de causa desconhecida, sobretudo se a ultrassonografia for inconclusiva ou houver suspeita de doença da via biliar. O contexto é o de colestase crônica (capítulo de CBP, colangite biliar primária), não o de dor aguda.",
+   "sociedade": "SBH (Sociedade Brasileira de Hepatologia)",
+   "titulo": "Guia Brasileiro de Diagnóstico e Manejo das Doenças Hepáticas Colestáticas 2026",
+   "ano": "2026",
+   "link": "https://sbhepatologia.org.br/wp-content/uploads/2026/08/Guia-Brasileiro-de-Diagnostico-e-Manejo-das-Doencas-Colestaticas-2026.pdf",
+   "secao": "Capítulo 1 (Colangite Biliar Primária), 3.4 Exames de imagem, Recomendações 1 e 2",
+   "trecho": "Recomenda-se a realização de CPRM em pacientes com colestase de causa desconhecida",
+   "confianca": "media",
+   "observacao": "Atualiza o guia SBH de 2018; lançamento noticiado em 07/08/2026. A SBH anuncia acesso exclusivo a associados (a página da notícia abriu só a tela de login); o PDF foi baixado de link público do site da SBH. Extrapolar para colestase aguda é inferência minha, não está no guia."
+  },
+  {
+   "afirmacao": "Bula de ceftriaxona (Ceftriona, Fresenius Kabi, conforme Bula Padrão aprovada pela Anvisa em 12/12/2025): indicada em infecções intra-abdominais, incluindo as do trato biliar. Dose usual em adultos e maiores de 12 anos: 1 a 2 g uma vez ao dia, a cada 24 h; até 4 g/dia em casos graves ou patógenos moderadamente sensíveis. Não há dose específica por indicação para infecção biliar. Não exige ajuste na insuficiência hepática com função renal preservada.",
+   "sociedade": "ANVISA (Bula Padrão) / Fresenius Kabi Brasil",
+   "titulo": "Ceftriona (ceftriaxona dissódica), bula do profissional de saúde, registro MS 1.0041.0189",
+   "ano": "2025",
+   "link": "https://www.fresenius-kabi.com/content/dam/fresenius-kabi/br/documents/bulas/medicamentos/Ceftriona%20-%20Bula%20Profissional%20da%20Sa%C3%BAde.pdf.coredownload.inline.pdf",
+   "secao": "1. Indicações; 8. Posologia e modo de usar (Geral; Insuficiência hepática)",
+   "trecho": "em dose única diária (cada 24 horas)",
+   "confianca": "alta",
+   "observacao": "Bulário Eletrônico da ANVISA inacessível nesta sessão (HTTP 403); usei a bula do fabricante, que declara seguir a Bula Padrão de 12/12/2025. A dose de 2 g aplicada no caso está dentro da faixa da bula."
+  },
+  {
+   "afirmacao": "Duração pela bula da ceftriaxona: depende da evolução e deve ir até no mínimo 48 a 72 h após o fim da febre ou a evidência de erradicação bacteriana. É critério genérico, não específico de infecção biliar.",
+   "sociedade": "ANVISA (Bula Padrão) / Fresenius Kabi Brasil",
+   "titulo": "Ceftriona (ceftriaxona dissódica), bula do profissional de saúde",
+   "ano": "2025",
+   "link": "https://www.fresenius-kabi.com/content/dam/fresenius-kabi/br/documents/bulas/medicamentos/Ceftriona%20-%20Bula%20Profissional%20da%20Sa%C3%BAde.pdf.coredownload.inline.pdf",
+   "secao": "8. Posologia e modo de usar: Duração do tratamento",
+   "trecho": "período mínimo de 48 a 72 horas após o desaparecimento da febre",
+   "confianca": "alta",
+   "observacao": "Diverge na forma do Tokyo 2018 (afirmação seguinte): a bula ancora a duração na febre, e o TG18 no controle da fonte."
+  },
+  {
+   "afirmacao": "Tokyo 2018 (TG18): a ceftriaxona está entre as opções empíricas para colangite comunitária grau I e grau II (metronidazol associado se houver anastomose biliodigestiva). Após controle da fonte, recomenda 4 a 7 dias de antibiótico na colangite aguda (recomendação 1, nível C). Não localizei edição posterior ao TG18 até 31/10/2026.",
+   "sociedade": "Tokyo Guidelines / JSHBPS (Japanese Society of Hepato-Biliary-Pancreatic Surgery)",
+   "titulo": "Tokyo Guidelines 2018: antimicrobial therapy for acute cholangitis and cholecystitis (J Hepatobiliary Pancreat Sci 2018;25:3-16; DOI 10.1002/jhbp.518)",
+   "ano": "2018",
+   "link": "https://pubmed.ncbi.nlm.nih.gov/29090866/",
+   "secao": "Tabela 3 (recomendações por gravidade, infecção comunitária) e Q3 (duração na colangite aguda)",
+   "trecho": "is recommended for the duration of 4 to 7 days",
+   "confianca": "media",
+   "observacao": "Registro lido pelo MCP do PubMed. O site da Wiley bloqueou o acesso (HTTP 403), então li o texto integral numa cópia do artigo hospedada por terceiro (darmzentrum-bern.ch), usada só como caminho. Por isso a confiança é média. Busca no PubMed (2025-2026) não mostrou TG novo."
+  },
+  {
+   "afirmacao": "A bula da ceftriaxona lista aumento de enzimas hepáticas como reação adversa comum. Também descreve precipitados de ceftriaxona cálcica na vesícula biliar, sobretudo com doses de 1 g/dia ou mais, que regridem com a suspensão e raramente dão sintomas, e raros casos de pancreatite, possivelmente por obstrução biliar.",
+   "sociedade": "ANVISA (Bula Padrão) / Fresenius Kabi Brasil",
+   "titulo": "Ceftriona (ceftriaxona dissódica), bula do profissional de saúde",
+   "ano": "2025",
+   "link": "https://www.fresenius-kabi.com/content/dam/fresenius-kabi/br/documents/bulas/medicamentos/Ceftriona%20-%20Bula%20Profissional%20da%20Sa%C3%BAde.pdf.coredownload.inline.pdf",
+   "secao": "5. Advertências e precauções (precipitados de ceftriaxona cálcica; pancreatite); 9. Reações adversas (distúrbios hepatobiliares)",
+   "trecho": "doses de ceftriaxona iguais ou superiores a 1g/dia",
+   "confianca": "alta",
+   "observacao": "A bula fala em precipitados na vesícula; não menciona o colédoco em paciente colecistectomizado. Aplicar ao caso, como fator de confusão na leitura de enzimas ou de imagem, é inferência."
+  },
+  {
+   "afirmacao": "Bula da dipirona (texto da Bula Padrão): hepatite aguda de padrão predominantemente hepatocelular, com início de alguns dias a alguns meses após começar o uso. Cursa com enzimas elevadas, com ou sem icterícia, muitas vezes com outras reações de hipersensibilidade. Mecanismo provavelmente imunoalérgico. Raros casos evoluem para insuficiência hepática com transplante. Diante de suspeita: suspender e avaliar a função hepática. Não reintroduzir se nenhuma outra causa for encontrada.",
+   "sociedade": "ANVISA (Bula Padrão) / Geolab; Opella-Sanofi (Novalgina)",
+   "titulo": "Dorageo (dipirona monoidratada), bula do profissional, V.02_04/2025, conforme Bula Padrão de 17/01/2025; Novalgina gotas, bula do paciente aprovada pela Anvisa em 20/03/2026",
+   "ano": "2025",
+   "link": "https://www.geolab.com.br/wp-content/uploads/2024/08/DORAGEO-BULA-PROFISSIONAL.pdf",
+   "secao": "5. Advertências e precauções: Lesão hepática induzida por drogas; 9. Reações adversas: distúrbios hepatobiliares (frequência desconhecida)",
+   "trecho": "com início de alguns dias a alguns meses após o início do tratamento",
+   "confianca": "alta",
+   "observacao": "Texto igual na bula do paciente da Novalgina (aprovada em 20/03/2026), conferido em https://www.novalgina.com.br/produtos/adulto/gotas/bula. Bula profissional da dipirona injetável não localizada em site de fabricante."
+  },
+  {
+   "afirmacao": "Comunicado da Sanofi aos profissionais de saúde, em acordo com a ANVISA (12/03/2021): a lesão hepática por dipirona é considerada muito rara, com frequência exata não calculável. Costuma vir com sinais de hipersensibilidade (erupção cutânea, discrasias sanguíneas, febre, eosinofilia) ou traços de hepatite autoimune. Em alguns pacientes voltou após readministração. A relação benefício-risco do medicamento seguiu inalterada.",
+   "sociedade": "Sanofi Brasil, em acordo com a ANVISA",
+   "titulo": "Dipirona: risco de lesão hepática induzida por fármaco (carta ao profissional de saúde)",
+   "ano": "2021",
+   "link": "https://www.sanofi.com.br/pt/noticias/releases/2021-03-12-dipirona",
+   "secao": "Resumo e Informações adicionais sobre LHIF (lesão hepática induzida por fármaco)",
+   "trecho": "frequentemente no contexto de reações de hipersensibilidade a outras drogas",
+   "confianca": "alta",
+   "observacao": "Comunicado de fabricante, não norma da ANVISA. Página própria da ANVISA sobre o tema não localizada. Origem: revisão europeia (PRAC, comitê de farmacovigilância da EMA) citada no próprio comunicado."
+  }
+ ],
+ "aplicacao_ao_caso": "1) Não há norma brasileira que mude a conduta. A referência prática é internacional, e o próprio Ministério da Saúde (CONITEC 471) usa a estratificação da ASGE.\n2) Pela ASGE 2019, provas hepáticas alteradas bastam para risco intermediário de coledocolitíase, mesmo com bilirrubina normal. Bilirrubina normal não leva a paciente ao baixo risco. A TC sem dilatação (limiar de 8 mm em colecistectomizados) afasta só um dos critérios intermediários.\n3) Para risco intermediário, ASGE 2019 sugere ecoendoscopia ou CPRM, e a ESGE 2019 recomenda as mesmas se a suspeita persistir com ultrassonografia sem cálculo. A CPRM proposta pelo cirurgião bate com a modalidade. Nenhuma das duas diretrizes fixa o prazo (internação ou ambulatório), que segue sendo decisão clínica.\n4) Os critérios da ASGE foram feitos sobretudo para pacientes com vesícula. Aplicá-los a quem foi colecistectomizada há 9 anos é extrapolação. O relatório da CONITEC exclui explicitamente esse grupo.\n5) O guia de colestase da SBH (2026) também indica CPRM na colestase sem causa definida. Isso apoia a CPRM se GGT e fosfatase alcalina continuarem altas no seguimento.\n6) Ceftriaxona: a dose única de 2 g está dentro da bula (1 a 2 g a cada 24 h). A bula ancora a duração na febre (48 a 72 h após o fim da febre), mas a paciente esteve afebril o tempo todo, então a bula não dá ponto de parada útil. O TG18 (4 a 7 dias após controle da fonte) pressupõe colangite diagnosticada. Se a antibioticoterapia for mantida, falta definir indicação e duração.\n7) A ceftriaxona pode elevar enzimas (reação comum) e formar precipitados biliares com 1 g/dia ou mais. Vale considerar isso ao ler o controle das 15:30 e uma CPRM feita durante ou logo após o antibiótico. O horário da coleta do D1 em relação à dose não está no caso.\n8) Dipirona: a bula descreve hepatite com início de dias a meses após começar o uso. Aqui a dipirona veio depois do início da dor, e o primeiro exame saiu cerca de 6 h depois, então a cronologia não favorece hepatite por dipirona como causa da elevação inicial. Falta perguntar sobre uso prévio de dipirona ou de outros fármacos e chás.\n9) Se a causa ficar indefinida e houver exposição à dipirona anterior à alteração, a bula proíbe reintroduzir. Isso pesa na escolha do analgésico da alta.\n10) Bula e comunicado ligam a lesão por dipirona a sinais de hipersensibilidade. Eosinófilos não aparecem no diferencial relatado e podem ser checados no hemograma de controle.",
+ "lacunas": "Bulário Eletrônico da ANVISA (consultas.anvisa.gov.br) devolveu HTTP 403 (bloqueio por região), por isso usei bulas de fabricante que declaram seguir a Bula Padrão. Não abri a bula vigente do Rocefin (Roche, referência), nem bula profissional de dipirona injetável em site de fabricante. Não localizei: diretriz do CBC, do CBCD ou da FBG sobre o tema; diretriz da SOBED sobre suspeita de coledocolitíase; PCDT do Ministério da Saúde para coledocolitíase ou colangite aguda; recomendação brasileira sobre elevação aguda de transaminases; alerta próprio da ANVISA sobre dipirona e fígado. O TG18 foi lido em cópia de terceiro porque a Wiley bloqueou o acesso. Da ESGE 2019 li só o resumo. O guia SBH 2026 é anunciado como restrito a associados. Não pesquisei os critérios diagnósticos e de gravidade do TG18 (fora deste tema). Dois PDFs abertos não serviram: saudedireta.com.br/novalgina.pdf (de 2008, ilegível) e cristalia.com.br/produto/161 (é levobupivacaína).",
+ "edicao_mais_recente_confirmada": "CONITEC, Relatório 471: julho/2019, decisão pela Portaria SCTIE nº 39 de 24/07/2019 (DOU de 25/07/2019); não procurei revisão. SOBED, consenso de colangiopancreatoscopia: Arq Gastroenterol, 09/01/2026, primeira edição. SBH, Guia de Doenças Colestáticas: edição 2026 (lançada em 07/08/2026), atualiza a de 2018. Ceftriona: segue a Bula Padrão aprovada pela Anvisa em 12/12/2025 (PDF de mar-abr/2026); versão posterior não verificável sem o Bulário. Dipirona: Dorageo V.02_04/2025 segue a Bula Padrão de 17/01/2025; a bula do paciente da Novalgina (aprovada em 20/03/2026) é mais recente e tem o mesmo texto sobre o fígado. Comunicado Sanofi: 12/03/2021. TG18 (2018): sem edição posterior no PubMed até 31/10/2026. ASGE 2019 e ESGE 2019: sem atualização localizada; um estudo de julho/2026 (ANZ J Surg, DOI 10.1111/ans.70823) ainda usa as duas como versões publicadas.",
+ "links_abertos": [
+  "https://www.gov.br/conitec/pt-br/midias/relatorios/2019/relatorio_colangiopancreatografia_endoscopica_retrograda_coledocolitiase_final_471_2019.pdf/@@display-file/file",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC12788766/",
+  "https://sbhepatologia.org.br/wp-content/uploads/2026/08/Guia-Brasileiro-de-Diagnostico-e-Manejo-das-Doencas-Colestaticas-2026.pdf",
+  "https://sbhepatologia.org.br/noticias/sbh-lanca-guia-brasileiro-de-diagnostico-e-manejo-das-doencas-colestaticas/",
+  "https://www.fresenius-kabi.com/content/dam/fresenius-kabi/br/documents/bulas/medicamentos/Ceftriona%20-%20Bula%20Profissional%20da%20Sa%C3%BAde.pdf.coredownload.inline.pdf",
+  "https://www.geolab.com.br/wp-content/uploads/2024/08/DORAGEO-BULA-PROFISSIONAL.pdf",
+  "https://www.novalgina.com.br/produtos/adulto/gotas/bula",
+  "https://www.sanofi.com.br/pt/noticias/releases/2021-03-12-dipirona",
+  "https://pubmed.ncbi.nlm.nih.gov/29090866/",
+  "https://www.darmzentrum-bern.ch/fileadmin/darmzentrum/Education/Bible_Class/2025/Gallstones/Tokyo_Leitlinie_Antibiose.pdf",
+  "https://pmc.ncbi.nlm.nih.gov/articles/PMC8594622/",
+  "https://pubmed.ncbi.nlm.nih.gov/30943551/",
+  "https://pubmed.ncbi.nlm.nih.gov/34654972/",
+  "https://pubmed.ncbi.nlm.nih.gov/42399207/",
+  "https://www.saudedireta.com.br/catinc/drugs/bulas/novalgina.pdf",
+  "https://cristalia.com.br/produto/161/bula-profissional"
+ ]
+}
