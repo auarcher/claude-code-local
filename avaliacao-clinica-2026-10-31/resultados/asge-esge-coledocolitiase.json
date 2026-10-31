@@ -1,0 +1,180 @@
+{
+  "id": "asge-esge-coledocolitiase",
+  "tema": "Estratificação de risco de coledocolitíase (ASGE 2019, ESGE 2019 e atualizações)",
+  "claims": [
+    {
+      "afirmacao": "ASGE 2019: alto risco (>50%) de cálculo no colédoco = cálculo visto na USG ou em imagem seccional, colangite ascendente, ou bilirrubina total >4 mg/dL associada a colédoco dilatado; esses pacientes vão direto à CPRE (colangiopancreatografia retrógrada endoscópica). Dilatação definida como >6 mm sem colecistectomia e 8 mm em quem já foi colecistectomizado.",
+      "sociedade": "ASGE (American Society for Gastrointestinal Endoscopy)",
+      "titulo": "ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis (Buxbaum JL et al., Gastrointest Endosc 2019;89(6):1075-1105.e15; DOI 10.1016/j.gie.2018.10.001)",
+      "ano": "2019",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8594622/",
+      "secao": "Revisão abrangente (sem GRADE): 'Are combinations of liver function tests, clinical characteristics, and transabdominal US able to predict choledocholithiasis?'; Tabela 15; sugestão",
+      "trecho": "8 mm in those who have undergone cholecystectomy",
+      "confianca": "alta",
+      "observacao": "Texto lido na versão integral do PMC (via PubMed). Em relação a 2010, o painel retirou a pancreatite biliar como critério e passou a exigir bilirrubina >4 mg/dL junto com dilatação para alto risco, para reduzir CPRE diagnóstica (eventos adversos de 6% a 15%). O próprio painel diz que essa estratificação precisa de validação prospectiva. No texto extraído, o '8 mm' aparece sem o sinal '>'."
+    },
+    {
+      "afirmacao": "ASGE 2019: risco intermediário (10% a 50%) = testes hepáticos alterados, idade >55 anos ou colédoco dilatado à USG; conduta sugerida: EUS (ecoendoscopia), CPRM (colangiorressonância), colangiografia intraoperatória laparoscópica ou USG intraoperatória. Baixo risco (<10%) = nenhum preditor; colecistectomia com ou sem colangiografia ou USG intraoperatória, se houver colelitíase sintomática.",
+      "sociedade": "ASGE",
+      "titulo": "ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis (Buxbaum et al., 2019)",
+      "ano": "2019",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8594622/",
+      "secao": "Revisão abrangente; Tabela 15 (estratégia proposta para atribuir risco em colelitíase sintomática)",
+      "trecho": "abnormal liver biochemical tests, age >55 years, or bile duct dilation",
+      "confianca": "alta",
+      "observacao": "Basta um teste hepático alterado para o risco intermediário; bilirrubina normal não leva ao baixo risco. O algoritmo foi escrito para colelitíase sintomática com vesícula; para colecistectomizados, o único ajuste explícito é o limiar de dilatação de 8 mm."
+    },
+    {
+      "afirmacao": "ASGE 2019 (pergunta 1, GRADE): no risco intermediário, sugere EUS ou CPRM para confirmar, escolhendo conforme preferência do paciente, experiência local e recursos (recomendação condicional, evidência baixa). Meta-análise usada: sensibilidade EUS 0,97 vs CPRM 0,87; especificidade 0,90 vs 0,92. Os falsos-negativos da CPRM foram de cálculos pequenos; EUS após CPRM negativa só se a suspeita clínica continuar forte.",
+      "sociedade": "ASGE",
+      "titulo": "ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis (Buxbaum et al., 2019)",
+      "ano": "2019",
+      "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8594622/",
+      "secao": "Question 1: EUS versus MRCP in intermediate risk; conditional recommendation, low quality of evidence",
+      "trecho": "we suggest either EUS or MRCP to confirm the diagnosis",
+      "confianca": "alta",
+      "observacao": "A ESGE cita a mesma meta-análise (Meeralam 2017) com números um pouco diferentes (sensibilidade 97% vs 90%; especificidade 87% vs 92%). A ASGE dá certeza moderada para a CPRM e baixa para a EUS."
+    },
+    {
+      "afirmacao": "A diretriz ASGE de coledocolitíase de 2019 segue listada como vigente nas páginas oficiais da ASGE; a lista de diretrizes 'In Progress' traz apenas uma sobre code status periendoscópico (estimada para 2026). Não há atualização nem substituição publicada.",
+      "sociedade": "ASGE",
+      "titulo": "Página da ASGE: ASGE Guidelines / ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis",
+      "ano": "2019 (página datada de 1 jul 2019)",
+      "link": "https://www.asge.org/home/resources/publications/guidelines",
+      "secao": "Biliary and Pancreatic Endoscopy; GRADE Guidelines; In Progress Guidelines",
+      "trecho": "ASGE Guideline on management of code status in the periendoscopic period",
+      "confianca": "alta",
+      "observacao": "O WebFetch direto retornou 503; conteúdo lido pelo extrator Parallel (cópia de 4 a 16 out 2026). Busca no PubMed (2019-2026) por diretriz ASGE/ESGE de coledocolitíase não achou versão mais nova; só estudos de validação. O PubMed não mostra errata ligada ao registro 30979521."
+    },
+    {
+      "afirmacao": "ESGE 2019: testes hepáticos e USG abdominal são os passos iniciais, e a combinação deles define a probabilidade de cálculo (recomendação forte, evidência moderada). EUS ou CPRM quando a suspeita clínica persiste mas a USG não mostra cálculo (forte, moderada). Também recomenda extrair todo cálculo de colédoco, com ou sem sintomas, se o paciente tolerar (forte, evidência baixa).",
+      "sociedade": "ESGE (European Society of Gastrointestinal Endoscopy)",
+      "titulo": "Endoscopic management of common bile duct stones: ESGE guideline (Manes G et al., Endoscopy 2019;51(5):472-491; DOI 10.1055/a-0862-0346)",
+      "ano": "2019",
+      "link": "https://www.thieme-connect.com/products/ejournals/html/10.1055/a-0862-0346",
+      "secao": "Main Recommendations; 3.2 Natural history; 4.1 Initial evaluation; 4.2 Role of EUS and MRCP",
+      "trecho": "Combining these tests defines the probability of having common bile duct stones.",
+      "confianca": "alta",
+      "observacao": "Página da Thieme bloqueou o WebFetch (anti-bot); texto lido pelo extrator Parallel e conferido no PDF hospedado pela ESGE."
+    },
+    {
+      "afirmacao": "ESGE 2019, algoritmo diagnóstico (Fig. 1): baixa probabilidade = testes hepáticos normais e USG sem dilatação do colédoco, sem investigação adicional salvo sintomas persistentes; intermediária = testes hepáticos alterados e/ou colédoco dilatado, seguir com EUS ou CPRM; alta = sinais de colangite ou cálculo visto na USG, seguir com CPRE ou exploração cirúrgica. Sem diagnóstico por imagem, CPRE imediata só se houver colangite.",
+      "sociedade": "ESGE",
+      "titulo": "Endoscopic management of common bile duct stones: ESGE guideline (Manes et al., 2019)",
+      "ano": "2019",
+      "link": "https://www.esge.com/assets/downloads/pdfs/guidelines/2019_a_0862_0346.pdf",
+      "secao": "4.3 An algorithm for investigating suspected CBDSs; Fig. 1",
+      "trecho": "Normal LFTs and ultrasonography indicate a low risk of CBDSs",
+      "confianca": "alta",
+      "observacao": "O algoritmo da ESGE não traz limiar numérico de bilirrubina nem de diâmetro do colédoco (não localizado no texto aberto). A entrada do fluxograma é 'doença calculosa sintomática'."
+    },
+    {
+      "afirmacao": "ESGE 2019: em paciente com cálculo de colédoco e colecistectomia prévia, a CPRE com limpeza da via biliar é o tratamento primário e definitivo. A diretriz não tem algoritmo diagnóstico próprio para colecistectomizados.",
+      "sociedade": "ESGE",
+      "titulo": "Endoscopic management of common bile duct stones: ESGE guideline (Manes et al., 2019)",
+      "ano": "2019",
+      "link": "https://www.esge.com/assets/downloads/pdfs/guidelines/2019_a_0862_0346.pdf",
+      "secao": "7 Endoscopic CBDS management and surgery (introdução); Appendix 1s, tópico 6.4 'Patients without gallbladder and CBD stones'",
+      "trecho": "primary and definitive treatment in patients with CBDSs and previous cholecystectomy",
+      "confianca": "alta",
+      "observacao": "A ausência de estratificação específica para colecistectomizados é leitura minha do texto aberto (o fluxograma parte de doença calculosa sintomática); não achei frase da ESGE que diga isso explicitamente."
+    },
+    {
+      "afirmacao": "A página de diretrizes da ESGE (out 2026) ainda lista a diretriz de cálculos de colédoco de 2019 na seção HPB/duodeno. A mais recente da seção é a de manejo de estenoses biliares (3 set 2026), que não trata de cálculos. A revisão prevista para 2023 não foi publicada.",
+      "sociedade": "ESGE",
+      "titulo": "ESGE Guidelines (página oficial)",
+      "ano": "2026 (página consultada)",
+      "link": "https://www.esge.com/guidelines",
+      "secao": "ESGE Guidelines by topic: HPB/duodenal; Recently published ESGE Guidelines",
+      "trecho": "",
+      "confianca": "alta",
+      "observacao": "A diretriz de 2019 diz que seria considerada para revisão em 2023 ou antes (texto da Thieme). O PubMed não mostra errata ligada ao registro 30943551."
+    },
+    {
+      "afirmacao": "ESGE 2019, limites dos exames não invasivos: TC multidetector com sensibilidade de 78% e especificidade de 96%, com acurácia bem menor para cálculos <5 mm (56,5% vs 81,2%) ou de densidade parecida com a da bile. Cálculo com testes hepáticos normais: 5,4% (29/541) numa série com CPRE; 6,4% (7/109) com USG e testes normais numa série com CPRM.",
+      "sociedade": "ESGE",
+      "titulo": "Endoscopic management of common bile duct stones: ESGE guideline (Manes et al., 2019)",
+      "ano": "2019",
+      "link": "https://www.thieme-connect.com/products/ejournals/html/10.1055/a-0862-0346",
+      "secao": "4.1 Initial evaluation",
+      "trecho": "significantly lower when stones are less than 5 mm",
+      "confianca": "alta",
+      "observacao": "Os dados de TC vêm de estudo retrospectivo citado pela ESGE (refs. 27-28); os de testes normais, das refs. 35-36. Não abri os artigos primários dessas referências."
+    },
+    {
+      "afirmacao": "Revisão Cochrane (Gurusamy 2015): num único estudo (262 participantes), bilirrubina >22,23 µmol/L (cerca de 1,3 mg/dL) teve sensibilidade de 0,84 (IC95% 0,64-0,95) e especificidade de 0,91 para cálculo de colédoco; fosfatase alcalina >125 UI/L teve sensibilidade de 0,92. Sensibilidade resumida da USG: 0,73. Ou seja, cerca de 1 em 6 cálculos tinha bilirrubina abaixo do corte.",
+      "sociedade": "Cochrane Database of Systematic Reviews (revisão sistemática, não diretriz)",
+      "titulo": "Ultrasound versus liver function tests for diagnosis of common bile duct stones (Gurusamy KS et al.; DOI 10.1002/14651858.CD011548)",
+      "ano": "2015",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/25719223/",
+      "secao": "Resumo: Main results",
+      "trecho": "All the studies were of poor methodological quality.",
+      "confianca": "alta",
+      "observacao": "Evidência fraca: um só estudo para testes hepáticos. A ESGE cita essa revisão com fosfatase alcalina a 91%. O 'cerca de 1 em 6' é cálculo meu (1 - 0,84). Não verifiquei se a revisão foi atualizada."
+    },
+    {
+      "afirmacao": "Registro sueco GallRiks, citado pela ESGE: dos 3.969 com cálculo na colangiografia intraoperatória, 594 ficaram com o cálculo; complicações (pancreatite, colangite, obstrução) em 25,3% vs 12,7% após remoção (OR 0,44), e em 5,9% mesmo com cálculos <4 mm. A ESGE conclui por extrair o cálculo seja qual for o tamanho.",
+      "sociedade": "ESGE",
+      "titulo": "Endoscopic management of common bile duct stones: ESGE guideline (Manes et al., 2019)",
+      "ano": "2019",
+      "link": "https://www.esge.com/assets/downloads/pdfs/guidelines/2019_a_0862_0346.pdf",
+      "secao": "3.2 The natural history of CBDSs and recommended handling",
+      "trecho": "These data support a strategy of extracting CBDSs regardless of size",
+      "confianca": "alta",
+      "observacao": "O artigo primário do GallRiks (ref. 14 da ESGE) não foi aberto nesta tarefa; os números vêm do texto da diretriz."
+    },
+    {
+      "afirmacao": "Collins 2004 (Ann Surg): colangiografia intraoperatória feita em 962 colecistectomias; 46 tinham falha de enchimento, 12 normalizaram em 48 h (possível falso-positivo) e outras 12 em 6 semanas (26% de passagem espontânea). Coledocolitíase real em 3,4%, e mais de um terço eliminou o cálculo sozinho em 6 semanas; passagem não dependeu do número ou tamanho dos cálculos nem do diâmetro do colédoco.",
+      "sociedade": "Annals of Surgery (artigo primário, estudo prospectivo)",
+      "titulo": "A prospective study of common bile duct calculi in patients undergoing laparoscopic cholecystectomy: natural history of choledocholithiasis revisited (Collins C et al.; DOI 10.1097/01.sla.0000103069.00170.9c)",
+      "ano": "2004",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/14685097/",
+      "secao": "Resumo: Results e Conclusions",
+      "trecho": "more than one third of these pass the calculi spontaneously within 6 weeks",
+      "confianca": "alta",
+      "observacao": "Cálculos clinicamente silenciosos, achados na cirurgia; extrapolar para colecistectomizada sintomática é indireto."
+    },
+    {
+      "afirmacao": "Frossard 2000 (Gastrointest Endosc): em 92 pacientes com cálculo de colédoco na EUS, 12 não tinham mais cálculo na CPRE seguinte; a migração espontânea foi de cerca de 21% em até 1 mês, e o tamanho do cálculo foi o único preditor independente.",
+      "sociedade": "Gastrointestinal Endoscopy (artigo primário, estudo prospectivo)",
+      "titulo": "Choledocholithiasis: a prospective study of spontaneous common bile duct stone migration (Frossard JL et al.; DOI 10.1016/s0016-5107(00)70414-7)",
+      "ano": "2000",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/10650260/",
+      "secao": "Resumo: Results e Conclusions",
+      "trecho": "Migration occurred in about 21% of cases within 1 month.",
+      "confianca": "alta",
+      "observacao": "Estudo de um só centro, amostra pequena; no resumo, ter vesícula se associou a mais migração apenas na análise univariada."
+    },
+    {
+      "afirmacao": "Suarez 2016 (Surg Endosc): em 173 internados com suspeita de coledocolitíase, os critérios ASGE (2010) acertaram 63%; repetir os exames hepáticos não melhorou a acurácia (62,7%), e uma queda significativa nos testes não previu de forma confiável a passagem espontânea. 31,4% dos classificados como baixo ou intermediário risco tinham cálculo.",
+      "sociedade": "Surgical Endoscopy (artigo primário, coorte retrospectiva)",
+      "titulo": "An assessment of existing risk stratification guidelines for the evaluation of patients with suspected choledocholithiasis (Suarez AL et al.; DOI 10.1007/s00464-016-4799-8)",
+      "ano": "2016",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/26895915/",
+      "secao": "Resumo: Results",
+      "trecho": "a significant decline in liver function tests did not reliably predict spontaneous stone passage",
+      "confianca": "alta",
+      "observacao": "Estudo de um só centro, retrospectivo, com os critérios de 2010; a ASGE 2019 cita esse trabalho ao justificar a revisão dos critérios."
+    }
+  ],
+  "aplicacao_ao_caso": "1) ASGE 2019, alto risco: a paciente não preenche nenhum critério. Não há cálculo visto na USG nem na TC, a bilirrubina total é 0,80 mg/dL (o critério pede >4 junto com dilatação) e a via biliar não está dilatada. Colangite clínica não foi descrita (afebril, anictérica), mas veja o item 7.\n2) ASGE 2019, risco intermediário: ela preenche o critério de testes hepáticos alterados (AST 292-299, ALT 188 e depois 281, GGT 389-401). Ter 50 anos (<55) e via não dilatada não acrescenta nada. Fica na faixa de 10% a 50%, e a conduta sugerida é EUS ou CPRM (recomendação condicional, evidência baixa).\n3) ESGE 2019 chega ao mesmo lugar: testes hepáticos alterados = probabilidade intermediária, com indicação de EUS ou CPRM (recomendação forte, evidência moderada).\n3b) Nas duas diretrizes, baixo risco exige testes hepáticos normais. Bilirrubina normal sozinha não basta para isso, então o argumento de 'baixa probabilidade pela bilirrubina normal' não tem apoio no texto delas.\n3c) A CPRM proposta pelo cirurgião está certa; a dúvida é quando fazer (internada ou ambulatorial), e isso nenhuma das duas define no texto que abri.\n4) Os exames de imagem feitos não excluem cálculo pequeno. A USG tem sensibilidade de cerca de 73% e a TC de 78%, bem menor abaixo de 5 mm. Os laudos não dão o diâmetro do colédoco; em colecistectomizada, a ASGE só considera dilatado acima de 8 mm.\n5) A bilirrubina detecta cerca de 84% dos cálculos (um único estudo, de baixa qualidade), e 5% a 6% dos cálculos aparecem com testes hepáticos totalmente normais. Transaminases e GGT altas com bilirrubina normal, portanto, não excluem cálculo.\n5b) Numa meta-análise de 2023, ALT ou AST >500 apareceu em cerca de 1/3 dos casos de coledocolitíase, e >1000 em cerca de 8% (Mohamed et al., DOI 10.1007/s10620-023-07981-7). O padrão hepatocelular precoce desta paciente é compatível com obstrução biliar aguda.\n6) Cálculos passam sozinhos com frequência: mais de 1/3 em 6 semanas (Collins) e cerca de 21% em 1 mês (Frossard). Isso pode explicar a dor que cedeu.\n6b) Mas a queda dos testes hepáticos não previu a passagem de forma confiável (Suarez 2016). Se o controle das 15:30 vier melhor, ele mostra a tendência, mas não afasta cálculo residual nem substitui a CPRM.\n6c) Cálculo deixado no colédoco complica mais (25,3% vs 12,7% no GallRiks), a ESGE recomenda extrair qualquer cálculo em paciente apto, e em colecistectomizada a CPRE é o tratamento definitivo.\n6d) Se a alta acontecer antes da CPRM, o ideal é que a CPRM tenha data curta e confirmada e que a paciente saia orientada sobre febre, icterícia, colúria/acolia e volta da dor.\n7) Ponto de atenção, NÃO verificado nesta tarefa: leucócitos de 18.840 (79% segmentados) com testes hepáticos acima de 1,5 vez o normal podem preencher critério de colangite 'suspeita' pelas Tokyo Guidelines 2018 (inflamação sistêmica + colestase laboratorial), mesmo sem febre ou icterícia. Conferir com o tema Tokyo.\n7b) Se for colangite, a ASGE classifica como alto risco, com indicação de CPRE. A queda dos leucócitos para 14.550 depois da ceftriaxona sugere melhora.\n8) Hepatite aguda segue no diferencial (HEV pendente; testes rápidos de HBV e HCV não reagentes). Esses testes não substituem anti-HBc IgM nem anti-HAV IgM, e essa observação é raciocínio clínico meu, não vem das diretrizes.\n8b) A dor epigástrica súbita, irradiada para o dorso, com pico enzimático em horas numa paciente com antecedente biliar, deixa a causa biliar pelo menos tão provável quanto hepatite.",
+  "lacunas": "(a) A página da ASGE deu 503 no WebFetch; o conteúdo veio pelo extrator Parallel (cópia de out 2026) e pelo texto integral no PMC via PubMed. (b) A Thieme bloqueou o WebFetch (anti-bot); usei o extrator Parallel e o PDF hospedado pela ESGE. (c) Não localizei na ESGE limiar numérico de bilirrubina nem de diâmetro do colédoco para estratificar risco, e não abri as tabelas suplementares completas (Tabela 2s). (d) Não abri os artigos primários citados pela ESGE sobre cálculo com testes normais (refs. 35-36), TC (refs. 27-28) e GallRiks (ref. 14); os números vêm do texto da diretriz. (e) Nenhuma das duas diretrizes trata especificamente de colecistectomizada com testes alterados e via não dilatada; as duas estratificações foram desenhadas para colelitíase sintomática com vesícula. A ASGE só ajusta o limiar de dilatação (8 mm). (f) Nenhuma das duas diz se a CPRM do risco intermediário, em paciente estável sem colangite, deve ser feita internada ou ambulatorial (não localizado). (g) Tokyo Guidelines 2018 não foram verificadas aqui. (h) Não procurei errata nos sites dos periódicos; o PubMed não mostra errata ligada a nenhuma das duas diretrizes. (i) Validação dos critérios de 2019 (Hasak 2021, DOI 10.1007/s00464-021-08752-z): sensibilidade 65,8%, especificidade 78,9%, VPN (valor preditivo negativo) 54,1%, desempenho ainda modesto. Não usei como claim principal. (j) No texto extraído do PMC, o limiar pós-colecistectomia aparece como '8 mm' sem o sinal '>'. (k) Não verifiquei se a revisão Cochrane de 2015 foi atualizada.",
+  "edicao_mais_recente_confirmada": "ASGE: Buxbaum JL et al., 'ASGE guideline on the role of endoscopy in the evaluation and management of choledocholithiasis', Gastrointest Endosc 2019;89(6):1075-1105.e15, DOI 10.1016/j.gie.2018.10.001 (online em 09/04/2019 no PubMed; página da ASGE datada de 01/07/2019). Continua listada como vigente nas páginas de diretrizes da ASGE (cópia de out 2026). A lista 'In Progress' não tem nada sobre coledocolitíase, e não achei atualização, substituição nem errata até 31/10/2026. ESGE: Manes G et al., 'Endoscopic management of common bile duct stones: ESGE guideline', Endoscopy 2019;51(5):472-491, DOI 10.1055/a-0862-0346 (epub 03/04/2019). A revisão estava prevista para 2023 e não foi publicada. A página de diretrizes da ESGE (out 2026) ainda lista a versão de 2019; a diretriz HPB mais recente (Biliary stricture management, 03/09/2026) não a substitui. Não achei errata. Cochrane CD011548 (2015): não verifiquei se há atualização.",
+  "links_abertos": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8594622/",
+    "https://pubmed.ncbi.nlm.nih.gov/30979521/",
+    "https://pubmed.ncbi.nlm.nih.gov/30943551/",
+    "https://www.asge.org/home/resources/publications/guidelines/asge-guideline-on-the-role-of-endoscopy-in-the-evaluation-and-management-of-choledocholithiasis",
+    "https://www.asge.org/home/resources/publications/guidelines",
+    "https://www.thieme-connect.com/products/ejournals/html/10.1055/a-0862-0346",
+    "https://www.esge.com/assets/downloads/pdfs/guidelines/2019_a_0862_0346.pdf",
+    "https://www.esge.com/guidelines",
+    "https://pubmed.ncbi.nlm.nih.gov/25719223/",
+    "https://pubmed.ncbi.nlm.nih.gov/14685097/",
+    "https://pubmed.ncbi.nlm.nih.gov/10650260/",
+    "https://pubmed.ncbi.nlm.nih.gov/12831489/",
+    "https://pubmed.ncbi.nlm.nih.gov/26895915/",
+    "https://pubmed.ncbi.nlm.nih.gov/37269372/",
+    "https://pubmed.ncbi.nlm.nih.gov/34654972/"
+  ]
+}

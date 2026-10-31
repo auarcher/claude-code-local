@@ -1,0 +1,12 @@
+/* Tokens do design system "Briefing técnico" (tokens.json, 29/10/2026) */
+:root {
+  --tinta: #14171a; --destaque: #e8421f; --apagado: #5a636b; --fio: #d5dade; --painel: #f0f2f4;
+  --contorno: #a7afb5; --papel: #ffffff; --escuro-fio: #3a4047; --escuro-texto: #e6e9ec;
+  --desenho-traco: #b8c0c6; --desenho-barra: #e9ecee; --desenho-fundo: #f4f5f6; --terminal-apagado: #8a939b;
+  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-texto: Barlow, "Liberation Sans", Arial, sans-serif;
+  --margem-pagina: 16mm; --altura-faixa: 13mm; --topo-conteudo: 11mm; --base-rodape: 8mm; --folga-rodape: 5mm;
+  --vao-colunas: 10mm; --vao-cartoes: 7mm; --vao-formatos: 12mm;
+  --raio-reto: 0; --raio-janela: 7px; --raio-celular: 14px; --raio-ponto: 50%;
+  --traco-fio: 0.5pt; --traco-grupo: 1pt; --traco-etiqueta: 1.6pt; --traco-numeros: 2pt; --traco-diagrama: 2.4px; --traco-citacao: 3pt; --traco-explicacao: 4pt;
+}

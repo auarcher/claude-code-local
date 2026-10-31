@@ -1,0 +1,70 @@
+/* Briefing técnico — componentes (bundle.css do kit, 29/10/2026), sem o @import do Google Fonts: fontes em ../fonts/local.css */
+@page { size: 210mm 297mm; margin: 0; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--papel); font-family: var(--font-texto); font-size: 10pt; line-height: 1.45; color: var(--tinta); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.page { position: relative; width: 210mm; height: 297mm; overflow: hidden; page-break-after: always; background: var(--papel); }
+.page:last-child { page-break-after: auto; }
+.band { height: var(--altura-faixa); background: var(--tinta); color: var(--papel); padding: 0 var(--margem-pagina); display: flex; justify-content: space-between; align-items: center; font-family: var(--font-display); font-weight: 600; font-size: 9.5pt; letter-spacing: 0.09em; text-transform: uppercase; }
+.band b { color: var(--destaque); font-weight: 700; }
+.content { padding: var(--topo-conteudo) var(--margem-pagina) 0 var(--margem-pagina); }
+.foot { position: absolute; left: var(--margem-pagina); right: var(--margem-pagina); bottom: var(--base-rodape); display: flex; justify-content: space-between; font-size: 8pt; color: var(--apagado); border-top: var(--traco-fio) solid var(--fio); padding-top: 2.5mm; }
+h1, h2, h3, h4 { font-family: var(--font-display); margin: 0; }
+.hero { font-weight: 800; font-size: 41pt; line-height: 0.98; letter-spacing: -0.005em; }
+.hero span { display: block; }
+.hero em { font-style: normal; color: var(--destaque); }
+.deck { font-size: 11.5pt; line-height: 1.4; margin: 5mm 0 0; max-width: 150mm; }
+.big { font-weight: 800; font-size: 31pt; line-height: 1.0; }
+.lead { font-size: 11pt; line-height: 1.42; margin: 4mm 0 0; max-width: 160mm; }
+.sec { font-weight: 700; font-size: 17pt; margin: 0 0 3mm; }
+.lab { font-family: var(--font-display); font-weight: 700; font-size: 10.5pt; letter-spacing: 0.09em; text-transform: uppercase; color: var(--destaque); }
+.stats { display: flex; margin-top: 9mm; border-top: var(--traco-numeros) solid var(--tinta); }
+.stat { flex: 1; padding: 3.5mm 5mm 0 0; }
+.stat + .stat { padding-left: 5mm; border-left: var(--traco-fio) solid var(--fio); }
+.num { font-family: var(--font-display); font-weight: 700; font-size: 62pt; line-height: 0.95; margin: 1mm 0 1mm; }
+.num small { font-size: 26pt; color: var(--apagado); font-weight: 600; }
+.st { font-weight: 600; font-size: 11pt; margin: 2mm 0 1mm; }
+.ds { font-size: 9.5pt; color: var(--apagado); line-height: 1.38; }
+.two { display: flex; gap: var(--vao-colunas); }
+.two > div { flex: 1; }
+.it { display: flex; gap: 2.6mm; margin: 0 0 2.4mm; font-size: 10pt; line-height: 1.35; }
+.it svg { width: 4.2mm; height: 4.2mm; flex: none; margin-top: 0.4mm; }
+.it.no { color: var(--apagado); }
+.who { font-family: var(--font-display); font-weight: 700; font-size: 13pt; margin: 0 0 3mm; padding-bottom: 1.5mm; border-bottom: var(--traco-grupo) solid var(--tinta); }
+.who span { font-weight: 500; color: var(--apagado); font-size: 11pt; }
+.quote { border-left: var(--traco-citacao) solid var(--destaque); padding: 1mm 0 1mm 4mm; font-size: 11pt; line-height: 1.4; margin: 7mm 0 0; }
+.dev { display: flex; gap: var(--vao-cartoes); margin-top: 3mm; }
+.dev > div { flex: 1; }
+.dev h4 { font-weight: 700; font-size: 12.5pt; margin: 2mm 0 1mm; }
+.dev p { font-size: 9.2pt; line-height: 1.38; color: var(--apagado); margin: 0; }
+.dev svg, .flow svg { display: block; width: 100%; height: auto; }
+.mk { display: inline-block; width: 2.2mm; height: 2.2mm; vertical-align: 0.1mm; margin: 0 0.6mm; }
+.mk.d { transform: rotate(45deg) scale(0.82); border: var(--traco-grupo) solid var(--tinta); }
+.mk.o { border: var(--traco-grupo) solid var(--tinta); border-radius: var(--raio-ponto); }
+.col2 { display: flex; gap: var(--vao-colunas); margin-top: 7mm; }
+.col2 > div { flex: 1; }
+.fact { border-top: var(--traco-fio) solid var(--fio); padding: 2mm 0; display: flex; gap: 3mm; font-size: 9.6pt; line-height: 1.36; }
+.fact b { flex: none; width: 21mm; font-family: var(--font-display); font-weight: 700; font-size: 10pt; letter-spacing: 0.04em; text-transform: uppercase; color: var(--apagado); padding-top: 0.3mm; }
+.stat2 { font-family: var(--font-display); font-weight: 700; font-size: 17pt; margin: 3mm 0 1.5mm; }
+.pp { font-size: 10.2pt; line-height: 1.42; margin: 0 0 3mm; }
+.dark { margin-top: 8mm; background: var(--tinta); color: var(--papel); display: flex; padding: 6mm 7mm; }
+.dark .ms { flex: 1; padding-left: 5mm; border-left: 0.75pt solid var(--escuro-fio); }
+.dark .ms:first-child { padding-left: 0; border-left: none; }
+.dark .d { font-family: var(--font-display); font-weight: 800; font-size: 34pt; line-height: 1; color: var(--destaque); }
+.dark .t { font-size: 9.6pt; line-height: 1.35; margin-top: 1.5mm; color: var(--escuro-texto); padding-right: 3mm; }
+.smallnote { font-size: 9pt; color: var(--apagado); margin: 4mm 0 0; line-height: 1.4; }
+.fmt { display: flex; gap: var(--vao-formatos); margin-top: 3mm; }
+.fmt .g1 { flex: 0.55; }
+.fmt .g2 { flex: 1.45; }
+.fmt .wh { font-family: var(--font-display); font-weight: 700; font-size: 11pt; letter-spacing: 0.06em; text-transform: uppercase; color: var(--apagado); margin-bottom: 2.5mm; }
+.tile { display: inline-block; font-family: var(--font-display); font-weight: 700; font-size: 17pt; padding: 2mm 5mm; border: var(--traco-etiqueta) solid var(--tinta); margin: 0 2.5mm 2.5mm 0; line-height: 1.1; }
+.tile.hot { background: var(--destaque); border-color: var(--destaque); color: var(--papel); }
+.fmt .cap { font-size: 9.2pt; color: var(--apagado); margin-top: 0.5mm; }
+.q { display: flex; gap: 3mm; margin: 0 0 3.8mm; font-size: 10.6pt; line-height: 1.4; }
+.q i { flex: none; width: 5.2mm; height: 5.2mm; border-radius: var(--raio-ponto); background: var(--tinta); color: var(--papel); font-style: normal; font-family: var(--font-display); font-weight: 700; font-size: 10pt; text-align: center; line-height: 5.2mm; margin-top: 0.2mm; }
+.q span { color: var(--apagado); }
+.stp { display: flex; gap: 3.5mm; margin: 0 0 4mm; }
+.stp .n { flex: none; width: 9mm; font-family: var(--font-display); font-weight: 800; font-size: 30pt; line-height: 0.9; color: var(--destaque); }
+.stp p { margin: 0; font-size: 10.6pt; line-height: 1.4; }
+.whybox { margin-top: 5mm; border-left: var(--traco-explicacao) solid var(--destaque); background: var(--painel); padding: 4.5mm 5.5mm; font-size: 10.6pt; line-height: 1.45; }
+.whybox .lab { display: block; margin-bottom: 1mm; }
+.src { margin-top: 6mm; font-size: 8.6pt; line-height: 1.5; color: var(--apagado); }
