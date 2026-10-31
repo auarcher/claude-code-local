@@ -10,7 +10,7 @@ Regra de fontes (Lucas, 31/10 ~12h): brasileira primeiro (SBH, FBG, CBC/CBCD, SO
 - [x] Correção de horário: controle das 15h30 é ~21 h após a dor (não 45 h); página 3 reescrita
 - [x] Pesquisa em fonte primária (7 temas) — 7/7 gravados em resultados/
 - [x] Agente extra de fontes brasileiras e de maior nome gravado (resultados/fontes-de-maior-nome.json, 40 afirmações)
-- [x] Branch avaliacao-clinica-2026-10-31 enviada ao GitHub; PR rascunho #3 (nada vai ao main sem decisão do Lucas)
+- [x] PR #3 mergeado pelo Lucas em 31/10 ~15h13 (até o commit 3d17479). O trabalho segue na mesma branch, refeita a partir do main; o que vier depois vai em PR novo.
 - [ ] Verificação adversarial (7 temas) — 1/7 gravada (asge-esge: 14/14 confirmadas)
 - [ ] Ajuste do texto com as fontes verificadas; tabela verificacao-diretrizes.md
 - [ ] Crítica clínica e de forma (reduzida a 1 agente por causa do orçamento)
