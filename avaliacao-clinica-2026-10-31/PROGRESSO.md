@@ -11,10 +11,12 @@ Regra de fontes (Lucas, 31/10 ~12h): brasileira primeiro (SBH, FBG, CBC/CBCD, SO
 - [x] Pesquisa em fonte primária (7 temas) — 7/7 gravados em resultados/
 - [x] Agente extra de fontes brasileiras e de maior nome gravado (resultados/fontes-de-maior-nome.json, 40 afirmações)
 - [x] PR #3 mergeado pelo Lucas em 31/10 ~15h13 (até o commit 3d17479). O trabalho segue na mesma branch, refeita a partir do main; o que vier depois vai em PR novo.
-- [ ] Verificação adversarial (7 temas) — 6/7 gravadas, 74/74 afirmações confirmadas, nenhuma "Mudou"; falta brasil-diretrizes-bulas
+- [x] Verificação adversarial (7 temas) — 7/7 gravadas: 90 afirmações confirmadas, 0 "Mudou", 1 "Não achei" (a constatação de que não há diretriz brasileira sobre o tema). Workflow wf_bdc5345e-fcd concluído: 14 agentes, 593 chamadas de ferramenta, 66 min.
 - [x] Texto ajustado a cada verificação (cinética da AST, FA quase normal, ACG 2021, Roma V dor tardia); tabela verificacao-diretrizes.md regenerada por gerar-tabela.py
 - [ ] Crítica clínica e de forma (1 agente Opus, workflow wf_11f70b67-fc9, em andamento) — resultados/critica.json
 - [ ] PDF final entregue
 
 
 Orçamento (medido em 31/10 ~15h15, arquivos dos agentes): 15 agentes = 6,69 M de criação de cache + 0,97 M de saída = 7,66 M (sem releitura de cache; com releitura, 143 M). Já passou o teto de 6 M dito no início; estimativa de fechamento ~11 M com as 6 verificações e 1 crítico. Qual contagem vale para o plano: não verificado.
+
+Orçamento pela contagem do próprio harness (subagent_tokens): workflow de pesquisa+verificação 3,82 M (14 agentes) + agente extra 0,51 M = 4,33 M, abaixo do teto de 6 M. A contagem pelos arquivos dos agentes (7,66 M) inclui criação de cache; qual das duas vale para o plano: não verificado. O crítico final acrescenta ~0,3 a 0,5 M.
