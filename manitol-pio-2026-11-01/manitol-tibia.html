@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Manitol IV na crise de hipertensão intraocular</title>
+<style>
+@page { size: A4; margin: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: #3a2a1c; }
+body {
+  font-family: "DejaVu Sans", Verdana, sans-serif;
+  font-size: 7.9pt; line-height: 1.36; color: #1f140c;
+  -webkit-print-color-adjust: exact; print-color-adjust: exact;
+}
+.page {
+  width: 210mm; height: 297mm; position: relative; overflow: hidden;
+  background: #f3e6cc; page-break-after: always; break-after: page;
+}
+.page:last-child { page-break-after: auto; break-after: auto; }
+
+/* faixa do topo, como o cabeçalho escuro do site */
+.band { background: #241911; border-bottom: 2px solid #5a2800; padding: 6mm 10mm 4.5mm; color: #e9d8ad; }
+.band.small { padding: 3.2mm 10mm 2.8mm; }
+.kicker { font-size: 7pt; color: #b9a47a; letter-spacing: .2px; }
+.title { font-family: "DejaVu Serif", Georgia, serif; font-weight: bold; color: #f0d58f; font-size: 18pt; line-height: 1.15; margin-top: 1.2mm; }
+.band.small .title { font-size: 10.5pt; margin-top: 0; }
+.look { margin-top: 3mm; background: #161616; border: 1px solid #000; padding: 1.4mm 3mm; color: #36dd36; font-size: 8pt; }
+
+.content { padding: 5mm 10mm 0; }
+.foot {
+  position: absolute; left: 10mm; right: 10mm; bottom: 5.5mm;
+  border-top: 1px solid #5a2800; padding-top: 1.4mm;
+  font-size: 6.6pt; color: #5b4630; display: flex; justify-content: space-between;
+}
+
+/* caixa com faixa de título, estilo tabela de personagem */
+.box { border: 1px solid #5a2800; background: #fbf4e4; margin-bottom: 3.6mm; break-inside: avoid; }
+.cap { background: #5f3a1e; color: #fff; font-weight: bold; font-size: 8.4pt; padding: 1.2mm 3mm; border-bottom: 1px solid #3a1c08; }
+.cap small { font-weight: normal; color: #e8d3ad; font-size: 7pt; }
+.body { padding: 2.4mm 3mm; }
+.body p + p { margin-top: 1.4mm; }
+
+table.tt { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.tt th, .tt td { border: 1px solid #9c7a54; padding: 1mm 1.8mm; text-align: left; vertical-align: top; }
+.tt th { background: #c2a77f; font-weight: bold; font-size: 7.4pt; }
+.tt tr:nth-child(odd) td { background: #f1e0c6; }
+.tt tr:nth-child(even) td { background: #d4c0a1; }
+.tt td.num, .tt th.num { text-align: right; white-space: nowrap; }
+.tt td b { font-weight: bold; }
+.tt.compact td, .tt.compact th { padding: .8mm 1.5mm; font-size: 7pt; line-height: 1.3; }
+
+ul.plain { list-style: none; }
+ul.plain li { position: relative; padding-left: 3.4mm; }
+ul.plain li + li { margin-top: .9mm; }
+ul.plain li::before { content: ""; position: absolute; left: .4mm; top: 1.55mm; width: 1.3mm; height: 1.3mm; background: #5a2800; }
+
+/* checklist com quadradinho de inventário */
+ul.check { list-style: none; }
+ul.check li { display: grid; grid-template-columns: 6mm 1fr; align-items: start; }
+ul.check li + li { margin-top: 1.5mm; }
+.slot { width: 3.6mm; height: 3.6mm; margin-top: .3mm; background: #2e2e2e; border: 1px solid; border-color: #121212 #6f6f6f #6f6f6f #121212; }
+
+/* janelas do cliente do jogo */
+.win { background: #2f2f2f; border: 2px solid; border-color: #6b6b6b #151515 #151515 #6b6b6b; color: #c8c8c8; break-inside: avoid; }
+.wt { background: #232323; border-bottom: 1px solid #0e0e0e; padding: 1mm 2.6mm; font-size: 7.4pt; font-weight: bold; color: #d9d9d9; }
+.wb { padding: 2mm 2.6mm; }
+.sk { display: flex; justify-content: space-between; gap: 3mm; padding: .7mm 0; border-bottom: 1px solid #3e3e3e; }
+.sk:last-child { border-bottom: 0; }
+.sk b { color: #f2f2f2; white-space: nowrap; }
+.log .wb { background: #1c1c1c; font-size: 8pt; }
+.log p { color: #ff4c4c; }
+.log p + p { margin-top: .9mm; }
+.log p.w { color: #f0f0f0; }
+
+/* barras de vida e mana */
+.bars { display: grid; grid-template-columns: 50mm 1fr 19mm; column-gap: 3mm; row-gap: 2mm; align-items: center; margin-top: 2.6mm; }
+.bars .lbl { font-size: 7.6pt; }
+.bars .rng { font-size: 7.6pt; font-weight: bold; text-align: right; white-space: nowrap; }
+.scale { position: relative; height: 4mm; }
+.scale span { position: absolute; bottom: 0; transform: translateX(-50%); font-size: 6.8pt; color: #5b4630; white-space: nowrap; }
+.scale span.req { bottom: auto; top: -3.4mm; color: #7a4d00; font-weight: bold; }
+.track { position: relative; height: 3.4mm; background: #161616; border: 1px solid #000; }
+.fill { position: absolute; top: 0; bottom: 0; }
+.hp { background: #c81e1e; }
+.mp { background: #2f4bd2; }
+.mark { position: absolute; left: 75%; top: -1.2mm; bottom: -1.2mm; width: .7mm; margin-left: -.35mm; background: #e2b11e; border-left: 1px solid #000; border-right: 1px solid #000; }
+
+.cols { display: grid; grid-template-columns: 1fr 1fr; column-gap: 3.6mm; align-items: start; }
+.cols.w60 { grid-template-columns: 1.25fr 1fr; }
+.rx { background: #fffaf0; border: 1px dashed #8a6a46; padding: 2mm 2.6mm; font-size: 8pt; }
+.note { font-size: 7.2pt; color: #4a3826; margin-top: 1.6mm; }
+.tag { display: inline-block; font-size: 6.6pt; font-weight: bold; padding: 0 1.2mm; border: 1px solid #5a2800; background: #f1e0c6; color: #5a2800; vertical-align: .2mm; }
+a { color: #004294; text-decoration: none; }
+.ok { color: #1d6b1d; font-weight: bold; }
+.no { color: #a01818; font-weight: bold; }
+h3 { font-size: 8.2pt; font-weight: bold; margin-bottom: .8mm; }
+</style>
+</head>
+<body>
+
+<!-- ============ PÁGINA 1 ============ -->
+<div class="page">
+  <div class="band">
+    <div class="kicker">Ficha de beira-leito · PS adulto · conferida em 01/11/2026</div>
+    <div class="title">Manitol IV na crise de hipertensão intraocular</div>
+    <div class="look">You see a bag of mannitol 20% (250 ml). It contains 50 g of mannitol.</div>
+  </div>
+  <div class="content">
+
+    <div class="box">
+      <div class="cap">Dose pedida pelo oftalmologista: 1,5 g/kg</div>
+      <div class="body">
+        <p>Está dentro da bula brasileira (1,5 a 2 g/kg) e é o teto da faixa da diretriz europeia de glaucoma de 2025 (0,5 a 1,5 g/kg). A dose é padrão. Em idosa frágil, cardiopata ou com rim ruim, a diretriz europeia dá respaldo para dose menor: vale conversar com o oftalmo. Um estudo de 2019 mostrou queda boa da PIO (pressão intraocular) com 1 g/kg.</p>
+        <div class="bars">
+          <span></span>
+          <div class="scale">
+            <span style="left:0%">0</span><span style="left:25%">0,5</span><span style="left:50%">1,0</span><span style="left:75%">1,5</span><span style="left:100%">2,0 g/kg</span>
+          </div>
+          <span></span>
+
+          <span class="lbl">Bula brasileira e bula americana</span>
+          <div class="track"><div class="fill hp" style="left:75%;width:25%"></div><div class="mark"></div></div>
+          <span class="rng">1,5 a 2,0</span>
+
+          <span class="lbl">Diretriz europeia de glaucoma 2025</span>
+          <div class="track"><div class="fill mp" style="left:25%;width:50%"></div><div class="mark"></div></div>
+          <span class="rng">0,5 a 1,5</span>
+        </div>
+        <p class="note">Traço amarelo: a dose pedida (1,5 g/kg), no encontro das duas faixas.</p>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="cap">Conta por peso <small>· manitol 20% = 0,2 g/mL · 1,5 g/kg = 7,5 mL/kg</small></div>
+      <div class="body" style="padding:2mm 2mm">
+        <table class="tt">
+          <tr><th>Peso</th><th class="num">Manitol</th><th class="num">Volume a 20%</th><th class="num">Bolsas de 250 mL</th><th class="num">Bula: em 30 a 60 min</th><th class="num">Europeia: 3 a 5 mL/min</th></tr>
+          <tr><td><b>50 kg</b></td><td class="num">75 g</td><td class="num"><b>375 mL</b></td><td class="num">1,5</td><td class="num">375 a 750 mL/h</td><td class="num">1h15 a 2h05</td></tr>
+          <tr><td><b>60 kg</b></td><td class="num">90 g</td><td class="num"><b>450 mL</b></td><td class="num">1,8</td><td class="num">450 a 900 mL/h</td><td class="num">1h30 a 2h30</td></tr>
+          <tr><td><b>70 kg</b></td><td class="num">105 g</td><td class="num"><b>525 mL</b></td><td class="num">2,1</td><td class="num">525 a 1.050 mL/h</td><td class="num">1h45 a 2h55</td></tr>
+          <tr><td><b>80 kg</b></td><td class="num">120 g</td><td class="num"><b>600 mL</b></td><td class="num">2,4</td><td class="num">600 a 1.200 mL/h</td><td class="num">2h00 a 3h20</td></tr>
+          <tr><td><b>90 kg</b></td><td class="num">135 g</td><td class="num"><b>675 mL</b></td><td class="num">2,7</td><td class="num">675 a 1.350 mL/h</td><td class="num">2h15 a 3h45</td></tr>
+        </table>
+        <p class="note">Coluna da bula: vazão da bomba para correr em 60 min (menor número) ou em 30 min (maior). Coluna europeia: tempo total da infusão a 5 mL/min (menor) ou a 3 mL/min (maior).</p>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="cap">Velocidade: as fontes divergem, a escolha é sua com o oftalmo</div>
+      <div class="body" style="padding:2mm 2mm">
+        <table class="tt">
+          <tr><th>Fonte</th><th>Velocidade</th></tr>
+          <tr><td><b>Bula brasileira</b> (manitol 20% Cristália/Sanobiol)</td><td>em 30 a 60 min</td></tr>
+          <tr><td><b>Bula americana</b> (Osmitrol, FDA, agosto de 2025)</td><td>em no mínimo 30 min</td></tr>
+          <tr><td><b>Diretriz europeia de glaucoma</b> (6ª edição, 2025)</td><td>3 a 5 mL/min, ou seja, 180 a 300 mL/h</td></tr>
+          <tr><td><b>Protocolo HC-UFMG/EBSERH</b> (nº 147, 2017)</td><td>80 a 100 gotas/min; em macrogotas (20 gotas/mL) dá 4 a 5 mL/min <span class="tag">conta minha</span></td></tr>
+        </table>
+        <p class="note">Mais rápido traz o efeito mais cedo, mas também mais volume de uma vez. Nos relatos de hipercalemia grave, a dose total e a velocidade pesaram.</p>
+      </div>
+    </div>
+
+    <div class="cols w60">
+      <div class="box" style="margin-bottom:0">
+        <div class="cap">Modelo de prescrição <small>· para colar, sem citação</small></div>
+        <div class="body">
+          <div class="rx">Manitol 20% ___ mL (1,5 g/kg) EV em bomba de infusão a ___ mL/h, acesso periférico calibroso, equipo com filtro. Sinais vitais de 15/15 min durante a infusão. Suspender e chamar o médico se dor torácica, dispneia, cefaleia intensa, confusão, hipotensão ou reação alérgica. Medir diurese.</div>
+        </div>
+      </div>
+      <div class="win">
+        <div class="wt">Skills · tempos do manitol</div>
+        <div class="wb">
+          <div class="sk"><span>Início do efeito na PIO</span><b>~15 min</b></div>
+          <div class="sk"><span>Duração após o fim da infusão</span><b>3 a 8 h</b></div>
+          <div class="sk"><span>Diurese aparece em</span><b>1 a 3 h</b></div>
+          <div class="sk"><span>Queda esperada da PIO</span><b>15% a 30%</b></div>
+          <div class="sk"><span>Reaferir a PIO</span><b>1 a 2 h</b></div>
+          <div class="sk"><span>Repetir a dose</span><b>não</b></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="foot"><span>Manitol IV · hipertensão intraocular · conferido em 01/11/2026 · sem dado de paciente</span><span>1 de 4</span></div>
+</div>
+
+<!-- ============ PÁGINA 2 ============ -->
+<div class="page">
+  <div class="band small"><div class="title">Antes, durante e depois</div></div>
+  <div class="content">
+
+    <div class="box">
+      <div class="cap">Antes de ligar</div>
+      <div class="body">
+        <ul class="check">
+          <li><div class="slot"></div><div><b>Contraindicações:</b> anúria; edema pulmonar ou congestão pulmonar grave; insuficiência cardíaca descompensada grave; desidratação ou hipovolemia grave; hemorragia intracraniana ativa; alergia ao manitol.</div></li>
+          <li><div class="slot"></div><div><b>Cautela:</b> cardiopatia ou doença renal (a diretriz europeia manda avaliar os dois antes), diabetes, desidratação, hipotensão. Doença falciforme: a diretriz europeia orienta evitar hiperosmótico e acetazolamida (no contexto de hifema). <b>Medir a PA antes.</b></div></li>
+          <li><div class="slot"></div><div><b>Remédios em uso:</b> digoxina (o desvio de potássio aumenta a toxicidade); lítio (cai no começo, depois pode intoxicar se houver hipovolemia); drogas que alargam o QT; nefrotóxicos como aminoglicosídeo e ciclosporina; outros diuréticos.</div></li>
+          <li><div class="slot"></div><div><b>Exames:</b> sódio, potássio, cloro, ureia, creatinina, glicemia. Se recebeu acetazolamida, vomitou muito ou é cardiopata ou renal: gasometria venosa, magnésio, cálcio, fósforo e ECG. Osmolalidade sérica basal, se o laboratório fizer, ajuda caso precise repetir dose. Se a coleta deve segurar o início numa paciente sem comorbidade é julgamento seu: as fontes não dizem.</div></li>
+          <li><div class="slot"></div><div><b>Volemia:</b> a crise costuma vir com náusea e vômito, então ela pode chegar depletada e com potássio baixo antes do manitol.</div></li>
+          <li><div class="slot"></div><div><b>Urina:</b> a diurese vai ser grande em 1 a 3 h. Defina antes como ela vai urinar (comadre; sonda se acamada ou com retenção).</div></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cols">
+      <div class="box">
+        <div class="cap">Durante</div>
+        <div class="body">
+          <ul class="plain">
+            <li>Acesso calibroso e bem fixado; vigiar extravasamento: necrose de pele pela bula brasileira, síndrome compartimental pela americana (que prefere veia central).</li>
+            <li>Equipo com filtro. Olhar a bolsa contra a luz: o manitol 20% cristaliza no frio.</li>
+            <li>Não correr junto com sangue no mesmo equipo.</li>
+            <li>Paciente deitada. Sinais vitais de 15 em 15 min (HC-UFMG); Melbourne usa de 30 em 30 min por 1 h.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="win log">
+        <div class="wt">Server Log · parar a infusão se</div>
+        <div class="wb">
+          <p>Dor torácica ou angina.</p>
+          <p>Dispneia ou estertores.</p>
+          <p>Cefaleia intensa.</p>
+          <p>Alteração do sensório ou confusão.</p>
+          <p>Hipotensão.</p>
+          <p>Reação alérgica.</p>
+          <p class="w">Anúria depois da infusão: parar e reavaliar.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="cap">Depois</div>
+      <div class="body">
+        <ul class="plain">
+          <li><b>PIO:</b> o efeito começa em cerca de 15 min e dura 3 a 8 h após o fim da infusão (bula brasileira). O oftalmo reafere em cerca de 1 h (Melbourne) a 2 h (HC-UFMG). Queda esperada: 15% a 30% (diretriz europeia).</li>
+          <li><b>Diurese:</b> esperada em 1 a 3 h. Se ficar anúrica, parar e reavaliar (bula americana).</li>
+          <li><b>Não repetir</b> sem conversa: a diretriz europeia desaconselha repetir.</li>
+          <li><b>Eletrólitos de controle:</b> sódio, potássio e creatinina ao fim da infusão e de novo em 4 a 6 h, principalmente se idosa, cardiopata, renal, com acetazolamida junto ou se o oftalmo pedir segunda dose. <span class="tag">proposta minha: as fontes não fixam horário</span></li>
+          <li><b>Hidratação:</b> soro "de rotina" logo depois dilui o plasma e desfaz o gradiente que tira água do vítreo. Hipovolemia com hipotensão se corrige; hidratação generosa sem indicação, não. O HC-UFMG prevê push de cristaloide se houver sintomas graves. <span class="tag">raciocínio fisiológico, sem fonte aberta</span></li>
+          <li><b>O definitivo não é o manitol:</b> iridotomia a laser assim que a córnea clarear, e também no olho contralateral se ainda tiver o cristalino (diretriz europeia). O manitol é ponte.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="cap">Riscos além do olho: rim e sistema nervoso</div>
+      <div class="body">
+        <ul class="plain">
+          <li><b>Rim:</b> nefrose osmótica e lesão renal aguda oligúrica, até irreversível, inclusive com rim normal em doses grandes (bula americana). Mais risco com doença renal prévia, nefrotóxicos e outros diuréticos. Relato clássico com biópsia: Visweswaran 1997.</li>
+          <li><b>Sistema nervoso:</b> confusão, letargia e coma, sobretudo com rim ruim (bula americana). A diretriz europeia lista hematoma subdural entre os riscos.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="cap">Se o quadro for "intraorbitário"</div>
+      <div class="body">
+        <p>Proptose, trauma, hematoma retrobulbar, olho duro e imóvel: é síndrome compartimental da órbita, outra doença. A conduta é descompressão (cantotomia lateral), não manitol. <span class="tag">não conferi diretriz sobre isso nesta sessão</span></p>
+      </div>
+    </div>
+
+  </div>
+  <div class="foot"><span>Manitol IV · hipertensão intraocular · conferido em 01/11/2026 · sem dado de paciente</span><span>2 de 4</span></div>
+</div>
+
+<!-- ============ PÁGINA 3 ============ -->
+<div class="page">
+  <div class="band small"><div class="title">Sódio, potássio e volemia</div></div>
+  <div class="content">
+
+    <div class="box">
+      <div class="cap">Sódio</div>
+      <div class="body">
+        <p><b>Primeiro cai:</b> a água sai da célula para o plasma e dilui o sódio, mas a osmolalidade total está alta. É hiponatremia translocacional, não hipotônica, e não se trata com salina hipertônica. A bula brasileira avisa que pode agravar hiponatremia prévia; num relato de 2025 de intoxicação por manitol, os autores frisam acompanhar a tonicidade (sódio corrigido), não o sódio medido.</p>
+        <p><b>Depois pode subir:</b> a diurese osmótica perde mais água do que sódio (hipernatremia, desidratação). A bula americana cita as duas pontas.</p>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="cap">Potássio: pode ir para os dois lados</div>
+      <div class="body" style="padding:2mm 2mm">
+        <table class="tt">
+          <tr><th style="width:22%">Quando</th><th style="width:26%">O quê</th><th>Por quê e evidência</th></tr>
+          <tr><td><b>Durante ou logo após a infusão</b></td><td><b>Hipercalemia</b>: rara, mas grave (taquicardia ventricular, parada)</td><td>O plasma hiperosmolar puxa água da célula; o potássio de dentro fica mais concentrado e sai junto. Relatos em neurocirurgia (Seto 2000; Fanous 2016, em que dose total e velocidade parecem pesar). Revisão de hipercalemia por drogas põe o manitol entre as que deslocam potássio pela membrana (Ben Salem 2014).</td></tr>
+          <tr><td><b>Horas depois</b></td><td><b>Hipocalemia</b>: bem mais frequente que a hipercalemia</td><td>Perda renal (ver espoliador, abaixo). Em UTI neurológica com manitol repetido: 22% no 1º dia, chegando a 52%; hipercalemia quase nula (Seo e Oh 2010). Cenário de doses repetidas, diferente da dose única do olho.</td></tr>
+          <tr><td><b>Com acetazolamida junto</b></td><td>Soma</td><td>A diretriz europeia lista hipocalemia e acidose metabólica como efeitos sérios da acetazolamida.</td></tr>
+        </table>
+        <p class="note">Outros: acidose ou alcalose metabólica; cálcio e fósforo entram na monitorização da bula americana; o fósforo pode vir falsamente baixo com manitol alto no sangue; a glicemia pode subir (diretriz europeia).</p>
+      </div>
+    </div>
+
+    <div class="cols">
+      <div class="box">
+        <div class="cap">Volemia, fase 1 <small>· durante a infusão</small></div>
+        <div class="body">
+          <p><b>Expansão do extracelular:</b> a água sai das células para o vaso. É a hora do edema agudo de pulmão e da insuficiência cardíaca descompensada. Os 525 mL de solução hipertônica puxam mais volume do que os 525 mL da bolsa.</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="cap">Volemia, fase 2 <small>· 1 a 3 h depois</small></div>
+        <div class="body">
+          <p><b>Diurese osmótica:</b> hipovolemia, hipotensão, hemoconcentração. A bula brasileira avisa que a diurese mantida pode esconder hipovolemia.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="cap">O que é um espoliador de potássio, e por que o manitol é um</div>
+      <div class="body">
+        <p>Espoliador (ou caliurético) é a droga que faz o rim perder potássio na urina: diuréticos de alça, tiazídicos, inibidores da anidrase carbônica (acetazolamida) e osmóticos (manitol). O contrário são os poupadores de potássio, como espironolactona e amilorida.</p>
+        <table class="tt" style="margin-top:1.8mm">
+          <tr><th style="width:5%">#</th><th>No manitol</th><th style="width:20%">Base</th></tr>
+          <tr><td><b>1</b></td><td>É filtrado e não é reabsorvido. Fica no túbulo segurando água, e o sódio que seria reabsorvido junto com essa água passa adiante.</td><td>Shawkat 2012</td></tr>
+          <tr><td><b>2</b></td><td>Chega mais fluxo e mais sódio ao néfron distal.</td><td>Shawkat 2012</td></tr>
+          <tr><td><b>3</b></td><td>No ducto coletor, mais sódio entrando na célula deixa a luz mais negativa, o que empurra o potássio para a urina; o fluxo alto lava o potássio secretado e mantém o gradiente.</td><td>Fisiologia renal de livro, não aberto agora</td></tr>
+          <tr><td><b>4</b></td><td>A perda de volume ativa renina-angiotensina-aldosterona, que aumenta ainda mais a secreção de potássio.</td><td>Fisiologia renal de livro, não aberto agora</td></tr>
+        </table>
+      </div>
+    </div>
+
+  </div>
+  <div class="foot"><span>Manitol IV · hipertensão intraocular · conferido em 01/11/2026 · sem dado de paciente</span><span>3 de 4</span></div>
+</div>
+
+<!-- ============ PÁGINA 4 ============ -->
+<div class="page">
+  <div class="band small"><div class="title">O que há de mais novo e de onde veio cada coisa</div></div>
+  <div class="content">
+
+    <div class="box">
+      <div class="cap">O que há de mais novo, até 01/11/2026</div>
+      <div class="body">
+        <ul class="plain">
+          <li><b>Diretriz europeia de glaucoma, 6ª edição</b> (European Glaucoma Society; impressa em maio de 2025, publicada no British Journal of Ophthalmology em 08/09/2025). Crise aguda: acetazolamida imediata se PIO ≥ 40 mmHg, de preferência EV (10 mg/kg) se vômito; evitar em alergia a sulfa e doença renal grave. Manitol 0,5 a 1,5 g/kg, 15% ou 20%, a 3 a 5 mL/min, "pode ser considerado" se a resposta à acetazolamida for insuficiente; avaliar coração e rim; não repetir. Pilocarpina: adiar até a PIO cair se chegou com ≥ 40 mmHg. Iridotomia a laser assim que a córnea clarear.</li>
+          <li><b>Academia Americana de Oftalmologia, Primary Angle-Closure Disease 2025</b> (página datada de fevereiro de 2026). A página pública só manda baixar a PIO prontamente e seguir com iridotomia, iridectomia ou extração do cristalino; não detalha o manitol. Não li o texto integral.</li>
+          <li><b>Brasil:</b> não achei consenso vigente da Sociedade Brasileira de Glaucoma sobre crise de ângulo fechado. O mais recente citado é o 2º Consenso (2012), que não abri. O protocolo do HC-UFMG/EBSERH (2017) se apoia no 1º Consenso (2006) e usa 1,5 a 2 g/kg e acetazolamida 500 mg VO. A bula brasileira do manitol 20% teve a última alteração em 2021.</li>
+          <li><b>Estudo mais novo:</b> Huang 2026, retrospectivo, 103 pacientes: manitol associado à pilocarpina teve mais resposta que pilocarpina sozinha, com eventos adversos semelhantes. Evidência fraca.</li>
+          <li><b>Dose menor também funciona:</b> Ramachandra 2019, olhos com PIO ≥ 40 mmHg e ângulo aberto: 1 g/kg em 30 min baixou a PIO de cerca de 49 para cerca de 35 mmHg em 2 h.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="cap">Fontes conferidas em 01/11/2026</div>
+      <div class="body" style="padding:2mm 2mm">
+        <table class="tt compact">
+          <tr><th style="width:31%">Fonte</th><th style="width:6%">Ano</th><th>Usada para</th><th style="width:13%">Veredito</th><th style="width:20%">Link</th></tr>
+          <tr><td>European Glaucoma Society, Terminology and Guidelines for Glaucoma, 6ª ed.</td><td>2025</td><td>Dose 0,5 a 1,5 g/kg, 3 a 5 mL/min, não repetir, acetazolamida antes, queda de 15% a 30%</td><td class="ok">Confirmado</td><td><a href="https://www.eugs.org/educational_materials/188">eugs.org</a> · DOI 10.1136/bjophthalmol-2025-egsguidelines</td></tr>
+          <tr><td>Bula profissional, manitol 20% (Cristália/Sanobiol, ANVISA)</td><td>2021</td><td>1,5 a 2 g/kg em 30 a 60 min, contraindicações, sódio, início e duração</td><td class="ok">Confirmado</td><td><a href="https://cristalia.com.br/produto/361/bula-profissional">cristalia.com.br</a></td></tr>
+          <tr><td>Bula americana, Osmitrol (FDA, Baxter)</td><td>2025</td><td>Mínimo 30 min, monitorização, potássio, interações, extravasamento, rim</td><td class="ok">Confirmado</td><td><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc">DailyMed</a></td></tr>
+          <tr><td>HC-UFMG/EBSERH, Protocolo nº 147, Urgência do Glaucoma Agudo</td><td>2017</td><td>80 a 100 gotas/min, sinais vitais 15/15 min, quando parar</td><td class="ok">Confirmado</td><td><a href="https://www.gov.br/hubrasil/pt-br/hospitais-universitarios/regiao-sudeste/hc-ufmg/saude/protocolos-assistenciais-hc-ufmg-ebserh/PR_147_Urgencia_glaucoma_agudo_HSG_V01.pdf">gov.br</a> (institucional)</td></tr>
+          <tr><td>Royal Victorian Eye and Ear Hospital, protocolo de fechamento angular agudo</td><td>2017</td><td>Paciente deitada, sinais vitais 30/30 min, cautelas</td><td class="ok">Confirmado</td><td><a href="https://eyeandear.org.au/wp-content/uploads/2021/11/Acute-Primary-Angle-Closure-APAC-Clinical-Practice-Guideline.pdf">eyeandear.org.au</a> (institucional)</td></tr>
+          <tr><td>Academia Americana de Oftalmologia, Primary Angle-Closure Disease</td><td>2025</td><td>Manitol na sequência americana</td><td class="no">Não achei</td><td><a href="https://www.aao.org/education/preferred-practice-pattern/primary-angle-closure-disease-ppp">aao.org</a></td></tr>
+          <tr><td>Sociedade Brasileira de Glaucoma, consenso de ângulo fechado</td><td>—</td><td>Consenso nacional vigente</td><td class="no">Não achei</td><td>2º Consenso citado, não aberto</td></tr>
+          <tr><td>Fanous 2016 (World Neurosurg); Seto 2000 (Anesthesiology)</td><td>2016 e 2000</td><td>Hipercalemia grave com manitol</td><td class="ok">Confirmado</td><td><a href="https://doi.org/10.1016/j.wneu.2016.04.021">DOI</a> · <a href="https://doi.org/10.1097/00000542-200011000-00036">DOI</a></td></tr>
+          <tr><td>Seo e Oh 2010 (J Neurosci Nurs)</td><td>2010</td><td>Hipocalemia com doses repetidas</td><td class="ok">Confirmado</td><td><a href="https://doi.org/10.1097/jnn.0b013e3181e26b4a">DOI</a></td></tr>
+          <tr><td>Ben Salem 2014 (Drug Saf)</td><td>2014</td><td>Manitol desloca potássio pela membrana</td><td class="ok">Confirmado</td><td><a href="https://doi.org/10.1007/s40264-014-0196-1">DOI</a></td></tr>
+          <tr><td>Shawkat, Westwood e Mortimer 2012 (revisão)</td><td>2012</td><td>Oferta distal de sódio, hipocalemia, hipernatremia</td><td class="ok">Confirmado</td><td><a href="https://e-safe-anaesthesia.org/e_library/03/Mannitol_a_review_of_its_clinical_uses.pdf">PDF</a> · DOI 10.1093/bjaceaccp/mkr063</td></tr>
+          <tr><td>Visweswaran 1997 (JASN)</td><td>1997</td><td>Lesão renal aguda por manitol</td><td class="ok">Confirmado</td><td><a href="https://doi.org/10.1681/ASN.V861028">DOI</a></td></tr>
+          <tr><td>Soejima 2025 (CEN Case Rep)</td><td>2025</td><td>Acompanhar tonicidade na hiponatremia por manitol</td><td class="ok">Confirmado</td><td><a href="https://doi.org/10.1007/s13730-025-01017-x">DOI</a></td></tr>
+          <tr><td>Ramachandra 2019 (J Glaucoma)</td><td>2019</td><td>1 g/kg baixa a PIO</td><td class="ok">Confirmado</td><td><a href="https://doi.org/10.1097/IJG.0000000000001158">DOI</a></td></tr>
+          <tr><td>Huang 2026 (Am J Transl Res)</td><td>2026</td><td>Manitol com pilocarpina</td><td class="ok">Confirmado</td><td><a href="https://doi.org/10.62347/WXLV4056">DOI</a> (evidência fraca)</td></tr>
+          <tr><td>Mecanismo no ducto coletor e aldosterona</td><td>—</td><td>Passos 3 e 4 do espoliador</td><td class="no">Não achei</td><td>Fisiologia de livro, não aberta</td></tr>
+        </table>
+        <p class="note">Artigos lidos pelo resumo, via PubMed. Tabela completa com seções e observações na ficha manitol-hipertensao-intraocular.md, na mesma pasta. A decisão clínica é do médico.</p>
+      </div>
+    </div>
+
+  </div>
+  <div class="foot"><span>Manitol IV · hipertensão intraocular · conferido em 01/11/2026 · sem dado de paciente</span><span>4 de 4</span></div>
+</div>
+
+</body>
+</html>
